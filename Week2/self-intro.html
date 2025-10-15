@@ -16,19 +16,23 @@
             font-size: 40px;
             padding: 20px;
             margin: 0 auto;
+            text-align: center;
         }
 
         h2 {
             color: rgb(233, 179, 251);
             font-size: 20px;
             padding: 20px;
+            max-width: 1200px;
             margin: 0 auto;
+            border: 2px dashed rgb(233, 179, 251);
+            text-align: center;
         }
 
         h3 {
             color: rgb(255, 241, 241);
             line-height: 1.8;
-            max-width: 800px;
+            max-width: 1200px;
             font-size: 15px;
             padding: 20px;
             margin: 0 auto;
@@ -48,6 +52,7 @@
             /* 圆角 */
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
             /* 添加阴影 */
+            margin: 0px auto;
         }
 
         img {
@@ -60,7 +65,7 @@
         .social-icons {
             display: flex;
             flex-direction: column;
-            gap: 30px;
+            gap: 5px;
         }
 
         .social-icons a img {
@@ -71,23 +76,35 @@
             transform: scale(1.2);
             /* 鼠标悬停时放大效果 */
         }
+
+        .content {
+            display: flex;
+            align-items: uppercase;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px auto;
+            max-width: 1250px;
+        }
     </style>
 </head>
 
 <body>
     <h1>Tiew Zhe Ming</h1>
 
-    <h2>Haven't you heard that there is always a way out? As long as I want to go, the road is right under my feet.</h2>
-
-    <h3>Hi everyone, I'm Jimmy, a Digital Media student. I'm passionate about design, photography, and video editing,
-        and I enjoy turning everyday inspirations into creative works. In my free time, I like playing sports, watching
-        movies, and listening to music to spark new ideas. I hope to express my thoughts through creativity and visual
-        design in the future.</h3>
+    <h2>"Haven't you heard that there is always a way out? As long as I want to go, the road is right under my feet."
+    </h2>
 
     <br>
 
-    <div class="photo-container">
+    <div class="content">
         <img src="images/ren.jpg" alt="ren" style="width:50%;">
+        <h3>Hi everyone, my name is Tiew Zhe Ming, and I'm a Digital Media student. I'm passionate about design,
+            photography, video editing, and web development. I enjoy turning daily inspirations into creative visual
+            works that express emotion and storytelling. In my free time, I like playing basketball, watching movies,
+            and listening to music, which often give me new ideas for my projects. I'm always eager to learn new skills,
+            explore different styles, and challenge myself creatively. My goal is to create designs that not only look
+            good but also connect with people on a deeper level.</h3>
+
     </div>
 
     <div class="social-icons">
