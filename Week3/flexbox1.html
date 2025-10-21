@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+
+        .image {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+        }
+
+        .image-container {
+            background-color: white;
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            /* 添加阴影效果 */
+            text-align: center;
+            /* 文字居中 */
+            max-width: 320px;
+            /* 限制容器宽度 */
+            overflow: hidden;
+            /* 隐藏超出容器的内容 */
+        }
+
+        .image-container img {
+            width: 100%;
+            /* 图片宽度占满容器 */
+            height: auto;
+            /* 保持图片比例 */
+            border-radius: 10px;
+            /* 图片圆角 */
+            transition: transform 0.3s ease;
+            /* 添加平滑过渡效果 */
+        }
+
+        .image-container img:hover {
+            transform: scale(1.1);
+            /* 鼠标悬停时放大图片 */
+        }
+
+        .image-container h2 {
+            font-size: 18px;
+            /* 调整字体大小 */
+            margin: 10px 0 5px;
+            /* 设置上下间距 */
+            color: #333;
+            /* 设置字体颜色 */
+        }
+
+        .image-container h3 {
+            font-size: 14px;
+            /* 调整字体大小 */
+            line-height: 1.5;
+            /* 设置行高 */
+            margin: 0;
+            /* 去掉多余的外边距 */
+            color: #666;
+            /* 设置字体颜色 */
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="image">
+            <div class="image-container">
+                <a href="#"><img src="images/custom-img-017-copyright.jpg" alt="image1"></a>
+                <h2>Residential projects</h2>
+                <h3>We build sustainable and modern homes for comfortable living.</h3>
+            </div>
+            <div class="image-container">
+                <a href="#"><img src="images/custom-img-018-copyright.jpg" alt="image2"></a>
+                <h2>Residential projects</h2>
+                <h3>We build sustainable and modern homes for comfortable living.</h3>
+            </div>
+            <div class="image-container">
+                <a href="#"><img src="images/custom-img-019-copyright.jpg" alt="image3"></a>
+                <h2>Residential projects</h2>
+                <h3>We build sustainable and modern homes for comfortable living.</h3>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
