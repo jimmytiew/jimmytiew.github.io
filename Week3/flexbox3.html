@@ -4,10 +4,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>flexbox3</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Space Grotesk', sans-serif;
+        }
+
+        .navbar1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            margin: 0px 100px;
+        }
+
+        .navbar1 img {
+            height: 50px;
+            width: auto;
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #000000;
+            font-size: 18px;
+            margin: 0px 20px;
+        }
+
+        .quote-button {
+            text-decoration: none;
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            padding: 15px 30px;
+            border: 2px solid rgb(0, 0, 0);
+            font-size: 18px;
+            border-radius: 10px;
+            transition: all 0.2s ease;
+        }
+
+        .quote-button:hover {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 80px 100px;
+            gap: 60px;
+        }
+
+        .text {
+            flex: 1;
+            max-width: 550px;
+        }
+
+        h1 {
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 25px;
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #000;
+            margin-bottom: 40px;
+        }
+
+        .illustration {
+            flex: 1;
+            max-width: 600px;
+            height: auto;
+        }
+
+        .consultation-button {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #000000;
+            color: #ffffff;
+            padding: 25px 30px;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .consultation-button:hover {
+            background-color: #333333;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="navbar1">
+        <img src="images/Frame 9.png" alt="Logo">
+
+        <div class="menu">
+            <a href="#about-us">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#use-cases">Use Cases</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#blog">Blog</a>
+            <a href="#request-quote" class="quote-button">Request a Quote</a>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="content">
+        <div class="text">
+            <h1>Navigating the digital landscape for success</h1>
+            <h3>Our digital marketing agency helps businesses grow and succeed online through a range of services
+                including SEO, PPC, social media marketing, and content creation.</h3>
+            <a href="#book-consultation" class="consultation-button">Book a Consultation</a>
+        </div>
+
+        <img src="images/Illustration.png" alt="illustration-1" class="illustration">
+    </div>
+
+    <img src="images/Logotypes .png" alt="divider" style="width:100%;">
 
 </body>
 
