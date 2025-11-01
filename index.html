@@ -4,10 +4,320 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Personal Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url(images/background.jpg);
+            background-size: cover;
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        header {
+            display: flex;
+            background-color: #E9B3FB;
+            align-items: center;
+            gap: 1100px;
+            width: 1509px;
+            height: 85px;
+            box-shadow: 0 0 25px #d786ff;
+        }
+
+        .logo {
+            width: 70px;
+            margin: 0px 50px;
+        }
+
+        .right {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .right img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .p_picture {
+            display: flex;
+            justify-content: center;
+        }
+
+        .p_picture img {
+            border-radius: 500px;
+            width: 300px;
+            box-shadow: 0 0 25px #d786ff;
+        }
+
+        .name {
+            text-align: center;
+            color: #FFF1F1;
+        }
+
+        .web {
+            text-align: center;
+            color: #FFF1F1;
+        }
+
+        .intro {
+            text-align: center;
+            color: #FFF1F1;
+            width: 900px;
+            margin: 0 auto;
+        }
+
+        .threegrid {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .time {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin: 0px 90px;
+            color: #FFF1F1;
+        }
+
+        .time img {
+            width: 40px;
+        }
+
+        .line {
+            background-color: #FFF1F1;
+            ;
+            width: 300px;
+            height: 3px;
+            margin: 0 50px;
+            margin-bottom: 20px;
+
+        }
+
+        .grid {
+            background-color: #6F00FF;
+            border-radius: 20px;
+            width: 400px;
+            height: 250px;
+            opacity: 75%;
+            text-align: center;
+            box-shadow: 0 0 25px #d786ff;
+        }
+
+        .work1 {
+            text-align: center;
+            color: #FFF1F1;
+        }
+
+        .text {
+            text-decoration: none;
+            color: #FFF1F1;
+        }
+
+        .bigbrid {
+            background-color: #6F00FF;
+            border-radius: 20px;
+            width: 1250px;
+            height: 220px;
+            opacity: 75%;
+            text-align: center;
+            box-shadow: 0 0 25px #d786ff;
+            margin: 20px;
+        }
+
+        .bigbrid1 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .longline {
+            background-color: #FFF1F1;
+            ;
+            width: 800px;
+            height: 3px;
+            margin: 0 210px;
+            margin-bottom: 20px;
+        }
+
+        .time2 {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin: 0px 510px;
+            color: #FFF1F1;
+        }
+
+        .time2 img {
+            width: 40px;
+        }
+
+        /* 下面内容 */
+        .downcontant {
+            background-color: #E9B3FB;
+            width: 1509px;
+            height: 150px;
+            box-shadow: 0 0 25px #d786ff;
+        }
+
+        .low {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .low img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .lowertext {
+            text-align: center;
+            font-size: 12px;
+        }
+    </style>
 </head>
 
 <body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.svg">
+        </div>
+
+        <div class="right">
+            <div class="insta">
+                <a href="https://www.instagram.com/jimmytiew?igsh=dW84amJ2azA1OGIy&utm_source=qr" target="_blank">
+                    <img src="images/instagram.png">
+                </a>
+            </div>
+
+            <div class="tiktok">
+                <a href="https://v.douyin.com/Wc7RcdtL-ew/" target="_blank">
+                    <img src="images/tik-tok.png">
+                </a>
+            </div>
+
+            <div class="discord">
+                <a href="https://discord.com/channels/@me" target="_blank">
+                    <img src="images/discord.png"></a>
+            </div>
+        </div>
+    </header>
+
+    <br><br>
+
+    <div class="p_picture">
+        <img src="images/ren.jpg" alt="ren">
+    </div>
+
+    <h1 class="name">Tiew Zhe Ming</h1>
+
+    <h2 class="web">Web Publishing</h2>
+
+    <h3 class="intro">Hi I'm Tiew Zhe Ming —— A Digital Media designer who is passionate about modeling, film editing,
+        video
+        production and training AI.</h3>
+
+    <br><br>
+
+    <div class="threegrid">
+        <div class="grid">
+            <div class="time">
+                <img src="images/calendar.png">
+                <h2>Week 1</h2>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="work1">
+                <a class="text" href="https://jimmytiew.github.io/Week1/exe.html">Exercise 1</a>
+                <br><br>
+                <a class="text" href="https://jimmytiew.github.io/Week1/exe2.html">Exercise 2</a>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="time">
+                <img src="images/calendar.png">
+                <h2>Week 2</h2>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="work1">
+                <a class="text" href="https://jimmytiew.github.io/Week2/artist.html">Exercise 1</a>
+                <br><br>
+                <a class="text" href="https://jimmytiew.github.io/Week2/button.html">Exercise 2</a>
+                <br><br>
+                <a class="text" href="https://jimmytiew.github.io/Week2/csstest.html">Exercise 3</a>
+                <br><br>
+                <a class="text" href="https://jimmytiew.github.io/Week2/self-intro.html">Exercise 4</a>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="time">
+                <img src="images/calendar.png">
+                <h2>Week 3</h2>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="work1">
+                <a class="text" href="https://jimmytiew.github.io/Week3/flexbox1.html">Exercise 1</a>
+                <br><br>
+                <a class="text" href="https://jimmytiew.github.io/Week3/flexbox2.html">Exercise 2</a>
+                <br><br>
+                <a class="text" href="https://jimmytiew.github.io/Week3/flexbox3.html">Exercise 3</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bigbrid1">
+        <div class="bigbrid">
+            <div class="time2">
+                <img src="images/calendar.png">
+                <h2>Week 4</h2>
+            </div>
+
+            <div class="longline"></div>
+
+            <div class="work1">
+                <a class="text" href="https://jimmytiew.github.io/week4/menu.html">Exercise 1</a>
+                <br><br>
+                <a class="text" href="https://jimmytiew.github.io/week4/usecase.html">Exercise 2</a>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="downcontant">
+        <br><br>
+        <div class="low">
+            <div class="insta">
+                <a href="https://www.instagram.com/jimmytiew?igsh=dW84amJ2azA1OGIy&utm_source=qr" target="_blank">
+                    <img src="images/instagram.png">
+                </a>
+            </div>
+
+            <div class="tiktok">
+                <a href="https://v.douyin.com/Wc7RcdtL-ew/" target="_blank">
+                    <img src="images/tik-tok.png">
+                </a>
+            </div>
+
+            <div class="discord">
+                <a href="https://discord.com/channels/@me" target="_blank">
+                    <img src="images/discord.png"></a>
+            </div>
+        </div>
+        <h3 class="lowertext">@ 2024 Tiew Zhe Ming.All rights reserved</h3>
+    </div>
 
 </body>
 
