@@ -5,97 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Menu</title>
+    <link rel="stylesheet" href="css/menu.css">
 
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-        }
 
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 20px;
-            background-color: #f8f8f8;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        .logo img {
-            height: 35px;
-        }
-
-        .menu-icon img {
-            height: 20px;
-            cursor: pointer;
-        }
-
-        .middle-buttons,
-        .right-section {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-        }
-
-        .middle-buttons a {
-            text-decoration: none;
-            color: #333;
-            font-size: 16px;
-            font-weight: bold;
-        }
-
-        .middle-buttons a:hover {
-            color: tomato;
-        }
-
-        .phoneicon img {
-            height: 20px;
-        }
-
-        .phone {
-            font-size: 16px;
-            margin: 0;
-            color: #333;
-        }
-
-        .Contact {
-            text-decoration: none;
-            padding: 10px 15px;
-            border-radius: 7px;
-            background-color: rgb(255, 111, 0);
-            color: #fff;
-        }
-
-        .middle-buttons,
-        .phone,
-        .phoneicon,
-        .Contact {
-            display: none;
-        }
-
-        @media screen and (min-width: 700px) {
-
-            .phone,
-            .phoneicon {
-                display: block;
-            }
-        }
-
-        @media screen and (min-width: 1200px) {
-            .middle-buttons {
-                display: flex;
-            }
-
-            .Contact {
-                display: inline-block;
-            }
-
-            .menu-icon {
-                display: none;
-            }
-        }
-    </style>
 </head>
 
 <body>

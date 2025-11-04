@@ -1,0 +1,351 @@
+      body {
+          background-image: url(../images/background.jpg);
+          background-size: cover;
+          font-family: 'Orbitron', sans-serif;
+      }
+
+      header {
+          display: flex;
+          background-color: #E9B3FB;
+          align-items: center;
+          gap: 1100px;
+          width: 1509px;
+          height: 85px;
+          max-width: 100%;
+          box-shadow: 0 0 25px #d786ff;
+      }
+
+      .logo {
+          width: 70px;
+          margin: 0px 50px;
+      }
+
+      .logo img {
+          width: 70px;
+      }
+
+      .right {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+      }
+
+      .right img {
+          width: 50px;
+          height: 50px;
+      }
+
+      .p_picture {
+          display: flex;
+          justify-content: center;
+      }
+
+      .p_picture img {
+          border-radius: 500px;
+          width: 300px;
+          box-shadow: 0 0 25px #d786ff;
+      }
+
+      .name {
+          text-align: center;
+          color: #FFF1F1;
+      }
+
+      .web {
+          text-align: center;
+          color: #FFF1F1;
+      }
+
+      .intro {
+          text-align: center;
+          color: #FFF1F1;
+          width: 900px;
+          margin: 0 auto;
+      }
+
+      .threegrid {
+          display: flex;
+          gap: 20px;
+          justify-content: center;
+      }
+
+      .time {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          margin: 0px 90px;
+          color: #FFF1F1;
+      }
+
+      .time img {
+          width: 40px;
+      }
+
+      .line {
+          background-color: #FFF1F1;
+          ;
+          width: 300px;
+          height: 3px;
+          margin: 0 50px;
+          margin-bottom: 20px;
+
+      }
+
+      .grid {
+          background-color: #6F00FF;
+          border-radius: 20px;
+          width: 400px;
+          height: 250px;
+          opacity: 75%;
+          text-align: center;
+          box-shadow: 0 0 25px #d786ff;
+      }
+
+      .work1 {
+          text-align: center;
+          color: #FFF1F1;
+      }
+
+      .text {
+          text-decoration: none;
+          color: #FFF1F1;
+      }
+
+      .bigbrid {
+          background-color: #6F00FF;
+          border-radius: 20px;
+          width: 1250px;
+          height: 220px;
+          opacity: 75%;
+          text-align: center;
+          box-shadow: 0 0 25px #d786ff;
+          margin: 20px;
+      }
+
+      .bigbrid1 {
+          display: flex;
+          justify-content: center;
+      }
+
+      .longline {
+          background-color: #FFF1F1;
+          ;
+          width: 800px;
+          height: 3px;
+          margin: 0 210px;
+          margin-bottom: 20px;
+      }
+
+      .time2 {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          margin: 0px 510px;
+          color: #FFF1F1;
+      }
+
+      .time2 img {
+          width: 40px;
+      }
+
+      /* 下面内容 */
+      .downcontant {
+          background-color: #E9B3FB;
+          width: 1509px;
+          height: 150px;
+          box-shadow: 0 0 25px #d786ff;
+          max-width: 100%;
+      }
+
+      .low {
+          display: flex;
+          justify-content: center;
+          gap: 15px;
+      }
+
+      .low img {
+          width: 50px;
+          height: 50px;
+      }
+
+      .lowertext {
+          text-align: center;
+          font-size: 12px;
+      }
+
+      /* phone view */
+      .threegrid1 {
+          display: none;
+      }
+
+      /* 响应式变化 */
+      @media screen and (max-width:1500px) {
+          .right {
+              display: none
+          }
+      }
+
+      @media screen and (max-width:1300px) {
+
+          .time h2 {
+              font-size: 20px;
+          }
+
+          .text {
+              font-size: 16px
+          }
+
+          .time img {
+              width: 35px;
+          }
+
+          .line {
+              background-color: #FFF1F1;
+              width: 260px;
+              height: 3px;
+              margin: 0 50px;
+              margin-bottom: 20px;
+
+          }
+
+          .grid {
+              width: 360px;
+              height: 250px;
+          }
+
+          .bigbrid {
+              width: 1120px;
+              height: 220px;
+              margin: 20px;
+          }
+
+          .longline {
+              background-color: #FFF1F1;
+              ;
+              width: 720px;
+              height: 3px;
+              margin: 0 200px;
+              margin-bottom: 20px;
+          }
+
+          .time2 {
+              gap: 20px;
+              margin: 0px 450px;
+
+          }
+
+          .time2 img {
+              width: 35px;
+          }
+
+      }
+
+      @media screen and (max-width:1150px) {
+          .time {
+              margin: 0px 60px;
+          }
+
+          .time h2 {
+              font-size: 20px;
+          }
+
+          .text {
+              font-size: 16px
+          }
+
+          .time img {
+              width: 30px;
+          }
+
+          .line {
+              background-color: #FFF1F1;
+              width: 200px;
+              height: 3px;
+              margin: 0 50px;
+              margin-bottom: 20px;
+
+          }
+
+          .grid {
+              width: 300px;
+              height: 260px;
+          }
+
+          .bigbrid {
+              width: 945px;
+              height: 220px;
+              margin: 20px;
+          }
+
+          .longline {
+              background-color: #FFF1F1;
+              width: 520px;
+              height: 3px;
+              margin: 0 210px;
+              margin-bottom: 20px;
+          }
+
+          .time2 {
+              gap: 20px;
+              margin: 0px 370px;
+
+          }
+
+          .time2 img {
+              width: 30px;
+          }
+      }
+
+      @media screen and (max-width:950px) {
+          .logo {
+              width: 70px;
+              margin: 0px 200px;
+          }
+
+          .intro {
+              width: 300px;
+              margin: 0 auto;
+              font-size: 16px;
+          }
+
+          .threegrid {
+              display: none;
+          }
+
+          .threegrid1 {
+              display: block;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              gap: 40px;
+              margin-top: 20px;
+          }
+
+          .grid1 {
+              background-color: #6F00FF;
+              border-radius: 20px;
+              width: 400px;
+              height: 250px;
+              opacity: 75%;
+              text-align: center;
+              box-shadow: 0 0 25px #d786ff;
+          }
+
+          .line {
+              background-color: #FFF1F1;
+              width: 300px;
+              height: 3px;
+              margin: 0 50px;
+              margin-bottom: 20px;
+
+          }
+
+          .time {
+              margin: 0px 105px;
+          }
+
+          .bigbrid1 {
+              display: none;
+          }
+      }
