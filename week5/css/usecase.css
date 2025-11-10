@@ -375,6 +375,11 @@ h3 {
 
 @media screen and (max-width:700px) {
 
+    .navbar1 {
+        padding: 10px 30px;
+
+    }
+
     h1 {
         width: 300px
     }
@@ -389,7 +394,7 @@ h3 {
     }
 
     .text h1 {
-        font-size: 30px;
+        font-size: 36px;
         margin-bottom: 10px;
         align-items: left;
     }
