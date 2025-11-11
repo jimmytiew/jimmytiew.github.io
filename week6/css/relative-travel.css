@@ -1,0 +1,398 @@
+body {
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    width: 30%;
+    background-color: skyblue;
+    border-radius: 20px;
+    margin: 30px auto;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.grid img {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.text h1 {
+    color: rgb(0, 85, 255);
+    font-size: 30px;
+    margin: 0 30px;
+}
+
+.text h2 {
+    color: rgb(0, 85, 255);
+    font-size: 24px;
+    font-weight: 400;
+    opacity: 50%;
+    margin: 30px;
+}
+
+.twoicon {
+    display: flex;
+    gap: 10px;
+    margin: 0 30px;
+}
+
+.twoicon img {
+    width: 40px;
+    opacity: 50%;
+    background-color: rgb(0, 85, 255);
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.last {
+    display: flex;
+    gap: 10px;
+    margin: 20px 30px;
+}
+
+.last img {
+    width: 40px;
+    opacity: 50%;
+    background-color: rgb(0, 85, 255);
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.last h4 {
+    margin-top: 13px;
+    font-weight: 400;
+    color: rgb(0, 85, 255);
+    opacity: 50%;
+}
+
+.like {
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+}
+
+.like img {
+    width: 40px;
+    background-color: rgb(0, 85, 255);
+    opacity: 0.7;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.card {
+    position: absolute;
+    top: -160px;
+    left: -300px;
+    background-color: aqua;
+    width: 400px;
+    height: 150px;
+    border-radius: 20px;
+    display: none;
+}
+
+.card img {
+    width: 60px;
+    border-radius: 50px;
+    opacity: 100%;
+    margin: 20px;
+}
+
+.card h1 {
+    color: rgb(0, 85, 255);
+    opacity: 50%;
+    position: relative;
+    bottom: 80px;
+    left: 130px;
+    margin: 0;
+    width: 150px;
+}
+
+.line {
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+    background-color: #00c8ff;
+    width: 355px;
+    height: 3px;
+    border-radius: 5px;
+    box-shadow:
+        0 0 10px #00c8ff,
+        0 0 30px #00c8ff,
+        inset 0 0 10px #00c8ff;
+}
+
+.like:hover .card {
+    display: block;
+}
+
+/* 第二个 */
+
+.containers {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    height: auto;
+    border-radius: 20px;
+    margin: 30px auto;
+}
+
+.grids {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.grids img {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.texts h1 {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    margin: 0 30px;
+}
+
+.texts h2 {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 400;
+    margin: 30px;
+}
+
+.twoicons {
+    display: flex;
+    gap: 10px;
+    margin: 0 30px;
+}
+
+.twoicons img {
+    width: 40px;
+    background-color: rgb(255, 0, 0);
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.lasts {
+    display: flex;
+    gap: 10px;
+    margin: 20px 30px;
+}
+
+.lasts img {
+    width: 40px;
+    background-color: rgb(255, 0, 0);
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.lasts h4 {
+    margin-top: 13px;
+    font-weight: 400;
+    color: rgb(255, 0, 0);
+}
+
+.likes {
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+}
+
+.likes img {
+    width: 40px;
+    background-color: rgb(255, 0, 0);
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.cards {
+    position: absolute;
+    top: -160px;
+    left: -300px;
+    background-color: rgb(255, 118, 237);
+    width: 400px;
+    height: 150px;
+    border-radius: 20px;
+    display: none;
+}
+
+.cards img {
+    width: 60px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.cards h1 {
+    color: #ff0000;
+    position: relative;
+    bottom: 80px;
+    left: 100px;
+    margin: 0;
+    width: 300px;
+    font-size: 30px;
+    ;
+}
+
+.lines {
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+    background-color: rgb(255, 0, 0);
+    width: 355px;
+    height: 3px;
+    border-radius: 5px;
+    box-shadow:
+        0 0 10px rgb(255, 0, 0),
+        0 0 30px rgb(255, 0, 0),
+        inset 0 0 10px rgb(255, 0, 0);
+}
+
+.likes:hover .cards {
+    display: block;
+}
+
+/* 第三个 */
+.containerss {
+    position: relative;
+    background-color: rgb(253, 137, 253);
+    width: 30%;
+    height: auto;
+    border-radius: 20px;
+    margin: 30px auto;
+}
+
+.gridss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.gridss img {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.textss h1 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 0 30px;
+}
+
+.textss h2 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 400;
+    margin: 30px;
+}
+
+.twoiconss {
+    display: flex;
+    gap: 10px;
+    margin: 0 30px;
+}
+
+.twoiconss img {
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.lastss {
+    display: flex;
+    gap: 10px;
+    margin: 20px 30px;
+}
+
+.lastss img {
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.lastss h4 {
+    margin-top: 13px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.likess {
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+}
+
+.likess img {
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.cardss {
+    position: absolute;
+    top: -160px;
+    left: -300px;
+    background-color: rgb(255, 112, 236);
+    width: 400px;
+    height: 150px;
+    border-radius: 20px;
+    display: none;
+}
+
+.cardss img {
+    width: 60px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.cardss h1 {
+    color: #ffffff;
+    position: relative;
+    bottom: 80px;
+    left: 100px;
+    margin: 0;
+    width: 300px;
+    font-size: 30px;
+    ;
+}
+
+.liness {
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 355px;
+    height: 3px;
+    border-radius: 5px;
+    box-shadow:
+        0 0 10px rgb(255, 255, 255),
+        0 0 30px rgb(247, 247, 247),
+        inset 0 0 10px rgb(255, 255, 255);
+}
+
+.likess:hover .cardss {
+    display: block;
+}
+
+.wrapper {
+    display: flex;
+}
+
+@media screen and (max-width:1000px) {
+    .wrapper {
+        display: block
+    }
+}
