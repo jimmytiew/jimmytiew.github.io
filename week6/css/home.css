@@ -1,0 +1,143 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    gap: 60px;
+    margin: 10%;
+}
+
+.illustration {
+    width: 50%;
+}
+
+.hamburger {
+    display: none;
+    text-decoration: none;
+}
+
+.text {
+    flex: 1;
+    max-width: 550px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+.illustration1 {
+    display: none;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.consultation-button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 25px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.consultation-button:hover {
+    background-color: #333333;
+}
+
+.sponsorlogo {
+    filter: grayscale(100%);
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+@media screen and (max-width: 1350px) {
+
+    .navbar1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 50px;
+        background-color: #ffffff;
+        margin: 0px 100px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .navbar1 {
+        margin: 0 20px;
+    }
+
+    h1 {
+        font-size: 44px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .consultation-button {
+        padding: 20px 25px;
+        font-size: 12px;
+        font-weight: 600;
+        border-radius: 10px;
+    }
+
+    .sponsorlogo {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        gap: 50px;
+        width: 80%
+    }
+}
+
+@media screen and (max-width:700px) {
+    .navbar1 {
+        padding: 10px 30px;
+
+    }
+
+    .illustration {
+        display: none;
+    }
+
+    .illustration1 {
+        display: block;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .consultation-button {
+        width: 80%;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 10px;
+        text-align: center;
+    }
+}
