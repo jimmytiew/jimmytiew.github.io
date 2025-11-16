@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: sans-serif;
 }
 
 h1 {
@@ -15,174 +16,89 @@ h1 {
     font-weight: normal;
 }
 
-.images {
+.card-group {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
+    width: 90%;
+    margin: 50px auto;
 }
 
-.picture {
-    max-width: 30%;
+.card {
+    width: 30%;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img {
+    width: 100%;
     border-radius: 20px;
 }
 
-.text {
-    position: relative;
-    bottom: 90px;
-    display: flex;
-    gap: 95px;
-    justify-content: center;
-}
-
-.grid {
+.card-box {
     background-color: aliceblue;
-    width: 25%;
     border-radius: 20px;
-    height: 200px;
+    width: 90%;
+    margin-top: -60px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
 }
 
-.grid h3 {
-    position: relative;
-    top: 20px;
-    text-align: center;
-    margin: 0px 15px;
+.card-box h3 {
     opacity: 75%;
 }
 
-.button {
-    position: relative;
-    top: -180px;
-    display: flex;
-    justify-content: center;
-    gap: 295px;
-    max-width: 100%;
-}
-
-.button h2 {
+.readbtn {
     color: green;
     opacity: 75%;
-}
-
-.images1 {
-    display: none;
-}
-
-.downcontant1 {
-    display: none;
-}
-
-@media screen and (max-width:1300px) {
-    .button {
-        gap: 250px
-    }
-}
-
-@media screen and (max-width:1150px) {
-    .button {
-        gap: 200px;
-    }
+    margin-top: 20px;
 }
 
 @media screen and (max-width:1000px) {
-    .button {
-        gap: 130px;
-        top: -150px;
-    }
-
-    .button h2 {
-        font-size: 18px;
-    }
-
-    .grid h3 {
-        font-size: 16px;
-
-    }
-
-    .text {
-        gap: 55px;
-    }
-
-    .prg h3 {
-        font-size: 16px;
-    }
 
     .prg {
         width: 700px;
     }
-}
 
-@media screen and (max-width:800px) {
-    .button {
-        gap: 110px;
+    .card {
+        width: 45%;
     }
 }
 
-
 @media screen and (max-width:700px) {
+
     h1 {
-        text-align: center;
-        opacity: 75%;
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .prg {
-        text-align: center;
-        margin: 0 auto;
-        width: 400px;
-        opacity: 50%;
-        font-weight: normal;
-        font-size: 12px;
-    }
-
-    .images {
-        display: none;
-    }
-
-    .downcontant {
-        display: none;
-    }
-
-    .images1 {
-        display: block;
-    }
-
-    .downcontant1 {
-        display: block;
-    }
-
-    .picture1 {
-        max-width: 70%;
-        border-radius: 20px;
-    }
-
-    .images1 img {
-        margin: 0px 75px;
-    }
-
-    .grid1 {
-        position: relative;
-        top: -100px;
-        background-color: aliceblue;
-        width: 50%;
-        border-radius: 20px;
-        height: 150px;
-        margin: 0 auto;
-    }
-
-    .grid1 h3 {
-        position: relative;
-        top: 20px;
-        text-align: center;
-        margin: 0px 20px;
-        opacity: 75%;
+        width: 350px;
         font-size: 14px;
     }
 
-    .grid1 h2 {
-        color: green;
-        opacity: 75%;
-        font-size: 18px;
-        text-align: center;
-        margin-top: 50px;
+    .card {
+        width: 90%;
+    }
+
+    .card-box {
+        margin-top: -40px;
+        width: 85%;
+    }
+
+    .card-img {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .card-box h3 {
+        font-size: 14px;
+    }
+
+    .readbtn {
+        font-size: 16px;
     }
 }
