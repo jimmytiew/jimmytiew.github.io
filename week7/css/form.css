@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(139, 147, 255);
+    margin: 0;
+}
+
+.content {
+    background-color: white;
+    width: 40%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+.content form {
+    width: 100%;
+}
+
+.content input {
+    border-radius: 20px;
+    height: 30px;
+    margin-top: 20px;
+    width: 250px;
+    padding: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.content textarea {
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.submit {
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.submit input {
+    background-color: black;
+    color: aliceblue;
+    width: 200px;
+    cursor: pointer;
+}
+
+.submit input:hover {
+    background-color: rgb(49, 49, 49);
+}
+
+.cl {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cl label {
+    font-weight: 600;
+}
+
+.cl input {
+    width: 130px;
+    padding: 0;
+    height: 35px;
+}
+
+
+/* ---------- 手机响应式 ---------- */
+@media screen and (max-width: 768px) {
+    .content {
+        width: 90%;
+        margin: 20px auto;
+        padding: 15px 20px;
+    }
+
+    .content input,
+    .content textarea {
+        width: 100%;
+        display: block;
+    }
+
+    form input#fname,
+    form input#lname,
+    form input#bt,
+    form input#email,
+    form input#url {
+        margin-top: 15px;
+    }
+
+    .cl {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cl input {
+        width: 100%;
+    }
+
+    .content textarea {
+        width: 100%;
+    }
+
+    .submit input {
+        width: 100%;
+        max-width: 250px;
+    }
+}
