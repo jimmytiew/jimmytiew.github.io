@@ -22,17 +22,18 @@
 
 .button {
     display: flex;
+    justify-content: center;
 }
 
+/* 按钮效果 */
+/* 外部的框 */
 .btn-home {
     display: block;
     margin: 40px auto 0;
-    width: 280px;
+    width: 400px;
     padding: 2px;
     border-radius: 35px;
     text-decoration: none;
-
-    /* 外框渐变（要能流动，所以做成多色+大范围） */
     background: linear-gradient(120deg,
             #0024ff,
             #ff0000,
@@ -40,12 +41,9 @@
             #0024ff);
     background-size: 200% 200%;
     background-position: 0% 50%;
-
-    /* 默认一点点光晕（外框发光） */
-    box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
 }
 
-/* 内层按钮本体：只管背景+文字，不发光不动 */
+/* 内部按钮 */
 .btn-home span {
     display: block;
     width: 100%;
@@ -56,16 +54,14 @@
     letter-spacing: 0.15em;
     color: #fdfdfd;
     box-sizing: border-box;
-
     background: linear-gradient(to top, #CD0000 0%, #000000 100%);
 }
 
-/* hover：外框开始流动 + 外框光圈呼吸 */
 .btn-home:hover {
     animation: borderFlow 4s linear infinite, borderGlow 1.6s ease-in-out infinite;
 }
 
-/* 渐变流动动画：让背景从 0% 滑到 200% */
+/* 流动式动画 */
 @keyframes borderFlow {
     0% {
         background-position: 0% 50%;
@@ -76,7 +72,6 @@
     }
 }
 
-/* 外框发光呼吸：只动 box-shadow */
 @keyframes borderGlow {
     0% {
         box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
