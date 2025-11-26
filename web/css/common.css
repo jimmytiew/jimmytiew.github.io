@@ -45,7 +45,6 @@ p {
 
 .logo img {
     height: 80px;
-    display: block;
 }
 
 .menu {
@@ -59,7 +58,7 @@ p {
 .menu-item>a {
     text-decoration: none;
     color: #f0f0f0;
-    font-size: 24px;
+    font-size: 16px;
     letter-spacing: 0.06em;
     display: inline-flex;
     align-items: center;
@@ -94,7 +93,7 @@ p {
 .submenu3 a {
     display: block;
     padding: 8px 18px;
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 0.04em;
     color: #f8f8f8;
     text-decoration: none;
