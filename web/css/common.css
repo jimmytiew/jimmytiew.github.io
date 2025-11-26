@@ -140,3 +140,57 @@ p {
             #8b0005 0%,
             #b80006 100%);
 }
+
+/* footer */
+footer {
+    background-color: #BE0108;
+    padding: 20px 0px;
+    margin-top: 60px;
+    box-shadow: 0px -10px 40px #be0108c4;
+}
+
+.footercontentbox {
+    display: flex;
+}
+
+.footerinfor {
+    width: 40%;
+    margin: auto;
+}
+
+.location {
+    display: flex;
+    gap: 20px;
+}
+
+.location img {
+    margin: auto 0px;
+}
+
+.phnumber {
+    display: flex;
+    gap: 20px;
+}
+
+.phnumber img {
+    margin: auto 0px;
+}
+
+.redlinegmail {
+    display: flex;
+    gap: 20px;
+}
+
+.redlinegmail img {
+    margin: auto 0px;
+}
+
+.aboutteam {
+    width: 30%;
+    margin: 0px auto;
+}
+
+.socialmediaicon {
+    display: flex;
+    gap: 60px;
+}
