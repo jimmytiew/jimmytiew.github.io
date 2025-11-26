@@ -1,0 +1,92 @@
+.error {
+    font-size: 200px;
+    text-align: center;
+    color: white;
+    opacity: 50%;
+    margin: 0;
+}
+
+.number {
+    font-size: 128px;
+    text-align: center;
+    color: white;
+    opacity: 50%;
+    margin: 0;
+}
+
+.charactor404 {
+    width: 15%;
+    display: block;
+    margin: 0px auto 0;
+}
+
+.button {
+    display: flex;
+}
+
+.btn-home {
+    display: block;
+    margin: 40px auto 0;
+    width: 280px;
+    padding: 2px;
+    border-radius: 35px;
+    text-decoration: none;
+
+    /* 外框渐变（要能流动，所以做成多色+大范围） */
+    background: linear-gradient(120deg,
+            #0024ff,
+            #ff0000,
+            #ff4b00,
+            #0024ff);
+    background-size: 200% 200%;
+    background-position: 0% 50%;
+
+    /* 默认一点点光晕（外框发光） */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+}
+
+/* 内层按钮本体：只管背景+文字，不发光不动 */
+.btn-home span {
+    display: block;
+    width: 100%;
+    padding: 30px 20px;
+    border-radius: 35px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.15em;
+    color: #fdfdfd;
+    box-sizing: border-box;
+
+    background: linear-gradient(to top, #CD0000 0%, #000000 100%);
+}
+
+/* hover：外框开始流动 + 外框光圈呼吸 */
+.btn-home:hover {
+    animation: borderFlow 4s linear infinite, borderGlow 1.6s ease-in-out infinite;
+}
+
+/* 渐变流动动画：让背景从 0% 滑到 200% */
+@keyframes borderFlow {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 200% 50%;
+    }
+}
+
+/* 外框发光呼吸：只动 box-shadow */
+@keyframes borderGlow {
+    0% {
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+    }
+
+    50% {
+        box-shadow: 0 0 28px rgba(255, 80, 80, 0.9);
+    }
+
+    100% {
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+    }
+}
