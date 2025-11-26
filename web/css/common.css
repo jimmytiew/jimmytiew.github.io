@@ -50,7 +50,7 @@ p {
 .menu {
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 70px;
     font-family: "Audiowide", sans-serif;
 }
 
@@ -117,8 +117,8 @@ p {
     left: -15px;
     min-width: 160px;
     background: linear-gradient(to right,
-            #1c0001 0%,
-            #3e0002 100%);
+            #3d0002 0%,
+            #580205 100%);
 }
 
 
@@ -127,8 +127,8 @@ p {
     left: -15px;
     min-width: 200px;
     background: linear-gradient(to right,
-            #570003 0%,
-            #820004 100%);
+            #6b0004 0%,
+            #900005 100%);
 }
 
 
@@ -137,6 +137,6 @@ p {
     left: -10px;
     min-width: 230px;
     background: linear-gradient(to right,
-            #7c0004 0%,
+            #8b0005 0%,
             #b80006 100%);
 }
