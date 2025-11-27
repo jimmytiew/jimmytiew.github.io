@@ -2,12 +2,22 @@ h1 {
     color: #ffffff;
 }
 
+h4 {
+    color: #ffffff;
+}
+
 h5 {
     color: #ffffff;
 }
 
 p {
     color: #ffffff;
+}
+
+li {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
 }
 
 /* hero-section */
@@ -53,4 +63,18 @@ p {
     background: #8F0256;
     margin: auto 0px auto auto;
     border-radius: 46px;
+}
+
+/* product-support */
+.pstittle {
+    text-align: center;
+}
+
+.imagebox {
+    background-image: url(../images/productsupportpart.jpg);
+    background-size: 800px;
+    background-position: 20%;
+    border-radius: 46px;
+    width: 20%;
+    aspect-ratio: 1/2;
 }
