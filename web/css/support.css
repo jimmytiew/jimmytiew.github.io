@@ -66,15 +66,49 @@ li {
 }
 
 /* product-support */
+.pssection {
+    margin: 0px 54px;
+}
+
 .pstittle {
     text-align: center;
 }
 
+.boxofsection {
+    display: flex;
+    gap: 50px;
+}
+
 .imagebox {
     background-image: url(../images/productsupportpart.jpg);
-    background-size: 800px;
+    background-size: 920px;
     background-position: 20%;
     border-radius: 46px;
-    width: 20%;
-    aspect-ratio: 1/2;
+    width: 50%;
+    aspect-ratio: 1/1;
+}
+
+.psgroup {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.boxgradient {
+    border-radius: 46px;
+    background: linear-gradient(45deg, #000399, #FF0000);
+    padding: 5px;
+    align-items: center;
+    width: 45.5%;
+}
+
+.pscontentbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 40px;
+    background-color: black;
+    padding: 18px;
+    align-items: center;
+    text-align: center;
 }
