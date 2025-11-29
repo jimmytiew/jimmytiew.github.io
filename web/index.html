@@ -52,9 +52,211 @@
         </div>
     </header>
 
+    <!-- hero section -->
+    <div class="herosection">
+        <img src="images/homehero.png" alt="hero-section" width="100%">
+
+        <div class="herotittle">
+            <h1>Push Your Game to the Redline.</h1>
+
+            <a class="view-all-gear" href="#">View All Gear</a>
+        </div>
+    </div>
+
     <!-- section1 -->
+    <div class="section1">
+        <div class="tittle1">
+            <h1>Product Categories</h1>
+
+            <h5>Find Your Gear</h5>
+        </div>
+
+        <div class="fourbox">
+
+            <a class="borderbox" href="product-page.html">
+                <div class="box">
+                    <img src="images/homesection1pc1.png">
+                    <h3>Gaming Keyboards</h3>
+                </div>
+            </a>
+
+            <a class="borderbox" href="product-page.html">
+                <div class="box">
+                    <img src="images/homesection1pc2.png">
+                    <h3>Gaming Headset & Audio</h3>
+                </div>
+            </a>
+
+            <a class="borderbox" href="product-page.html">
+                <div class="box">
+                    <img src="images/homesection1pc3.png">
+                    <h3>Sim Racing Seats</h3>
+                </div>
+            </a>
+
+            <a class="borderbox" href="product-page.html">
+                <div class="box">
+                    <img src="images/homesection1pc4.png">
+                    <h3>Gaming Mice</h3>
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+    <!-- section2 -->
+    <div class="section2">
+
+        <div class="tittle2">
+            <h1>Featured Products</h1>
+
+            <h5>Redline Bestsellers</h5>
+        </div>
+
+        <div class="scrollsection">
+            <div class="scrollcontainer">
+
+                <a href="#" class="scrollborder">
+                    <div class="scrollbox">
+                        <img src="images/homesection2pc1.png" alt="Product">
+                        <h5>RM 190.00</h5>
+                    </div>
+                </a>
+
+                <a href="#" class="scrollborder">
+                    <div class="scrollbox">
+                        <img src="images/homesection2pc2.png" alt="Product">
+                        <h5>RM 125.00</h5>
+                    </div>
+                </a>
+
+                <a href="#" class="scrollborder">
+                    <div class="scrollbox">
+                        <img src="images/homesection2pc3.png" alt="Product">
+                        <h5>RM 139.99</h5>
+                    </div>
+                </a>
+
+                <a href="#" class="scrollborder">
+                    <div class="scrollbox">
+                        <img src="images/homesection2pc4.png" alt="Product">
+                        <h5>RM 1242.00</h5>
+                    </div>
+                </a>
+
+                <a href="#" class="scrollborder">
+                    <div class="scrollbox">
+                        <img src="images/homesection2pc5.png" alt="Product">
+                        <h5>RM 190.00</h5>
+                    </div>
+                </a>
+
+                <a href="#" class="scrollborder">
+                    <div class="scrollbox">
+                        <img src="images/homesection2pc6.png" alt="Product">
+                        <h5>RM 125.00</h5>
+                    </div>
+                </a>
+
+                <a href="#" class="scrollborder">
+                    <div class="scrollbox">
+                        <img src="images/homesection2pc7.png" alt="Product">
+                        <h5>RM 139.99</h5>
+                    </div>
+                </a>
+
+                <a href="#" class="scrollborder">
+                    <div class="scrollbox">
+                        <img src="images/homesection2pc8.png" alt="Product">
+                        <h5>RM 1242.00</h5>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="button">
+            <a href="#">VIEW ALL PRODUCT</a>
+        </div>
+    </div>
+
+    <!-- section3 -->
+    <div class="section3">
+        <div class="tittle3">
+            <h1>Setup Gallery</h1>
+
+            <h5>Built for Your Battle Station</h5>
+        </div>
+
+        <div class="section3pc">
+            <img src="images/homesection3pc1.png">
+            <img src="images/homesection3pc2.png">
+            <img src="images/homesection3pc3.png">
+            <img src="images/homesection3pc4.png">
+            <img src="images/homesection3pc5.png">
+            <img src="images/homesection3pc6.png">
+        </div>
+
+        <div class="sponsorlogo">
+            <img src="images/homesection3sponsor1.png">
+            <img src="images/homesection3sponsor2.png">
+            <img src="images/homesection3sponsor3.png">
+            <img src="images/homesection3sponsor4.png">
+            <img src="images/homesection3sponsor5.png">
+            <img src="images/homesection3sponsor6.png">
+        </div>
+
+    </div>
+
+    <!-- section4 -->
 
 
+
+
+    <script>
+        const slider = document.querySelector('.scrollcontainer');
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+
+        // 1. 鼠标按下事件
+        slider.addEventListener('mousedown', (e) => {
+            isDown = true;
+            slider.classList.add('active'); // 改变光标样式为“紧握”
+            startX = e.pageX - slider.offsetLeft; // 记录鼠标点击的初始位置
+            scrollLeft = slider.scrollLeft; // 记录当前的滚动距离
+        });
+
+        // 2. 鼠标离开范围事件
+        slider.addEventListener('mouseleave', () => {
+            isDown = false;
+            slider.classList.remove('active');
+        });
+
+        // 3. 鼠标松开事件
+        slider.addEventListener('mouseup', () => {
+            isDown = false;
+            slider.classList.remove('active');
+        });
+
+        // 4. 鼠标移动事件（核心拖拽逻辑）
+        slider.addEventListener('mousemove', (e) => {
+            if (!isDown) return; // 如果没按住鼠标，就不执行
+            e.preventDefault(); // 防止选中文字或图片拖拽
+            const x = e.pageX - slider.offsetLeft;
+            const walk = (x - startX) * 2; // *2 是为了让滑动速度快一点，你可以改成 1 或者 3
+            slider.scrollLeft = scrollLeft - walk;
+        });
+
+        // 5. 鼠标滚轮事件（将上下滚动转换为左右滚动）
+        slider.addEventListener('wheel', (e) => {
+            // 只有当内容确实超出了容器宽度才拦截滚轮
+            if (slider.scrollWidth > slider.clientWidth) {
+                e.preventDefault(); // 阻止页面默认的上下滚动
+                slider.scrollLeft += e.deltaY; // 将垂直滚动量加到水平滚动上
+            }
+        });
+    </script>
 </body>
 
 </html>
