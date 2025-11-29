@@ -116,3 +116,61 @@ li {
 .pscontentbox h4 {
     text-align: center;
 }
+
+/* still-need-help */
+.snhtittle {
+    text-align: center;
+}
+
+.linktopage {
+    display: flex;
+    justify-content: center;
+}
+
+.goto {
+    width: 100%;
+}
+
+.warrantyimage {
+    background-image: url(../images/warrantyimage.jpg);
+    background-size: 900px;
+    border-radius: 46px;
+    aspect-ratio: 1/0.8;
+}
+
+.shippingimage {
+    background-image: url(../images/shippingimage.jpg);
+    background-size: 980px;
+    background-position: 50%;
+    border-radius: 46px;
+    aspect-ratio: 1/0.8;
+}
+
+.snhboxgradient {
+    border-radius: 46px;
+    background: linear-gradient(45deg, #000399, #FF0000);
+    padding: 5px;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.snhboxtittle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 40px;
+    background-color: black;
+    padding: 8px;
+    align-items: center;
+}
+
+.snhboxtittle h4 {
+    margin: 30px;
+    text-decoration: none;
+}
+
+.snhboxtittle a {
+    text-decoration: none;
+    color: #ffffff;
+}
