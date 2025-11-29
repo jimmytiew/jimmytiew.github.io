@@ -4,3 +4,33 @@
     bottom: 300px;
     margin: 0px 0px 0px 54px;
 }
+
+.first-section {
+    display: flex;
+    align-items: center;
+}
+
+.first-section-image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.first-section-test {
+    width: 55%;
+    color: white;
+}
+
+.first-section-test h5 {
+    margin: 0;
+}
+
+.first-section-test h1 {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.first-section-test p {
+    width: 90%;
+    margin-bottom: 0;
+}
