@@ -46,18 +46,41 @@
 
 .second-section-image {
     display: flex;
-    justify-content: center;
 }
 
-.contact-image {
+.box {
     width: 33.33%;
-    display: flex;
-    justify-content: center;
-}
-
-.contact-image img {
     padding: 5px;
+    margin: 50px;
     border-radius: 40px;
     background: linear-gradient(85deg, #001aff, #B40101);
     box-shadow: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
+}
+
+.first-image {
+    background-image: url(../images/contact\ location.jpg);
+    padding: 85px;
+    border-radius: 40px;
+    color: white;
+    text-align: center;
+}
+
+.second-image {
+    background-image: url(../images/contact\ phone\ number.jpg);
+    padding: 85px;
+    border-radius: 40px;
+    color: white;
+    text-align: center;
+}
+
+.third-image {
+    background-image: url(../images/contact\ email.jpg);
+    padding: 85px;
+    border-radius: 40px;
+    color: white;
+    text-align: center;
+}
+
+.contact-image img {
+    border-radius: 40px;
 }
