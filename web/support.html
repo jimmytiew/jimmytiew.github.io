@@ -190,11 +190,11 @@
         <div class="faqquestion">
 
             <div class="questionandanswer">
-                <div class="question">
+                <div class="question" id="question-toggle">
                     <h5>Can I cancel my order?</h5>
                 </div>
 
-                <div class="answer">
+                <div class="answer" id="answer-show">
                     <p>Orders can be cancelled before shipping. Once shipped, cancellations are no longer possible.</p>
                 </div>
 
@@ -204,6 +204,19 @@
         </div>
 
     </div>
+
+
+
+    <script>
+        const toggleButton = document.getElementById("question-toggle");
+        const answer = document.getElementById("answer-show");
+
+        toggleButton.addEventListener("click", () => {
+            answer.classList.toggle("active");
+
+        });
+    </script>
+
 
 </body>
 

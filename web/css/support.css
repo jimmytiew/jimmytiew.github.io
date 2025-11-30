@@ -204,14 +204,32 @@ li {
     border-radius: 46px;
 }
 
+.questionandanswer {
+    width: 50%;
+}
+
+.question {
+    display: block;
+    cursor: pointer;
+    z-index: 1001;
+}
+
 .question h5 {
     margin: auto auto 0px auto;
 }
 
 .underline {
-    width: 84%;
+    width: 100%;
     height: 4px;
     background: #8F0256;
     border-radius: 46px;
-    margin: auto 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+.answer {
+    display: none;
+}
+
+.answer.active {
+    display: flex;
 }
