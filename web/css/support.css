@@ -203,3 +203,15 @@ li {
     margin: auto 0px auto auto;
     border-radius: 46px;
 }
+
+.question h5 {
+    margin: auto auto 0px auto;
+}
+
+.underline {
+    width: 84%;
+    height: 4px;
+    background: #8F0256;
+    border-radius: 46px;
+    margin: auto 0px 10px 0px;
+}
