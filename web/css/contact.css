@@ -157,3 +157,51 @@ input {
     background: linear-gradient(to top, #CD0000 0%, #000000 100%);
     text-decoration: none;
 }
+
+.fouth-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/support\ image.png);
+    margin-top: 10%;
+    width: 100%;
+    height: 703px;
+    color: white;
+}
+
+.fouth-section h1 {
+    margin: 0;
+}
+
+.fouth-section p {
+    width: 40%;
+    text-align: center;
+}
+
+.second-button {
+    display: block;
+    margin-top: 40px;
+    width: 20%;
+    padding: 5px;
+    border-radius: 46px;
+    background: linear-gradient(120deg,
+            #0024ff,
+            #ff0000,
+            #ff4b00,
+            #0024ff);
+}
+
+.second-button a {
+    display: block;
+    width: 100%;
+    padding: 30px 20px;
+    border-radius: 46px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.15em;
+    color: #fdfdfd;
+    box-sizing: border-box;
+    background: linear-gradient(to top, #CD0000 0%, #000000 100%);
+    text-decoration: none;
+}
