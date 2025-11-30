@@ -228,6 +228,11 @@ li {
 
 .answer {
     display: none;
+    flex-direction: column;
+}
+
+.answer p {
+    margin: auto 0px 0px 0px;
 }
 
 .answer.active {
