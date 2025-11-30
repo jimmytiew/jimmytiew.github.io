@@ -75,7 +75,7 @@ li {
 
 /* product-support */
 .pssection {
-    margin: 70px 54px 0px 54px;
+    margin: 70px 54px 140px 54px;
 }
 
 .pstittle {
@@ -128,7 +128,7 @@ li {
 
 /* still-need-help */
 .snhsection {
-    margin: 70px 54px 0px 54px;
+    margin: 70px 54px;
 }
 
 .snhtittle {
@@ -184,4 +184,22 @@ li {
 
 .snhboxtittle h4 {
     margin: 30px;
+}
+
+/* faq-section */
+.faqsection {
+    margin: 0px 54px;
+    gap: 10px;
+}
+
+.faqtittle {
+    display: flex;
+}
+
+.faqline {
+    width: 84%;
+    height: 4px;
+    background: #8F0256;
+    margin: auto 0px auto auto;
+    border-radius: 46px;
 }
