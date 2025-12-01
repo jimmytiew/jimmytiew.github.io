@@ -1,23 +1,41 @@
-.herotittle {
+.herosection {
     position: relative;
-    color: white;
-    bottom: 240px;
-    margin: 0px 0px 0px 54px;
+    width: 100%;
+}
+
+.herosection img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.herotitle {
+    position: absolute;
+    left: 54px;
+    bottom: 110px;
+    color: #ffffff;
+}
+
+.herotitle h1 {
+    bottom: 260px;
+    margin: 0 0 0 54;
 }
 
 .first-section {
     display: flex;
     align-items: center;
+    margin-top: 10%;
 }
 
 .first-section-image {
-    width: 45%;
+    width: 50%;
     display: flex;
     justify-content: center;
 }
 
 .first-section-test {
-    width: 55%;
+    width: 50%;
     color: white;
 }
 
@@ -101,7 +119,7 @@
 .comment-form {
     background-color: black;
     color: white;
-    padding: 60px 20px;
+    padding: 70px 20px;
     border-radius: 46px;
 }
 
@@ -136,6 +154,7 @@ input {
     margin-left: 100px;
     width: 20%;
     padding: 5px;
+    cursor: pointer;
     border-radius: 46px;
     background: linear-gradient(120deg,
             #0024ff,
@@ -156,6 +175,11 @@ input {
     box-sizing: border-box;
     background: linear-gradient(to top, #CD0000 0%, #000000 100%);
     text-decoration: none;
+}
+
+.modal p {
+    color: black;
+    text-align: center;
 }
 
 .fouth-section {
