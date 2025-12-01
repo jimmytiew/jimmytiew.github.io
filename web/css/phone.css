@@ -1,3 +1,16 @@
+h1 {
+    color: white;
+}
+
+h5 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+/* hero section */
 .herosection {
     position: relative;
     width: 100%;
@@ -25,4 +38,106 @@
 .herotitle h5 {
     bottom: 240px;
     margin: 0 0 0 54;
+}
+
+/* phone section */
+.phone-section {
+    margin: 100px 54px;
+}
+
+.phone-title {
+    text-align: center;
+    margin: 0 0 100px 0;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    flex-wrap: wrap;
+}
+
+.phone-cardborder {
+    position: relative;
+    border-radius: 46px;
+    padding: 5px;
+    background: linear-gradient(90deg, #000399, #FF0000);
+    box-shadow: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
+    ;
+}
+
+.phone-card {
+    width: 357px;
+    height: 559px;
+    padding: 20px 20px;
+    background: #644F4F;
+    border-radius: 43px;
+    text-align: center;
+    position: relative;
+}
+
+.phone-card img {
+    margin-top: 20px
+}
+
+.button {
+    margin: 38px auto 0 auto;
+    width: 35%;
+    padding: 3px;
+    border-radius: 46px;
+    background: linear-gradient(90deg, #000399, #FF0000);
+}
+
+.button a {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 46px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.15em;
+    color: #fdfdfd;
+    box-sizing: border-box;
+    background: linear-gradient(to top, #CD0000 0%, #000000 100%);
+    text-decoration: none;
+}
+
+/* tablet section */
+.tablet-section {
+    margin: 100px 54px;
+}
+
+.tablet-title {
+    text-align: center;
+    margin: 0 0 100px 0;
+}
+
+.tablet {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+.tablet-cardborder {
+    position: relative;
+    border-radius: 46px;
+    padding: 5px;
+    background: linear-gradient(90deg, #000399, #FF0000);
+    box-shadow: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
+    ;
+}
+
+.tablet-card {
+    width: 501px;
+    height: 600px;
+    padding: 20px 20px;
+    background: #644F4F;
+    border-radius: 43px;
+    text-align: center;
+    position: relative;
+}
+
+.tablet-card img {
+    margin-top: 40px
 }
