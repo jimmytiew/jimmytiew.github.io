@@ -29,13 +29,13 @@
 }
 
 .first-section-image {
-    width: 45%;
+    width: 50%;
     display: flex;
     justify-content: center;
 }
 
 .first-section-test {
-    width: 55%;
+    width: 50%;
     color: white;
 }
 
