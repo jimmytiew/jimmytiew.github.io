@@ -67,8 +67,8 @@ p {
 }
 
 .phone-card {
-    width: 357px;
-    height: 559px;
+    width: 260px;
+    height: 530px;
     padding: 20px 20px;
     background: #644F4F;
     border-radius: 43px;
@@ -129,8 +129,8 @@ p {
 }
 
 .tablet-card {
-    width: 501px;
-    height: 600px;
+    width: 370px;
+    height: 580px;
     padding: 20px 20px;
     background: #644F4F;
     border-radius: 43px;
@@ -139,5 +139,5 @@ p {
 }
 
 .tablet-card img {
-    margin-top: 40px
+    margin-top: 30px;
 }
