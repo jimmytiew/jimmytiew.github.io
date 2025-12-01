@@ -46,7 +46,6 @@ p {
 }
 
 .phone-title {
-    color: white;
     text-align: center;
     margin: 0 0 100px 0;
 }
@@ -101,4 +100,44 @@ p {
     box-sizing: border-box;
     background: linear-gradient(to top, #CD0000 0%, #000000 100%);
     text-decoration: none;
+}
+
+/* tablet section */
+.tablet-section {
+    margin: 100px 54px;
+}
+
+.tablet-title {
+    text-align: center;
+    margin: 0 0 100px 0;
+}
+
+.tablet {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+.tablet-cardborder {
+    position: relative;
+    border-radius: 46px;
+    padding: 5px;
+    background: linear-gradient(90deg, #000399, #FF0000);
+    box-shadow: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
+    ;
+}
+
+.tablet-card {
+    width: 501px;
+    height: 600px;
+    padding: 20px 20px;
+    background: #644F4F;
+    border-radius: 43px;
+    text-align: center;
+    position: relative;
+}
+
+.tablet-card img {
+    margin-top: 40px
 }
