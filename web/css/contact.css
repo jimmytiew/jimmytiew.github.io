@@ -1,13 +1,31 @@
-.herotittle {
+.herosection {
     position: relative;
-    color: white;
-    bottom: 240px;
-    margin: 0px 0px 0px 54px;
+    width: 100%;
+}
+
+.herosection img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.herotitle {
+    position: absolute;
+    left: 54px;
+    bottom: 40px;
+    color: #ffffff;
+}
+
+.herotitle h1 {
+    bottom: 260px;
+    margin: 0 0 0 54;
 }
 
 .first-section {
     display: flex;
     align-items: center;
+    margin-top: 10%;
 }
 
 .first-section-image {
