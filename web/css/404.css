@@ -1,5 +1,5 @@
 .error {
-    font-size: 60px;
+    font-size: 200px;
     text-align: center;
     color: white;
     opacity: 50%;
@@ -7,7 +7,7 @@
 }
 
 .number {
-    font-size: 24px;
+    font-size: 128px;
     text-align: center;
     color: white;
     opacity: 50%;
@@ -20,31 +20,26 @@
     margin: 0px auto 0;
 }
 
-.button {
+.allbutton {
     display: flex;
     justify-content: center;
+    gap: 226px;
+    margin: 26px;
 }
 
-/* 按钮效果 */
-/* 外部的框 */
-.btn-home {
+.button {
     display: block;
-    margin: 40px auto 0;
-    width: 400px;
-    padding: 2px;
+    width: 30%;
+    padding: 5px;
     border-radius: 46px;
-    text-decoration: none;
     background: linear-gradient(120deg,
             #0024ff,
             #ff0000,
             #ff4b00,
             #0024ff);
-    background-size: 200% 200%;
-    background-position: 0% 50%;
 }
 
-/* 内部按钮 */
-.btn-home span {
+.button a {
     display: block;
     width: 100%;
     padding: 30px 20px;
@@ -55,33 +50,122 @@
     color: #fdfdfd;
     box-sizing: border-box;
     background: linear-gradient(to top, #CD0000 0%, #000000 100%);
+    text-decoration: none;
 }
 
-.btn-home:hover {
-    animation: borderFlow 4s linear infinite, borderGlow 1.6s ease-in-out infinite;
+/* 平板响应式变化 */
+@media screen and (max-width:1080px) {
+    .error {
+        font-size: 150px;
+        text-align: center;
+        color: white;
+        opacity: 50%;
+        margin: 0;
+    }
+
+    .number {
+        font-size: 96px;
+        text-align: center;
+        color: white;
+        opacity: 50%;
+        margin: 0;
+    }
+
+    .charactor404 {
+        width: 30%;
+        display: block;
+        margin: 0px auto 0;
+    }
+
+    .allbutton {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        margin: 26px;
+    }
+
+    .button {
+        display: block;
+        width: 30%;
+        padding: 5px;
+        border-radius: 46px;
+        background: linear-gradient(120deg,
+                #0024ff,
+                #ff0000,
+                #ff4b00,
+                #0024ff);
+    }
+
+    .button a {
+        display: block;
+        width: 100%;
+        padding: 20px 20px;
+        border-radius: 46px;
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: 0.15em;
+        color: #fdfdfd;
+        box-sizing: border-box;
+        background: linear-gradient(to top, #CD0000 0%, #000000 100%);
+        text-decoration: none;
+    }
 }
 
-/* 流动式动画 */
-@keyframes borderFlow {
-    0% {
-        background-position: 0% 50%;
+/* 手机响应式变化 */
+@media screen and (max-width:720px) {
+    .error {
+        font-size: 100px;
+        text-align: center;
+        color: white;
+        opacity: 50%;
+        margin: 0;
     }
 
-    100% {
-        background-position: 200% 50%;
-    }
-}
-
-@keyframes borderGlow {
-    0% {
-        box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+    .number {
+        font-size: 64px;
+        text-align: center;
+        color: white;
+        opacity: 50%;
+        margin: 0;
     }
 
-    50% {
-        box-shadow: 0 0 28px rgba(255, 80, 80, 0.9);
+    .charactor404 {
+        width: 30%;
+        display: block;
+        margin: 0px auto 0;
     }
 
-    100% {
-        box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+    .allbutton {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin: 26px;
     }
+
+    .button {
+        display: block;
+        width: 45%;
+        padding: 5px;
+        border-radius: 46px;
+        background: linear-gradient(120deg,
+                #0024ff,
+                #ff0000,
+                #ff4b00,
+                #0024ff);
+    }
+
+    .button a {
+        display: block;
+        width: 100%;
+        padding: 20px 20px;
+        border-radius: 46px;
+        text-align: center;
+        font-size: 8px;
+        letter-spacing: 0.15em;
+        color: #fdfdfd;
+        box-sizing: border-box;
+        background: linear-gradient(to top, #CD0000 0%, #000000 100%);
+        text-decoration: none;
+    }
+
 }
