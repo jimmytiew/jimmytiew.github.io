@@ -232,6 +232,8 @@ footer {
 
 /* 手机响应式变化 */
 @media screen and (max-width:720px) {
+
+    /* Header */
     .menu-toggle {
         display: block;
         color: white;
@@ -301,5 +303,7 @@ footer {
     .quote-mobile {
         margin-top: 20px;
     }
+
+    /* Footer */
 
 }

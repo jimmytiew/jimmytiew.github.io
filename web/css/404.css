@@ -1,5 +1,5 @@
 .error {
-    font-size: 200px;
+    font-size: 60px;
     text-align: center;
     color: white;
     opacity: 50%;
@@ -7,7 +7,7 @@
 }
 
 .number {
-    font-size: 128px;
+    font-size: 24px;
     text-align: center;
     color: white;
     opacity: 50%;
