@@ -54,7 +54,7 @@ p {
 .phone {
     display: flex;
     justify-content: center;
-    gap: 141px;
+    gap: 55px;
     flex-wrap: wrap;
 }
 
@@ -67,13 +67,17 @@ p {
 }
 
 .phone-card {
-    width: 292px;
-    height: 509px;
+    width: 357px;
+    height: 559px;
     padding: 20px 20px;
     background: #644F4F;
     border-radius: 43px;
     text-align: center;
     position: relative;
+}
+
+.phone-card img {
+    margin-top: 20px
 }
 
 .button {
