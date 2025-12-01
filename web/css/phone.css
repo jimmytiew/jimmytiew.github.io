@@ -63,6 +63,7 @@ p {
     border-radius: 46px;
     padding: 5px;
     background: linear-gradient(90deg, #000399, #FF0000);
+    box-shadow: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
     ;
 }
 
