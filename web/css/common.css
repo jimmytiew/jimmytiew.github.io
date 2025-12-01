@@ -207,3 +207,99 @@ footer {
 .atcontent p {
     color: black;
 }
+
+.phoneview {
+    display: none;
+}
+
+.menu-toggle {
+    position: relative;
+    left: 280px;
+    top: 10px;
+    font-size: 3rem;
+    cursor: pointer;
+    display: none;
+    z-index: 1001;
+}
+
+.menu1 {
+    display: flex;
+    gap: 10px;
+}
+
+/* 平板响应式变化 */
+@media screen and (max-width:1080px) {}
+
+/* 手机响应式变化 */
+@media screen and (max-width:720px) {
+    .menu-toggle {
+        display: block;
+        color: white;
+
+    }
+
+    .phoneview {
+        display: flex;
+        background: linear-gradient(to right,
+                #000000 29%,
+                #C30007 100%);
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .menu1 {
+        display: none;
+        flex-direction: column;
+        background: linear-gradient(to right,
+                #000000 29%,
+                #C30007 100%);
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        padding-top: 5rem;
+        text-align: center;
+        z-index: 1000;
+    }
+
+    .menu1.active {
+        display: flex;
+    }
+
+    .menu1 .menu-item>a {
+        font-size: 20px;
+        text-decoration: none;
+        padding: 10px 0;
+        display: block;
+        color: white;
+    }
+
+    .menu1 .submenu {
+        display: none;
+        position: static;
+        width: 100%;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .menu1 .submenu a {
+        display: block;
+        text-align: center;
+        padding: 5px 0;
+        font-size: 16px;
+        opacity: 0.85;
+        color: white;
+    }
+
+    .menu1 .submenu.open {
+        display: block;
+    }
+
+    .quote-mobile {
+        margin-top: 20px;
+    }
+
+}
