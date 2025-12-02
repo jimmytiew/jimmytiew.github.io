@@ -340,6 +340,9 @@ footer {
         width: 100%;
         margin-top: 5px;
         text-align: center;
+        background: linear-gradient(to right,
+                #260000 0%,
+                #4d0003 100%);
     }
 
     .menu .submenu1 a {
@@ -361,6 +364,9 @@ footer {
         width: 100%;
         margin-top: 5px;
         text-align: center;
+        background: linear-gradient(to right,
+                #1c0000 0%,
+                #560003 100%);
     }
 
     .menu .submenu2 a {
@@ -382,6 +388,9 @@ footer {
         width: 100%;
         margin-top: 5px;
         text-align: center;
+        background: linear-gradient(to right,
+                #1c0000 0%,
+                #5b0003 100%);
     }
 
     .menu .submenu3 a {
