@@ -62,6 +62,7 @@
 
 .second-section-image {
     display: flex;
+    overflow-x: hidden;
 }
 
 .box {
