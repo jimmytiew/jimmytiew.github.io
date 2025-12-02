@@ -9,34 +9,41 @@ body {
     background-color: #151515;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: white;
+}
+
 h1 {
     font-size: 64px;
-    color: white;
+
 }
 
 h2 {
     font-size: 48px;
-    color: white;
+
 }
 
 h3 {
     font-size: 36px;
-    color: white;
+
 }
 
 h4 {
     font-size: 32px;
-    color: white;
+
 }
 
 h5 {
     font-size: 24px;
-    color: white;
+
 }
 
 p {
     font-size: 16px;
-    color: white;
     font-family: Inter;
     line-height: 35px;
 }
@@ -167,33 +174,50 @@ li {
             #b80006 100%);
 }
 
-/* card */
-.borderbox {
-    border-radius: 46px;
-    background: linear-gradient(45deg, #000399, #FF0000);
-    box-shadow: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
-    padding: 5px;
-    align-items: center;
-    width: 45%;
+/* box */
+.gradient-card {
+    position: relative;
+    display: inline-block;
     text-decoration: none;
+    border-radius: 20px;
+    padding: 3px;
+    background: linear-gradient(135deg, #0000ff, #800080, #ff0000);
+
 }
 
-.box {
-    background-color: #644F4F;
+.gradient-card-inner {
+    width: 100%;
+    height: 100%;
+    background: #4a403d;
+    border-radius: 17px;
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    border-radius: 40px;
-    padding: 18px;
     align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
+.gradient-card-inner img {
+    max-width: 80%;
+    max-height: 70%;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.gradient-card-inner h3 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    text-align: center;
+}
 
 /* button */
 .button {
     display: block;
     margin: 40px auto 0;
-    width: 30%;
     padding: 5px;
     border-radius: 46px;
     background: linear-gradient(120deg,
@@ -216,7 +240,6 @@ li {
     background: linear-gradient(to top, #CD0000 0%, #000000 100%);
     text-decoration: none;
 }
-
 
 /* footer */
 footer {
