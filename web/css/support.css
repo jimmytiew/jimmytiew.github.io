@@ -1,20 +1,20 @@
 /* hero-section */
 .herotittle h1 {
-    position: absolute;
-    bottom: 260px;
+    position: relative;
+    bottom: 220px;
     margin: 0px 0px 0px 54px;
 }
 
 .herotittle h5 {
-    position: absolute;
-    bottom: 240px;
+    position: relative;
+    bottom: 220px;
     margin: 0px 0px 0px 54px;
 }
 
 /* search-bar */
 .searchingarea {
     display: flex;
-    margin: 50px 54px;
+    margin: 20px 54px 50px 54px;
 }
 
 .searchbar {

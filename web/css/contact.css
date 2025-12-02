@@ -14,7 +14,6 @@
     position: absolute;
     left: 54px;
     bottom: 110px;
-    color: #ffffff;
 }
 
 .herotitle h1 {
@@ -36,7 +35,6 @@
 
 .first-section-test {
     width: 50%;
-    color: white;
 }
 
 .first-section-test h5 {
@@ -58,7 +56,6 @@
 }
 
 .second-section h1 {
-    color: white;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -80,7 +77,6 @@
     background-image: url(../images/contact\ location.jpg);
     padding: 85px;
     border-radius: 40px;
-    color: white;
     text-align: center;
 }
 
@@ -88,7 +84,6 @@
     background-image: url(../images/contact\ phone\ number.jpg);
     padding: 85px;
     border-radius: 40px;
-    color: white;
     text-align: center;
 }
 
@@ -96,7 +91,6 @@
     background-image: url(../images/contact\ email.jpg);
     padding: 85px;
     border-radius: 40px;
-    color: white;
     text-align: center;
 }
 
