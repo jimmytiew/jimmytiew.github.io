@@ -226,21 +226,14 @@ footer {
     color: black;
 }
 
-.phoneview {
-    display: none;
-}
-
 .menu-toggle {
-    position: relative;
-    left: 280px;
-    top: 10px;
     font-size: 3rem;
     cursor: pointer;
     display: none;
     z-index: 1001;
 }
 
-.menu1 {
+.menu {
     display: flex;
     gap: 10px;
 }
@@ -250,23 +243,16 @@ footer {
     .menu-toggle {
         display: block;
         color: white;
-        position: relative;
-        left: 840px;
-        top: 10px;
     }
 
-    .phoneview {
+    .navbar {
         display: flex;
         background: linear-gradient(to right,
                 #000000 29%,
                 #C30007 100%);
     }
 
-    .navbar {
-        display: none;
-    }
-
-    .menu1 {
+    .menu {
         display: none;
         flex-direction: column;
         background: linear-gradient(to right,
@@ -282,11 +268,11 @@ footer {
         z-index: 1000;
     }
 
-    .menu1.active {
+    .menu.active {
         display: flex;
     }
 
-    .menu1 .menu-item>a {
+    .menu .menu-item>a {
         font-size: 20px;
         text-decoration: none;
         padding: 10px 0;
@@ -294,7 +280,7 @@ footer {
         color: white;
     }
 
-    .menu1 .submenu {
+    .menu .submenu1 {
         display: none;
         position: static;
         width: 100%;
@@ -302,7 +288,7 @@ footer {
         text-align: center;
     }
 
-    .menu1 .submenu a {
+    .menu .submenu1 a {
         display: block;
         text-align: center;
         padding: 5px 0;
@@ -311,7 +297,49 @@ footer {
         color: white;
     }
 
-    .menu1 .submenu.open {
+    .menu .submenu1.open {
+        display: block;
+    }
+
+    .menu .submenu2 {
+        display: none;
+        position: static;
+        width: 100%;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .menu .submenu2 a {
+        display: block;
+        text-align: center;
+        padding: 5px 0;
+        font-size: 16px;
+        opacity: 0.85;
+        color: white;
+    }
+
+    .menu .submenu2.open {
+        display: block;
+    }
+
+    .menu .submenu3 {
+        display: none;
+        position: static;
+        width: 100%;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .menu .submenu3 a {
+        display: block;
+        text-align: center;
+        padding: 5px 0;
+        font-size: 16px;
+        opacity: 0.85;
+        color: white;
+    }
+
+    .menu .submenu3.open {
         display: block;
     }
 
@@ -352,23 +380,16 @@ footer {
     .menu-toggle {
         display: block;
         color: white;
-        position: relative;
-        left: 280px;
-        top: 10px;
     }
 
-    .phoneview {
+    .navbar {
         display: flex;
         background: linear-gradient(to right,
                 #000000 29%,
                 #C30007 100%);
     }
 
-    .navbar {
-        display: none;
-    }
-
-    .menu1 {
+    .menu {
         display: none;
         flex-direction: column;
         background: linear-gradient(to right,
@@ -384,11 +405,11 @@ footer {
         z-index: 1000;
     }
 
-    .menu1.active {
+    .menu.active {
         display: flex;
     }
 
-    .menu1 .menu-item>a {
+    .menu .menu-item>a {
         font-size: 20px;
         text-decoration: none;
         padding: 10px 0;
@@ -396,7 +417,7 @@ footer {
         color: white;
     }
 
-    .menu1 .submenu {
+    .menu .submenu1 {
         display: none;
         position: static;
         width: 100%;
@@ -404,7 +425,7 @@ footer {
         text-align: center;
     }
 
-    .menu1 .submenu a {
+    .menu .submenu1 a {
         display: block;
         text-align: center;
         padding: 5px 0;
@@ -413,7 +434,49 @@ footer {
         color: white;
     }
 
-    .menu1 .submenu.open {
+    .menu .submenu1.open {
+        display: block;
+    }
+
+    .menu .submenu2 {
+        display: none;
+        position: static;
+        width: 100%;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .menu .submenu2 a {
+        display: block;
+        text-align: center;
+        padding: 5px 0;
+        font-size: 16px;
+        opacity: 0.85;
+        color: white;
+    }
+
+    .menu .submenu2.open {
+        display: block;
+    }
+
+    .menu .submenu3 {
+        display: none;
+        position: static;
+        width: 100%;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .menu .submenu3 a {
+        display: block;
+        text-align: center;
+        padding: 5px 0;
+        font-size: 16px;
+        opacity: 0.85;
+        color: white;
+    }
+
+    .menu .submenu3.open {
         display: block;
     }
 
