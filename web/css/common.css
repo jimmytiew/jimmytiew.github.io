@@ -74,6 +74,12 @@ li {
     font-family: "Audiowide", sans-serif;
 }
 
+.menu-toggle {
+    cursor: pointer;
+    display: none;
+    z-index: 1001;
+}
+
 .menu>a,
 .menu-item>a {
     text-decoration: none;
