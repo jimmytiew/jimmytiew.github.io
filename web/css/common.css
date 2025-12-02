@@ -47,6 +47,8 @@ li {
     font-family: "Inter", sans-serif;
 }
 
+/* header */
+
 .navbar {
     height: 80px;
     position: sticky;
@@ -283,7 +285,6 @@ footer {
     display: none;
     z-index: 1001;
 }
-
 
 /* 平板响应式变化 */
 @media screen and (max-width:1080px) {
