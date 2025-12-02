@@ -1,12 +1,12 @@
 /* hero-section */
 .herotittle h1 {
-    position: absolute;
+    position: fixed;
     bottom: 260px;
     margin: 0px 0px 0px 54px;
 }
 
 .herotittle h5 {
-    position: absolute;
+    position: fixed;
     bottom: 240px;
     margin: 0px 0px 0px 54px;
 }
