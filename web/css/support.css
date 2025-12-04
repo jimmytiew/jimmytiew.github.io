@@ -82,43 +82,29 @@
 }
 
 .boxgradient {
-    border-radius: 46px;
-    background: linear-gradient(45deg, #000399, #FF0000);
-    padding: 5px;
-    align-items: center;
     width: 45.5%;
     aspect-ratio: 1/0.6;
 }
 
 .pscontentbox {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 40px;
     background-color: black;
-    padding: 18px;
     align-items: center;
     aspect-ratio: 1/0.7;
 }
 
-.pscontentboxone {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 40px;
+.pscontentboxwhite {
     background-color: rgb(255, 255, 255);
-    padding: 18px;
     align-items: center;
     aspect-ratio: 1/0.7;
 }
 
-.pscontentboxone h4 {
+.pscontentboxwhite h4 {
     margin: 30px;
     text-align: center;
     color: #000;
 }
 
-.pscontentboxone li {
+.pscontentboxwhite li {
     color: #000;
 }
 
