@@ -21,7 +21,7 @@
     display: flex;
     justify-content: space-around;
     gap: 10px;
-    border-radius: 46px;
+    border-radius: 20px;
     background-color: black;
     padding: 10px;
     width: 25%;
@@ -48,7 +48,7 @@
     height: 4px;
     background: #8F0256;
     margin: auto 0px auto auto;
-    border-radius: 46px;
+    border-radius: 20px;
 }
 
 /* product-support */
@@ -99,18 +99,29 @@
 }
 
 .pscontentboxwhite h4 {
-    margin: 30px;
+    margin: 20px;
     text-align: center;
     color: #000;
 }
 
-.pscontentboxwhite li {
+.pscontentboxwhite p {
     color: #000;
 }
 
 .pscontentbox h4 {
-    margin: 30px;
+    margin: 20px;
     text-align: center;
+}
+
+.issue p {
+    margin: 0px;
+}
+
+.issueline {
+    width: 100%;
+    height: 1px;
+    background: #8F0256;
+    border-radius: 20px;
 }
 
 /* still-need-help */
@@ -143,30 +154,21 @@
 
 .shippingimage {
     background-image: url(../images/shippingimage.jpg);
-    background-size: 980px;
+    background-size: 990px;
     background-position: 50%;
     aspect-ratio: 1/0.8;
 }
 
 .snhboxgradient {
+    display: flex;
     position: relative;
     top: -60px;
-    border-radius: 46px;
-    background: linear-gradient(45deg, #000399, #FF0000);
-    padding: 5px;
-    align-items: center;
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
 .snhboxtittle {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 40px;
     background-color: black;
-    padding: 8px;
-    align-items: center;
 }
 
 .snhboxtittle h4 {
@@ -188,7 +190,7 @@
     height: 4px;
     background: #8F0256;
     margin: auto 0px auto auto;
-    border-radius: 46px;
+    border-radius: 20px;
 }
 
 .questionandanswer {
