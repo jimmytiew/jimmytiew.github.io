@@ -207,7 +207,7 @@ li {
     display: inline-block;
     text-decoration: none;
     border-radius: 20px;
-    padding: 3px;
+    padding: 5px;
     background: linear-gradient(135deg, #0000ff, #800080, #ff0000);
 
 }
