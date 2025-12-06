@@ -1,16 +1,3 @@
-/* hero-section */
-.herotittle h1 {
-    position: relative;
-    bottom: 220px;
-    margin: 0px 0px 0px 54px;
-}
-
-.herotittle h5 {
-    position: relative;
-    bottom: 220px;
-    margin: 0px 0px 0px 54px;
-}
-
 /* search-bar */
 .searchingarea {
     display: flex;

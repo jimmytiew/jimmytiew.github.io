@@ -1,26 +1,3 @@
-.herosection {
-    position: relative;
-    width: 100%;
-}
-
-.herosection img {
-    width: 100%;
-    display: block;
-    object-fit: cover;
-    opacity: 0.5;
-}
-
-.herotitle {
-    position: absolute;
-    left: 54px;
-    bottom: 110px;
-}
-
-.herotitle h1 {
-    bottom: 260px;
-    margin: 0 0 0 54;
-}
-
 .first-section {
     display: flex;
     align-items: center;

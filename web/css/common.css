@@ -176,6 +176,31 @@ li {
             #b80006 100%);
 }
 
+/* herosection */
+.herosection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 523px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.herotittle {
+    margin: 250px 0 0 0;
+}
+
+.herotittle h1 {
+    margin: 0 54px;
+}
+
+.herotittle h5 {
+    margin: 0 54px;
+}
+
 /* box */
 .gradient-card {
     position: relative;
