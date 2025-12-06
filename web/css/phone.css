@@ -71,10 +71,6 @@ p {
     position: relative;
 }
 
-.phone-card img {
-    margin-top: 10px
-}
-
 .button {
     width: 120px;
     padding: 3px;
@@ -109,13 +105,9 @@ p {
 }
 
 .tablet-card {
-    width: 370px;
-    height: 580px;
+    width: 413px;
+    height: 610px;
     border-radius: 43px;
     text-align: center;
     position: relative;
-}
-
-.tablet-card img {
-    margin-top: 10px;
 }
