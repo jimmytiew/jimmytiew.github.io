@@ -61,45 +61,27 @@ p {
     position: relative;
     border-radius: 46px;
     padding: 5px;
-    background: linear-gradient(90deg, #000399, #FF0000);
-    box-shadow: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
-    ;
 }
 
 .phone-card {
-    width: 260px;
-    height: 530px;
-    padding: 20px 20px;
-    background: #644F4F;
+    width: 301px;
+    height: 600px;
     border-radius: 43px;
     text-align: center;
     position: relative;
 }
 
 .phone-card img {
-    margin-top: 20px
+    margin-top: 10px
 }
 
 .button {
-    margin: 38px auto 0 auto;
-    width: 35%;
+    width: 120px;
     padding: 3px;
-    border-radius: 46px;
-    background: linear-gradient(90deg, #000399, #FF0000);
 }
 
 .button a {
-    display: block;
-    width: 100%;
     padding: 15px 20px;
-    border-radius: 46px;
-    text-align: center;
-    font-size: 16px;
-    letter-spacing: 0.15em;
-    color: #fdfdfd;
-    box-sizing: border-box;
-    background: linear-gradient(to top, #CD0000 0%, #000000 100%);
-    text-decoration: none;
 }
 
 /* tablet section */
@@ -123,21 +105,17 @@ p {
     position: relative;
     border-radius: 46px;
     padding: 5px;
-    background: linear-gradient(90deg, #000399, #FF0000);
-    box-shadow: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
     ;
 }
 
 .tablet-card {
     width: 370px;
     height: 580px;
-    padding: 20px 20px;
-    background: #644F4F;
     border-radius: 43px;
     text-align: center;
     position: relative;
 }
 
 .tablet-card img {
-    margin-top: 30px;
+    margin-top: 10px;
 }
