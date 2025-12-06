@@ -47,7 +47,7 @@ a.view-all-gear {
 .fourbox {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 90px;
     flex-wrap: wrap;
     margin-top: 55px;
 }
