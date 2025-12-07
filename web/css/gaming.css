@@ -1,0 +1,82 @@
+.mice-section {
+    margin: 100px 54px;
+}
+
+.mice-title {
+    text-align: center;
+    margin: 0 0 100px 0;
+}
+
+
+.mice {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+.mice-cardborder {
+    flex: 0 0 calc(33.333% - 60px);
+    position: relative;
+    border-radius: 46px;
+    padding: 5px;
+}
+
+.mice-card {
+    width: 100%;
+    height: 550px;
+    border-radius: 43px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.mice-card img {
+    margin-top: 30px;
+}
+
+
+.img-box {
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-box img {
+    max-height: 500px;
+}
+
+
+.title-box,
+.info-box .title {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.price-box,
+.info-box .price {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button {
+    width: 120px;
+    padding: 3px;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.button a {
+    padding: 15px 20px;
+}
