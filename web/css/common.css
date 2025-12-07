@@ -580,6 +580,10 @@ footer {
         line-height: 1.4;
     }
 
+    li {
+        font-size: 10px;
+    }
+
     /* Header */
     .menu-toggle {
         display: block;
