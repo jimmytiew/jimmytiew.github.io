@@ -553,7 +553,7 @@ footer {
 }
 
 /* 手机响应式变化 */
-@media screen and (max-width:720px) {
+@media screen and (max-width:768px) {
 
     h1 {
         font-size: 40px;
