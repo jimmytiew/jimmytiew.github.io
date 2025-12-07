@@ -86,8 +86,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 385px;
-    height: 339px;
+    width: 97%;
+    height: 97%;
     border-radius: 20px;
     transform: rotateY(180deg);
 }
@@ -139,12 +139,17 @@
     font-size: 24px;
 }
 
+.third-text {
+    display: flex;
+    margin: 0 70px;
+}
+
 .third-text textarea {
-    width: 82%;
+    width: 100%;
     height: 200px;
     background-color: #4C4C4C;
     padding: 20px;
-    margin: 20px 90px;
+    margin: 20px;
     border-radius: 40px;
     border: 0;
     font-size: 24px;
@@ -254,9 +259,5 @@
 
     .boxsection1 {
         height: 300px;
-    }
-
-    .third-text textarea {
-        width: 77%;
     }
 }
