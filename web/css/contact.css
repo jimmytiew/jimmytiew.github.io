@@ -260,4 +260,45 @@
     .boxsection1 {
         height: 300px;
     }
+
+    .name input {
+        font-size: 18px;
+    }
+
+    .button a {
+        font-size: 13px;
+    }
+
+    .second-button a {
+        font-size: 13px;
+    }
+
+    .back h5 {
+        font-size: 18px;
+    }
+
+    .fouth-section p {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .boxsection1 {
+        height: 230px;
+    }
+
+    .gradient-card-inner {
+        width: 95%;
+        height: 96%;
+    }
+
+    .back {
+        width: 95%;
+        height: 96%;
+    }
+
+    .back h5 {
+        font-size: 15px;
+    }
+
 }
