@@ -296,6 +296,17 @@ li {
     margin: 95px 0 0 95px;
 }
 
+.tittlebox img {
+    display: none;
+    flex: 0 0 auto;
+    width: 100%;
+    background: linear-gradient(90deg, #000399, #FF0000);
+    box-shadow: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
+    border-radius: 46px;
+    padding: 5px;
+    text-decoration: none;
+}
+
 .tittlebox h1 {
     color: #000000;
     margin: 0;
@@ -315,6 +326,11 @@ li {
     border-radius: 46px;
     padding: 5px;
     text-decoration: none;
+}
+
+.sectionbutton4 {
+    width: 60%;
+    margin: 0;
 }
 
 
@@ -394,6 +410,8 @@ footer {
 
 /* 平板响应式变化 */
 @media screen and (max-width:1080px) {
+
+    /* 菜单 */
     .menu-toggle {
         display: block;
         color: white;
@@ -509,29 +527,50 @@ footer {
     .quote-mobile {
         margin-top: 20px;
     }
+
+    /* section4box */
+    .tittlebox h1 {
+        font-size: 48px;
+    }
+
+    .tittlebox {
+        margin: 55px 0 0 55px;
+    }
+
+    .pcborder {
+        margin: 55px;
+    }
+
+    .teamwhitebox {
+        height: 570px;
+    }
+
+    .teambox {
+        height: 570px;
+    }
 }
 
 /* 手机响应式变化 */
 @media screen and (max-width:720px) {
 
     h1 {
-        font-size: 24px;
+        font-size: 40px;
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 32px;
     }
 
     h3 {
-        font-size: 15px;
+        font-size: 24px;
     }
 
     h4 {
-        font-size: 13px;
+        font-size: 20px;
     }
 
     h5 {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     p {
@@ -647,6 +686,42 @@ footer {
         margin-top: 20px;
     }
 
+    /* teambox */
+    .tittlebox {
+        margin: 55px;
+        text-align: center;
+    }
+
+    .tittlebox h1 {
+        font-size: 40px;
+    }
+
+    .pcborder {
+        margin: 55px;
+    }
+
+    .teamwhitebox {
+        height: 1000px;
+    }
+
+    .teambox {
+        height: 1000px;
+    }
+
+    .tittlebox img {
+        display: block;
+        margin: 20px auto;
+    }
+
+    .pcborder {
+        display: none;
+    }
+
+    .sectionbutton4 {
+        margin: 40px auto 0;
+    }
+
+
     /* Footer */
 
     .footercontentbox {
@@ -701,4 +776,6 @@ footer {
         width: 20px;
         height: 20px;
     }
+
+
 }
