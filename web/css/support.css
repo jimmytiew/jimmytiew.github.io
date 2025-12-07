@@ -152,7 +152,7 @@
     display: flex;
     position: relative;
     top: -60px;
-    width: 80%;
+    width: 85%;
     margin: auto;
 }
 
@@ -296,5 +296,10 @@
 
     .shippingimage {
         background-size: 590px;
+    }
+
+    /* faq */
+    .questionandanswer {
+        width: 100%;
     }
 }
