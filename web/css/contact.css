@@ -265,6 +265,10 @@
         font-size: 18px;
     }
 
+    .form-box {
+        margin: 35px;
+    }
+
     .button a {
         font-size: 13px;
     }
@@ -299,6 +303,38 @@
 
     .back h5 {
         font-size: 15px;
+    }
+
+    .name input {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .third-text textarea {
+        height: 150px;
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    .comment-form {
+        padding: 70px 10px;
+    }
+
+    .button {
+        margin-left: 80px;
+    }
+
+    .button a {
+        font-size: 9px;
+    }
+
+    .second-button {
+        margin-top: 20px;
+    }
+
+
+    .second-button a {
+        font-size: 9px;
     }
 
 }
