@@ -77,12 +77,14 @@
     background-color: black;
     align-items: center;
     aspect-ratio: 1/0.7;
+    padding: 40px;
 }
 
 .pscontentboxwhite {
     background-color: rgb(255, 255, 255);
     align-items: center;
     aspect-ratio: 1/0.7;
+    padding: 40px;
 }
 
 .pscontentboxwhite h4 {
@@ -213,4 +215,46 @@
 
 .answer.active {
     display: flex;
+}
+
+@media screen and (max-width:1080px) {
+
+    /* product-support */
+    .boxofsection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagebox {
+        width: 100%;
+        aspect-ratio: 1/0.5;
+    }
+
+    .boxgradient {
+        aspect-ratio: 1/1;
+    }
+
+    .pscontentbox {
+        aspect-ratio: 1/1;
+    }
+
+    .pscontentboxwhite {
+        aspect-ratio: 1/1;
+    }
+}
+
+@media screen and (max-width:720px) {
+
+    /* product-support */
+    .imagebox {
+        background-size: 390px;
+        background-position: 20%;
+        width: 100%;
+        aspect-ratio: 1/0.5;
+    }
+
+    .psgroup {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
 }
