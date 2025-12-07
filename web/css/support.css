@@ -245,7 +245,30 @@
 
 @media screen and (max-width:720px) {
 
+    /* search-bar */
+
+    .searchbar {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .sfhbar {
+        font-size: 10px;
+    }
+
+    .line {
+        display: none;
+    }
+
     /* product-support */
+    .pssection {
+        margin: 50px 54px 50px 54px;
+    }
+
+    .pstittle {
+        width: 100%;
+    }
+
     .imagebox {
         background-size: 390px;
         background-position: 20%;
@@ -256,5 +279,22 @@
     .psgroup {
         flex-wrap: wrap;
         gap: 10px;
+    }
+
+    /* still-need-help */
+    .snhsection {
+        margin: 50px 54px;
+    }
+
+    .linktopage {
+        flex-direction: column;
+    }
+
+    .warrantyimage {
+        background-size: 500px;
+    }
+
+    .shippingimage {
+        background-size: 590px;
     }
 }
