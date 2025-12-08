@@ -32,12 +32,10 @@ p {
 
 .herotitle h1 {
     bottom: 260px;
-    margin: 0 0 0 54;
 }
 
 .herotitle h5 {
     bottom: 240px;
-    margin: 0 0 0 54;
 }
 
 /* phone section */
@@ -101,7 +99,6 @@ p {
     position: relative;
     border-radius: 46px;
     padding: 5px;
-    ;
 }
 
 .tablet-card {
@@ -115,8 +112,16 @@ p {
 
 @media screen and (max-width:720px) {
 
+    .herotitle {
+        left: 30px;
+    }
+
+    .phone-title {
+        margin: 0 0 50px 0;
+    }
+
     .phone-section {
-        margin: 70px 30px;
+        margin: 50px 30px;
     }
 
     .phone-card {
@@ -125,7 +130,11 @@ p {
     }
 
     .tablet-section {
-        margin: 100px 30px;
+        margin: 50px 30px;
+    }
+
+    .tablet-section {
+        margin: 50px 30px;
     }
 
     .tablet-card {
