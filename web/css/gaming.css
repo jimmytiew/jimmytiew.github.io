@@ -169,7 +169,7 @@
 
 
 .keyboardimg-box {
-    height: 500px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -177,4 +177,5 @@
 
 .keyboardimg-box img {
     max-height: 100%;
+    text-align: center;
 }
