@@ -404,7 +404,7 @@ footer {
 }
 
 .menu-toggle {
-    font-size: 3rem;
+    font-size: 2rem;
     cursor: pointer;
     display: none;
     z-index: 1001;
@@ -424,6 +424,7 @@ footer {
         background: linear-gradient(to right,
                 #000000 29%,
                 #C30007 100%);
+        padding: 10px 40px;
     }
 
     .menu {
@@ -444,6 +445,11 @@ footer {
 
     .menu.active {
         display: flex;
+    }
+
+    .menu>a,
+    .menu-item>a {
+        font-size: 20px;
     }
 
     .menu .menu-item>a {
@@ -584,6 +590,10 @@ footer {
     }
 
     /* Header */
+    .logo img {
+        height: 60px;
+    }
+
     .menu-toggle {
         display: block;
         color: white;
