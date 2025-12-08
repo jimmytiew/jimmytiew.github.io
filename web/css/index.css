@@ -247,4 +247,9 @@ footer {
     .scrollsection {
         padding: 0;
     }
+
+    .tittle1 {
+        position: relative;
+        top: 30px;
+    }
 }
