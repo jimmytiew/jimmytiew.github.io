@@ -26,6 +26,7 @@
 .first-section-test p {
     width: 90%;
     margin-bottom: 0;
+    line-height: 2.5;
 }
 
 .threebox-container {
@@ -210,6 +211,7 @@
 .fouth-section p {
     width: 40%;
     text-align: center;
+    line-height: 2.5;
 }
 
 .second-button {
