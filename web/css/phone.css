@@ -133,8 +133,9 @@ p {
         margin: 50px 30px;
     }
 
-    .tablet-section {
-        margin: 50px 30px;
+    .tablet-title {
+        text-align: center;
+        margin: 0 0 50px 0;
     }
 
     .tablet-card {
