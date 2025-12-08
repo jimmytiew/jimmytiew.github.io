@@ -209,14 +209,22 @@ footer {
     /* header */
     .herotittle1 {
         position: relative;
-        bottom: 250px;
+        bottom: 170px;
         margin: 0px 0px 0px 54px;
     }
 
+    a.view-all-gear {
+        font-size: 13px;
+        margin: 0;
+    }
 
     .sponsorlogo {
         grid-gap: 40px;
         top: 100px;
+    }
+
+    .sponsorlogo img {
+        width: 40%;
     }
 
     .tittlebox {
@@ -224,7 +232,7 @@ footer {
     }
 
     .button {
-        width: 50%;
+        width: 90%;
     }
 
     footer {
@@ -233,6 +241,15 @@ footer {
 
     .boxsection1 {
         width: 607px;
-        height: 503px;
+        height: 403px;
+    }
+
+    .scrollsection {
+        padding: 0;
+    }
+
+    .tittle1 {
+        position: relative;
+        top: 30px;
     }
 }
