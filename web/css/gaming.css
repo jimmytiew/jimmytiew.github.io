@@ -1,3 +1,4 @@
+/* mice section */
 .mice-section {
     margin: 100px 54px;
 }
@@ -39,20 +40,20 @@
 }
 
 
-.img-box {
+.miceimg-box {
     height: 550px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.img-box img {
+.miceimg-box img {
     max-height: 500px;
 }
 
 
-.title-box,
-.info-box .title {
+.micetitle-box,
+.miceinfo-box .title {
     height: 80px;
     display: flex;
     align-items: center;
@@ -61,8 +62,8 @@
 }
 
 
-.price-box,
-.info-box .price {
+.miceprice-box,
+.miceinfo-box .miceprice {
     height: 40px;
     display: flex;
     align-items: center;
@@ -81,7 +82,7 @@
     padding: 15px 20px;
 }
 
-
+/* mice banner section */
 .micesection.banner {
     position: relative;
     width: 100%;
@@ -107,3 +108,5 @@
 .micebanner-title h5 {
     margin: 0;
 }
+
+/* keyboard section */
