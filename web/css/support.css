@@ -265,11 +265,15 @@
 
     /* product-support */
     .pssection {
-        margin: 50px 30px 50px 30px;
+        margin: 50px 30px;
     }
 
     .pstittle {
         width: 100%;
+    }
+
+    .boxofsection {
+        margin: 18px auto 0px auto;
     }
 
     .imagebox {
