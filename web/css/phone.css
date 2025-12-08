@@ -111,3 +111,25 @@ p {
     text-align: center;
     position: relative;
 }
+
+
+@media screen and (max-width:720px) {
+
+    .phone-section {
+        margin: 70px 30px;
+    }
+
+    .phone-card {
+        width: 370px;
+        height: 500px;
+    }
+
+    .tablet-section {
+        margin: 100px 30px;
+    }
+
+    .tablet-card {
+        width: 370px;
+        height: 470px;
+    }
+}
