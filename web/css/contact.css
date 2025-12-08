@@ -412,6 +412,10 @@
         padding: 15px 0;
     }
 
+    .fouth-section {
+        min-height: 300px;
+    }
+
     .fouth-section p {
         width: 80%;
     }
