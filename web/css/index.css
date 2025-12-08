@@ -204,12 +204,12 @@ footer {
     }
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:425px) {
 
     /* header */
     .herotittle1 {
         position: relative;
-        bottom: 250px;
+        bottom: 200px;
         margin: 0px 0px 0px 54px;
     }
 
@@ -219,12 +219,16 @@ footer {
         top: 100px;
     }
 
+    .sponsorlogo img {
+        width: 40%;
+    }
+
     .tittlebox {
         width: 100%;
     }
 
     .button {
-        width: 50%;
+        width: 90%;
     }
 
     footer {
@@ -233,6 +237,10 @@ footer {
 
     .boxsection1 {
         width: 607px;
-        height: 503px;
+        height: 403px;
+    }
+
+    .scrollsection {
+        padding: 0;
     }
 }
