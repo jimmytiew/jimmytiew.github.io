@@ -246,6 +246,9 @@
 @media screen and (max-width:720px) {
 
     /* search-bar */
+    .searchingarea {
+        margin: 20px 30px 50px 30px;
+    }
 
     .searchbar {
         justify-content: space-between;
@@ -262,7 +265,7 @@
 
     /* product-support */
     .pssection {
-        margin: 50px 54px 50px 54px;
+        margin: 50px 30px 50px 30px;
     }
 
     .pstittle {
@@ -282,7 +285,7 @@
 
     /* still-need-help */
     .snhsection {
-        margin: 50px 54px;
+        margin: 50px 30px;
     }
 
     .linktopage {
@@ -298,6 +301,10 @@
     }
 
     /* faq */
+    .faqsection {
+        margin: 0px 30px;
+    }
+
     .questionandanswer {
         width: 100%;
     }
