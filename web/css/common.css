@@ -529,6 +529,13 @@ footer {
         margin-top: 20px;
     }
 
+
+    /* button */
+    .button a {
+        padding: 20px 10px;
+        font-size: 13px;
+    }
+
     /* section4box */
     .tittlebox h1 {
         font-size: 48px;
@@ -550,6 +557,8 @@ footer {
         height: 570px;
     }
 }
+
+
 
 /* 手机响应式变化 */
 @media screen and (max-width:720px) {
@@ -712,14 +721,6 @@ footer {
 
     .pcborder {
         margin: 55px;
-    }
-
-    .teamwhitebox {
-        height: 750px;
-    }
-
-    .teambox {
-        height: 750px;
     }
 
     .tittlebox img {
