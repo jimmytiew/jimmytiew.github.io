@@ -33,6 +33,7 @@
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
+    justify-content: space-between;
 }
 
 .mice-card img {
@@ -41,25 +42,42 @@
 
 
 .miceimg-box {
-    height: 550px;
+    height: 230px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .miceimg-box img {
-    max-height: 500px;
+    max-height: 100%;
 }
 
 
-.micetitle-box,
-.miceinfo-box .title {
+.micetitle-box {
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
+
+.miceinfo-box {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.micetitle {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
 
 
 .miceprice-box,
@@ -110,3 +128,53 @@
 }
 
 /* keyboard section */
+.keyboard-section {
+    margin: 100px 54px;
+}
+
+.keyboard-title {
+    text-align: center;
+    margin: 0 0 60px 0;
+}
+
+.keyboard {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.keyboard-cardborder {
+    flex: 1 1 calc(50% - 60px);
+    position: relative;
+    border-radius: 46px;
+    padding: 5px;
+}
+
+.keyboard-card {
+    width: 100%;
+    height: 550px;
+    border-radius: 43px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.keyboard-card img {
+    margin-top: 30px;
+}
+
+
+.keyboardimg-box {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keyboardimg-box img {
+    max-height: 100%;
+}
