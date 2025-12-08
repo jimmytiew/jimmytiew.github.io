@@ -51,6 +51,8 @@
 .gradient-card-inner {
     background: none;
     background-image: url(../images/contact\ location.jpg);
+    background-size: cover;
+    background-position: center;
     width: 97%;
     height: 97%;
 }
