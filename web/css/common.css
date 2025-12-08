@@ -710,11 +710,11 @@ footer {
     }
 
     .teamwhitebox {
-        height: 1000px;
+        height: 750px;
     }
 
     .teambox {
-        height: 1000px;
+        height: 750px;
     }
 
     .tittlebox img {
@@ -728,6 +728,12 @@ footer {
 
     .sectionbutton4 {
         margin: 40px auto 0;
+    }
+
+    /* button */
+    .button a {
+        padding: 20px 10px;
+        font-size: 13px;
     }
 
 
