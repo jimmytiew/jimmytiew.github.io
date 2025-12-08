@@ -700,6 +700,14 @@ footer {
         margin: 70px 0 0 0;
     }
 
+    .herotittle h1 {
+        margin: 0 30px;
+    }
+
+    .herotittle h5 {
+        margin: 0 30px;
+    }
+
     /* teambox */
     .tittlebox {
         margin: 15px;
