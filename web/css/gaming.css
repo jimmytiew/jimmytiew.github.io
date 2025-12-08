@@ -80,3 +80,30 @@
 .button a {
     padding: 15px 20px;
 }
+
+
+.micesection.banner {
+    position: relative;
+    width: 100%;
+    height: 401px;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.micebanner-title {
+    position: absolute;
+    left: 54px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60%;
+    color: white;
+}
+
+.micebanner-title h1 {
+    margin: 0 0 20px 0;
+}
+
+.micebanner-title h5 {
+    margin: 0;
+}
