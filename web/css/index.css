@@ -204,15 +204,19 @@ footer {
     }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:720px) {
 
     /* header */
     .herotittle1 {
         position: relative;
-        bottom: 200px;
+        bottom: 170px;
         margin: 0px 0px 0px 54px;
     }
 
+    a.view-all-gear {
+        font-size: 13px;
+        margin: 0;
+    }
 
     .sponsorlogo {
         grid-gap: 40px;
