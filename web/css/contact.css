@@ -1,3 +1,7 @@
+.herosection {
+    background-image: url('../images/contact.png');
+}
+
 .first-section {
     display: flex;
     align-items: center;
@@ -44,7 +48,7 @@
     justify-content: center;
     flex-direction: row;
     gap: 110px;
-    margin-top: 5%;
+    margin: 15px;
     perspective: 1000px;
 }
 
@@ -67,7 +71,7 @@
 
 .boxsection1 {
     width: 80%;
-    height: 339px;
+    height: 320px;
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
@@ -103,7 +107,7 @@
     background: linear-gradient(90deg, #000399, #FF0000);
     box-shadow: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
     border-radius: 46px;
-    margin: 50px;
+    margin: 54px;
     padding: 5px;
 }
 
@@ -128,7 +132,7 @@
 .name input {
     width: 95%;
     height: 40px;
-    padding: 10px;
+    padding: 10px 20px;
     margin: 2%;
     background-color: #4C4C4C;
     border-radius: 40px;
