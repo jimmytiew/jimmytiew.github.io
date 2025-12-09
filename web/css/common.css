@@ -110,9 +110,7 @@ li {
     position: relative;
 }
 
-.submenu1,
-.submenu2,
-.submenu3 {
+.have-submenu {
     position: absolute;
     top: 100%;
     left: 50%;
@@ -122,9 +120,7 @@ li {
     z-index: 99;
 }
 
-.submenu1 a,
-.submenu2 a,
-.submenu3 a {
+.have-submenu a {
     display: block;
     padding: 8px 18px;
     font-size: 16px;
@@ -134,19 +130,15 @@ li {
     white-space: nowrap;
 }
 
-.submenu1 a:hover,
-.submenu2 a:hover,
-.submenu3 a:hover {
+.have-submenu a:hover {
     text-shadow: 0 0 6px rgba(255, 255, 255, 0.7);
 }
 
-.menu-item:hover .submenu1,
-.menu-item:hover .submenu2,
-.menu-item:hover .submenu3 {
+.menu-item:hover .have-submenu {
     display: block;
 }
 
-.submenu1 {
+.about {
     position: absolute;
     left: -15px;
     min-width: 160px;
@@ -157,7 +149,7 @@ li {
 }
 
 
-.submenu2 {
+.product {
     position: absolute;
     left: -15px;
     min-width: 200px;
@@ -167,7 +159,7 @@ li {
 }
 
 
-.submenu3 {
+.help {
     position: absolute;
     left: -10px;
     min-width: 230px;
@@ -459,7 +451,7 @@ footer {
         color: white;
     }
 
-    .menu .submenu1 {
+    .menu .about {
         display: none;
         position: static;
         width: 100%;
@@ -468,7 +460,7 @@ footer {
         background: unset;
     }
 
-    .menu .submenu1 a {
+    .menu .about a {
         display: block;
         text-align: center;
         padding: 5px 0;
@@ -477,11 +469,11 @@ footer {
         color: white;
     }
 
-    .menu .submenu1.open {
+    .menu .about.open {
         display: block;
     }
 
-    .menu .submenu2 {
+    .menu .product {
         display: none;
         position: static;
         width: 100%;
@@ -490,7 +482,7 @@ footer {
         background: unset;
     }
 
-    .menu .submenu2 a {
+    .menu .product a {
         display: block;
         text-align: center;
         padding: 5px 0;
@@ -499,11 +491,11 @@ footer {
         color: white;
     }
 
-    .menu .submenu2.open {
+    .menu .product.open {
         display: block;
     }
 
-    .menu .submenu3 {
+    .menu .help {
         display: none;
         position: static;
         width: 100%;
@@ -512,7 +504,7 @@ footer {
         background: unset;
     }
 
-    .menu .submenu3 a {
+    .menu .help a {
         display: block;
         text-align: center;
         padding: 5px 0;
@@ -521,7 +513,7 @@ footer {
         color: white;
     }
 
-    .menu .submenu3.open {
+    .menu .help.open {
         display: block;
     }
 
