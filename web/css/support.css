@@ -14,13 +14,13 @@
     justify-content: space-around;
     gap: 10px;
     border-radius: 20px;
-    background-color: black;
+    background-color: var(--colorblack);
     padding: 10px;
     width: 25%;
 }
 
 .sfhbar {
-    color: #ffffff;
+    color: var(--colorwhite);
     font-size: 16px;
     background-color: unset;
     border: unset;
@@ -78,15 +78,16 @@
 }
 
 .pscontentbox {
-    background-color: black;
+    background-color: var(--colorblack);
     align-items: center;
     padding: 40px;
 }
 
 .pscontentboxwhite {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--colorwhite);
     align-items: center;
     padding: 40px;
+    color: var(--colorblack);
 }
 
 .pscontentbox h4 {
@@ -97,11 +98,11 @@
 .pscontentboxwhite h4 {
     margin: 0px 0px 5px 0px;
     text-align: center;
-    color: #000;
+    color: var(--colorblack);
 }
 
 .pscontentboxwhite p {
-    color: #000;
+    color: var(--colorblack);
 }
 
 .issue {
@@ -117,7 +118,7 @@
 .issueline {
     width: 10%;
     height: 1px;
-    background: #8F0256;
+    background: var(--colorpurple);
     border-radius: 20px;
     margin: 10px 0px;
 }
@@ -166,7 +167,7 @@
 }
 
 .snhboxtittle {
-    background-color: black;
+    background-color: var(--colorblack);
 }
 
 .snhboxtittle h4 {
@@ -186,7 +187,7 @@
 .faqline {
     width: 84%;
     height: 4px;
-    background: #8F0256;
+    background: var(--colorpurple);
     margin: auto 0px auto auto;
     border-radius: 20px;
 }
@@ -208,7 +209,7 @@
 .underline {
     width: 100%;
     height: 4px;
-    background: #8F0256;
+    background: var(--colorpurple);
     border-radius: 46px;
     margin: 10px 0px 10px 0px;
 }
