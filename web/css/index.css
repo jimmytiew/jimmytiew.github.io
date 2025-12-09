@@ -58,7 +58,6 @@ a.view-all-gear {
     margin: 0px 54px;
     /* 整个section2的margin */
     border-radius: 46px;
-    height: 744px;
 }
 
 .tittle2 {
@@ -213,18 +212,7 @@ footer {
 
 }
 
-@media screen and (max-width:890px) {
-
-
-    .section2 {
-        height: 800px;
-    }
-}
-
 @media screen and (max-width:780px) {
-    .section2 {
-        height: 700px;
-    }
 
     .herotittle1 {
         position: relative;

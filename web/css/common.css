@@ -43,16 +43,11 @@ h5 {
 
 }
 
-p {
-    color: white;
-    font-size: 16px;
-    font-family: Inter;
-}
-
+p,
 li {
     color: white;
     font-size: 16px;
-    font-family: "Inter", sans-serif;
+    font-family: Inter;
 }
 
 /* header */
@@ -235,6 +230,7 @@ li {
 /* button */
 .button {
     display: block;
+    width: 263px;
     margin: 40px auto 0;
     padding: 5px;
     border-radius: 46px;
@@ -247,7 +243,6 @@ li {
 
 .button a {
     display: block;
-    width: 100%;
     padding: 30px 20px;
     border-radius: 46px;
     text-align: center;
@@ -264,7 +259,6 @@ li {
     display: block;
     flex: 0 0 auto;
     width: 100%;
-    height: 670px;
     background: linear-gradient(90deg, #000399, #FF0000);
     box-shadow: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
     border-radius: 46px;
@@ -278,7 +272,6 @@ li {
     display: flex;
     flex-direction: column;
     border-radius: 40px;
-    height: 670px;
 }
 
 .content {
@@ -322,7 +315,6 @@ li {
 }
 
 .sectionbutton4 {
-    width: 60%;
     margin: 0;
 }
 
@@ -541,13 +533,6 @@ footer {
         margin: 55px;
     }
 
-    .teamwhitebox {
-        height: 570px;
-    }
-
-    .teambox {
-        height: 570px;
-    }
 }
 
 
