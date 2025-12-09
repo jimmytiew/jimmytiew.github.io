@@ -14,6 +14,7 @@ body {
     --colorwhite: #ffffff;
     --colorblack: #000000;
     --colorred: #BE0108;
+    --colorpurple: #8F0256;
     --gradientstrokeforbox: linear-gradient(135deg, #0000ff, #800080, #ff0000);
 }
 
