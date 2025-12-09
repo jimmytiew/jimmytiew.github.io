@@ -115,9 +115,6 @@ a.view-all-gear {
     text-align: center;
 }
 
-.button {
-    width: 40%;
-}
 
 /* section3 */
 .section3 {
@@ -208,10 +205,6 @@ footer {
         top: 100px;
     }
 
-    .button {
-        width: 70%;
-    }
-
     .herotittle1 {
         position: relative;
         bottom: 400px;
@@ -221,13 +214,7 @@ footer {
 }
 
 @media screen and (max-width:890px) {
-    .teamwhitebox {
-        height: 650px;
-    }
 
-    .teambox {
-        height: 650px;
-    }
 
     .section2 {
         height: 800px;
@@ -235,14 +222,6 @@ footer {
 }
 
 @media screen and (max-width:780px) {
-    .teamwhitebox {
-        height: 800px;
-    }
-
-    .teambox {
-        height: 800px;
-    }
-
     .section2 {
         height: 700px;
     }
@@ -281,10 +260,6 @@ footer {
         width: 100%;
     }
 
-    .button {
-        width: 90%;
-    }
-
     footer {
         top: 252px;
     }
@@ -307,21 +282,4 @@ footer {
         gap: 50px;
     }
 
-    .teamwhitebox {
-        height: 700px;
-    }
-
-    .teambox {
-        height: 700px;
-    }
-}
-
-@media screen and (max-width:700px) {
-    .teamwhitebox {
-        height: 700px;
-    }
-
-    .teambox {
-        height: 700px;
-    }
 }
