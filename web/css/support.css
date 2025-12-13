@@ -45,7 +45,11 @@
 
 /* product-support */
 .pssection {
+    display: flex;
+    flex-direction: column;
     margin: 70px 54px 140px 54px;
+    justify-content: center;
+
 }
 
 .pstittle {
@@ -230,6 +234,14 @@
     display: flex;
 }
 
+@media screen and (max-width:1200px) {
+
+    /* product-support */
+    .psgroup {
+        gap: 30px;
+    }
+}
+
 @media screen and (max-width:1080px) {
 
     /* search-bar */
@@ -261,16 +273,8 @@
         aspect-ratio: 1/0.5;
     }
 
-    .boxgradient {
-        aspect-ratio: 1/1;
-    }
-
-    .pscontentbox {
-        aspect-ratio: 1/1;
-    }
-
-    .pscontentboxwhite {
-        aspect-ratio: 1/1;
+    .psgroup {
+        justify-content: center;
     }
 }
 
@@ -307,11 +311,6 @@
         margin: 18px auto 0px auto;
     }
 
-    .imagebox {
-        width: 100%;
-        aspect-ratio: 1/0.5;
-    }
-
     .psgroup {
         gap: 10px;
     }
@@ -333,4 +332,13 @@
     .questionandanswer {
         width: 100%;
     }
+}
+
+@media screen and (max-width:425px) {
+
+    /* product-support */
+    .boxgradient {
+        width: 100%;
+    }
+
 }
