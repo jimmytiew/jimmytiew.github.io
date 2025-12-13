@@ -636,7 +636,7 @@ footer {
         padding: 5px 0;
         font-size: 16px;
         opacity: 0.85;
-        color: white;
+        color: var(--colorwhite);
     }
 
     .menu .submenu1.open {
@@ -657,7 +657,7 @@ footer {
         padding: 5px 0;
         font-size: 16px;
         opacity: 0.85;
-        color: white;
+        color: var(--colorwhite);
     }
 
     .menu .submenu2.open {
@@ -678,7 +678,7 @@ footer {
         padding: 5px 0;
         font-size: 16px;
         opacity: 0.85;
-        color: white;
+        color: var(--colorwhite);
     }
 
     .menu .submenu3.open {
