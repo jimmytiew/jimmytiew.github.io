@@ -239,7 +239,7 @@ li {
 .button {
     display: block;
     width: 263px;
-    margin: 40px auto 0;
+    margin: 40px auto;
     padding: 5px;
     border-radius: 46px;
     background: linear-gradient(120deg,
