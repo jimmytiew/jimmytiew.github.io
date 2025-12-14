@@ -403,6 +403,31 @@ footer {
 
 /* 平板响应式变化 */
 @media screen and (max-width:1080px) {
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    p,
+    li {
+        font-size: 13px;
+    }
+
 
     /* 菜单 */
     .menu-toggle {
