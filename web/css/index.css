@@ -1,7 +1,7 @@
 /* hero section */
 .herotittle1 {
     position: relative;
-    bottom: 460px;
+    bottom: 400px;
     margin: 0px 0px 0px 54px;
 }
 
@@ -58,6 +58,7 @@ a.view-all-gear {
     margin: 0px 54px;
     /* 整个section2的margin */
     border-radius: 46px;
+
 }
 
 .tittle2 {
@@ -114,6 +115,10 @@ a.view-all-gear {
     text-align: center;
 }
 
+.section2button {
+    margin: 20px;
+}
+
 
 /* section3 */
 .section3 {
@@ -153,7 +158,22 @@ a.view-all-gear {
     column-gap: 22px;
 }
 
+.sponsorlogo img {
+    width: 15%;
+}
+
 /* section4 */
+.gradient-card {
+    border-radius: 40px;
+}
+
+.section4box {
+    background-color: var(--colorwhite);
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+}
+
 .section4 {
     position: relative;
     top: 262px;
