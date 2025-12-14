@@ -566,6 +566,27 @@ footer {
         margin: 55px;
     }
 
+    /* footer */
+    .location img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .phnumber img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .redlinegmail img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .socialmediaicon img {
+        width: 30px;
+        height: 30px;
+    }
+
 }
 
 
