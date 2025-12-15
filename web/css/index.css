@@ -1,7 +1,7 @@
 /* hero section */
 .herotittle1 {
     position: relative;
-    bottom: 460px;
+    bottom: 400px;
     margin: 0px 0px 0px 54px;
 }
 
@@ -39,7 +39,7 @@ a.view-all-gear {
 
 /* box的调整 */
 .boxsection1 {
-    width: 607px;
+    width: 507px;
     height: 703px;
 }
 
@@ -58,7 +58,7 @@ a.view-all-gear {
     margin: 0px 54px;
     /* 整个section2的margin */
     border-radius: 46px;
-    height: 744px;
+
 }
 
 .tittle2 {
@@ -115,9 +115,10 @@ a.view-all-gear {
     text-align: center;
 }
 
-.button {
-    width: 40%;
+.section2button {
+    margin: 20px;
 }
+
 
 /* section3 */
 .section3 {
@@ -157,7 +158,22 @@ a.view-all-gear {
     column-gap: 22px;
 }
 
+.sponsorlogo img {
+    width: 15%;
+}
+
 /* section4 */
+.gradient-card {
+    border-radius: 40px;
+}
+
+.section4box {
+    background-color: var(--colorwhite);
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+}
+
 .section4 {
     position: relative;
     top: 262px;
@@ -208,10 +224,6 @@ footer {
         top: 100px;
     }
 
-    .button {
-        width: 70%;
-    }
-
     .herotittle1 {
         position: relative;
         bottom: 400px;
@@ -220,32 +232,7 @@ footer {
 
 }
 
-@media screen and (max-width:890px) {
-    .teamwhitebox {
-        height: 650px;
-    }
-
-    .teambox {
-        height: 650px;
-    }
-
-    .section2 {
-        height: 800px;
-    }
-}
-
 @media screen and (max-width:780px) {
-    .teamwhitebox {
-        height: 800px;
-    }
-
-    .teambox {
-        height: 800px;
-    }
-
-    .section2 {
-        height: 700px;
-    }
 
     .herotittle1 {
         position: relative;
@@ -281,10 +268,6 @@ footer {
         width: 100%;
     }
 
-    .button {
-        width: 90%;
-    }
-
     footer {
         top: 252px;
     }
@@ -307,21 +290,4 @@ footer {
         gap: 50px;
     }
 
-    .teamwhitebox {
-        height: 700px;
-    }
-
-    .teambox {
-        height: 700px;
-    }
-}
-
-@media screen and (max-width:700px) {
-    .teamwhitebox {
-        height: 700px;
-    }
-
-    .teambox {
-        height: 700px;
-    }
 }

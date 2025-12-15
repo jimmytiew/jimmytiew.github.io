@@ -4,10 +4,18 @@
 
 
 body {
-    max-width: 1440px;
+    max-width: 1280px;
     margin: auto;
     font-family: "Audiowide", sans-serif;
     background-color: #151515;
+}
+
+:root {
+    --colorwhite: #ffffff;
+    --colorblack: #000000;
+    --colorred: #BE0108;
+    --colorpurple: #8F0256;
+    --gradientstrokeforbox: linear-gradient(135deg, #0000ff, #800080, #ff0000);
 }
 
 h1,
@@ -15,7 +23,7 @@ h2,
 h3,
 h4,
 h5 {
-    color: white;
+    color: var(--colorwhite);
 }
 
 h1 {
@@ -43,16 +51,11 @@ h5 {
 
 }
 
-p {
-    color: white;
+p,
+li {
+    color: var(--colorwhite);
     font-size: 16px;
     font-family: Inter;
-}
-
-li {
-    color: white;
-    font-size: 16px;
-    font-family: "Inter", sans-serif;
 }
 
 /* header */
@@ -91,7 +94,7 @@ li {
 .menu>a,
 .menu-item>a {
     text-decoration: none;
-    color: #f0f0f0;
+    color: var(--colorwhite);
     font-size: 16px;
     letter-spacing: 0.06em;
     display: inline-flex;
@@ -101,7 +104,7 @@ li {
 
 .menu>a:hover,
 .menu-item>a:hover {
-    color: #ffffff;
+    color: var(--colorwhite);
     text-shadow: 0 0 6px rgba(255, 255, 255, 0.7);
 }
 
@@ -110,9 +113,7 @@ li {
     position: relative;
 }
 
-.submenu1,
-.submenu2,
-.submenu3 {
+.have-submenu {
     position: absolute;
     top: 100%;
     left: 50%;
@@ -122,31 +123,25 @@ li {
     z-index: 99;
 }
 
-.submenu1 a,
-.submenu2 a,
-.submenu3 a {
+.have-submenu a {
     display: block;
     padding: 8px 18px;
     font-size: 16px;
     letter-spacing: 0.04em;
-    color: #f8f8f8;
+    color: var(--colorwhite);
     text-decoration: none;
     white-space: nowrap;
 }
 
-.submenu1 a:hover,
-.submenu2 a:hover,
-.submenu3 a:hover {
+.have-submenu a:hover {
     text-shadow: 0 0 6px rgba(255, 255, 255, 0.7);
 }
 
-.menu-item:hover .submenu1,
-.menu-item:hover .submenu2,
-.menu-item:hover .submenu3 {
+.menu-item:hover .have-submenu {
     display: block;
 }
 
-.submenu1 {
+.about {
     position: absolute;
     left: -15px;
     min-width: 160px;
@@ -157,7 +152,7 @@ li {
 }
 
 
-.submenu2 {
+.product {
     position: absolute;
     left: -15px;
     min-width: 200px;
@@ -167,7 +162,7 @@ li {
 }
 
 
-.submenu3 {
+.help {
     position: absolute;
     left: -10px;
     min-width: 230px;
@@ -206,9 +201,9 @@ li {
     position: relative;
     display: inline-block;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 5px;
-    background: linear-gradient(135deg, #0000ff, #800080, #ff0000);
+    background: var(--gradientstrokeforbox);
     box-shadow: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
 
 }
@@ -217,7 +212,7 @@ li {
     width: 100%;
     height: 100%;
     background: #4a403d;
-    border-radius: 17px;
+    border-radius: 40px;
 
     display: flex;
     flex-direction: column;
@@ -235,7 +230,7 @@ li {
 }
 
 .gradient-card-inner h3 {
-    color: white;
+    color: var(--colorwhite);
     margin: 0;
     text-align: center;
 }
@@ -243,7 +238,8 @@ li {
 /* button */
 .button {
     display: block;
-    margin: 40px auto 0;
+    width: 263px;
+    margin: 40px auto;
     padding: 5px;
     border-radius: 46px;
     background: linear-gradient(120deg,
@@ -255,39 +251,18 @@ li {
 
 .button a {
     display: block;
-    width: 100%;
     padding: 30px 20px;
     border-radius: 46px;
     text-align: center;
     font-size: 16px;
     letter-spacing: 0.15em;
-    color: #fdfdfd;
+    color: var(--colorwhite);
     box-sizing: border-box;
     background: linear-gradient(to top, #CD0000 0%, #000000 100%);
     text-decoration: none;
 }
 
-/* about team的白色box */
-.teamwhitebox {
-    display: block;
-    flex: 0 0 auto;
-    width: 100%;
-    height: 670px;
-    background: linear-gradient(90deg, #000399, #FF0000);
-    box-shadow: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
-    border-radius: 46px;
-    padding: 5px;
-    text-decoration: none;
-    margin: 25px 0;
-}
 
-.teambox {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    border-radius: 40px;
-    height: 670px;
-}
 
 .content {
     display: flex;
@@ -301,7 +276,7 @@ li {
     display: none;
     flex: 0 0 auto;
     width: 100%;
-    background: linear-gradient(90deg, #000399, #FF0000);
+    background: var(--gradientstrokeforbox);
     box-shadow: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
     border-radius: 46px;
     padding: 5px;
@@ -309,7 +284,7 @@ li {
 }
 
 .tittlebox h1 {
-    color: #000000;
+    color: var(--colorblack);
     margin: 0;
 }
 
@@ -330,14 +305,13 @@ li {
 }
 
 .sectionbutton4 {
-    width: 60%;
-    margin: 0;
+    margin: 20px;
 }
 
 
 /* footer */
 footer {
-    background-color: #BE0108;
+    background-color: var(--colorred);
     padding: 20px 0px;
     margin-top: 10%;
     box-shadow: 0px -10px 40px #be0108c4;
@@ -391,15 +365,15 @@ footer {
 }
 
 .footerinfor h5 {
-    color: black;
+    color: var(--colorblack);
 }
 
 .atcontent h5 {
-    color: black;
+    color: var(--colorblack);
 }
 
 .atcontent p {
-    color: black;
+    color: var(--colorblack);
 }
 
 .menu-toggle {
@@ -411,11 +385,36 @@ footer {
 
 /* 平板响应式变化 */
 @media screen and (max-width:1080px) {
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    p,
+    li {
+        font-size: 13px;
+    }
+
 
     /* 菜单 */
     .menu-toggle {
         display: block;
-        color: white;
+        color: var(--colorwhite);
     }
 
     .navbar {
@@ -456,10 +455,10 @@ footer {
         text-decoration: none;
         padding: 10px 0;
         display: block;
-        color: white;
+        color: var(--colorwhite);
     }
 
-    .menu .submenu1 {
+    .menu .about {
         display: none;
         position: static;
         width: 100%;
@@ -468,20 +467,20 @@ footer {
         background: unset;
     }
 
-    .menu .submenu1 a {
+    .menu .about a {
         display: block;
         text-align: center;
         padding: 5px 0;
         font-size: 16px;
         opacity: 0.85;
-        color: white;
+        color: var(--colorwhite);
     }
 
-    .menu .submenu1.open {
+    .menu .about.open {
         display: block;
     }
 
-    .menu .submenu2 {
+    .menu .product {
         display: none;
         position: static;
         width: 100%;
@@ -490,20 +489,20 @@ footer {
         background: unset;
     }
 
-    .menu .submenu2 a {
+    .menu .product a {
         display: block;
         text-align: center;
         padding: 5px 0;
         font-size: 16px;
         opacity: 0.85;
-        color: white;
+        color: var(--colorwhite);
     }
 
-    .menu .submenu2.open {
+    .menu .product.open {
         display: block;
     }
 
-    .menu .submenu3 {
+    .menu .help {
         display: none;
         position: static;
         width: 100%;
@@ -512,16 +511,16 @@ footer {
         background: unset;
     }
 
-    .menu .submenu3 a {
+    .menu .help a {
         display: block;
         text-align: center;
         padding: 5px 0;
         font-size: 16px;
         opacity: 0.85;
-        color: white;
+        color: var(--colorwhite);
     }
 
-    .menu .submenu3.open {
+    .menu .help.open {
         display: block;
     }
 
@@ -549,13 +548,27 @@ footer {
         margin: 55px;
     }
 
-    .teamwhitebox {
-        height: 570px;
+    /* footer */
+    .location img {
+        width: 30px;
+        height: 30px;
     }
 
-    .teambox {
-        height: 570px;
+    .phnumber img {
+        width: 30px;
+        height: 30px;
     }
+
+    .redlinegmail img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .socialmediaicon img {
+        width: 30px;
+        height: 30px;
+    }
+
 }
 
 
@@ -599,7 +612,7 @@ footer {
 
     .menu-toggle {
         display: block;
-        color: white;
+        color: var(--colorwhite);
     }
 
     .navbar {
@@ -634,7 +647,7 @@ footer {
         text-decoration: none;
         padding: 10px 0;
         display: block;
-        color: white;
+        color: var(--colorwhite);
     }
 
     .menu .submenu1 {
@@ -651,7 +664,7 @@ footer {
         padding: 5px 0;
         font-size: 16px;
         opacity: 0.85;
-        color: white;
+        color: var(--colorwhite);
     }
 
     .menu .submenu1.open {
@@ -672,7 +685,7 @@ footer {
         padding: 5px 0;
         font-size: 16px;
         opacity: 0.85;
-        color: white;
+        color: var(--colorwhite);
     }
 
     .menu .submenu2.open {
@@ -693,7 +706,7 @@ footer {
         padding: 5px 0;
         font-size: 16px;
         opacity: 0.85;
-        color: white;
+        color: var(--colorwhite);
     }
 
     .menu .submenu3.open {

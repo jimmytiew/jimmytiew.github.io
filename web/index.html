@@ -22,14 +22,14 @@
             <a href="index.html">Home</a>
             <div class="menu-item">
                 <a href="about.html">About ▾</a>
-                <div class="submenu1">
+                <div class="about have-submenu">
                     <a href="#">About Team</a>
                 </div>
             </div>
             <a href="blog.html">Blog</a>
             <div class="menu-item">
                 <a href="allproduct.html">Product ▾</a>
-                <div class="submenu2">
+                <div class="product have-submenu">
                     <a href="#">Gaming Collection</a>
                     <a href="#">Racing Collection</a>
                     <a href="phone.html">Phones & Tablets</a>
@@ -37,7 +37,7 @@
             </div>
             <div class="menu-item">
                 <a href="support.html">Support ▾</a>
-                <div class="submenu3">
+                <div class="help have-submenu">
                     <a href="#">Warranty & Replacement</a>
                     <a href="#">Order & Shipping Support</a>
                 </div>
@@ -173,7 +173,7 @@
             </div>
         </div>
 
-        <div class="button">
+        <div class="button section2button">
             <a href="404.html">VIEW ALL PRODUCT</a>
         </div>
     </div>
@@ -192,7 +192,6 @@
             <img src="images/homesection3pc3.png">
             <img src="images/homesection3pc4.png">
             <img src="images/homesection3pc5.png">
-            <img src="images/homesection3pc6.png">
         </div>
 
         <div class="sponsorlogo">
@@ -212,8 +211,8 @@
             <h1>Our Leader</h1>
         </div>
 
-        <div class="teamwhitebox">
-            <div class="teambox">
+        <div class="gradient-card">
+            <div class="section4box">
                 <div class="content">
                     <div class="tittlebox">
                         <h1>Hi there
@@ -226,7 +225,7 @@
                             collaboration, and delivering real value to our clients.</p>
 
 
-                        <img src="images/homesection4pc.png">
+                        <img src="images/homesection4pc.jpg">
 
 
                         <div class="button sectionbutton4">
@@ -235,7 +234,7 @@
                     </div>
 
                     <div class="pcborder">
-                        <img src="images/homesection4pc.png">
+                        <img src="images/homesection4pc.jpg">
                     </div>
 
                 </div>
@@ -295,49 +294,8 @@
     </script>
 
 
-    <script>
-        const slider = document.querySelector('.scrollcontainer');
-        let isDown = false;
-        let startX;
-        let scrollLeft;
+    <script src="js/index-scroll.js">
 
-        // 1. 鼠标按下事件
-        slider.addEventListener('mousedown', (e) => {
-            isDown = true;
-            slider.classList.add('active'); // 改变光标样式为“紧握”
-            startX = e.pageX - slider.offsetLeft; // 记录鼠标点击的初始位置
-            scrollLeft = slider.scrollLeft; // 记录当前的滚动距离
-        });
-
-        // 2. 鼠标离开范围事件
-        slider.addEventListener('mouseleave', () => {
-            isDown = false;
-            slider.classList.remove('active');
-        });
-
-        // 3. 鼠标松开事件
-        slider.addEventListener('mouseup', () => {
-            isDown = false;
-            slider.classList.remove('active');
-        });
-
-        // 4. 鼠标移动事件（核心拖拽逻辑）
-        slider.addEventListener('mousemove', (e) => {
-            if (!isDown) return; // 如果没按住鼠标，就不执行
-            e.preventDefault(); // 防止选中文字或图片拖拽
-            const x = e.pageX - slider.offsetLeft;
-            const walk = (x - startX) * 2; // *2 是为了让滑动速度快一点，你可以改成 1 或者 3
-            slider.scrollLeft = scrollLeft - walk;
-        });
-
-        // 5. 鼠标滚轮事件（将上下滚动转换为左右滚动）
-        slider.addEventListener('wheel', (e) => {
-            // 只有当内容确实超出了容器宽度才拦截滚轮
-            if (slider.scrollWidth > slider.clientWidth) {
-                e.preventDefault(); // 阻止页面默认的上下滚动
-                slider.scrollLeft += e.deltaY; // 将垂直滚动量加到水平滚动上
-            }
-        });
     </script>
 </body>
 
