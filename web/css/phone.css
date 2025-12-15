@@ -97,7 +97,8 @@
 
 /* Inner card */
 .tablet-card {
-    width: 330px;
+    width: 100%;
+    max-width: 330px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -106,7 +107,6 @@
 
 /* ===== ROW 1 : IMAGE ===== */
 .tablet-img {
-    height: 190px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,7 +115,6 @@
 .tablet-img img {
     max-height: 100%;
     max-width: 100%;
-    margin-bottom: 30px;
 }
 
 /* ===== ROW 2 : TITLE ===== */
@@ -146,10 +145,6 @@
 @media screen and (max-width:1170px) {
     .phone-card {
         width: 200px;
-    }
-
-    .tablet-card {
-        width: 330px;
     }
 }
 
