@@ -170,15 +170,28 @@ a.view-all-gear {
 }
 
 /* section4 */
-.gradient-card {
-    border-radius: 40px;
+.leaderintro {
+    background-color: var(--colorwhite);
 }
 
-.section4box {
-    background-color: var(--colorwhite);
+.leaderintro h1,
+p {
+    color: var(--colorblack);
+    margin: 0;
+}
+
+.boxaboutintro {
     display: flex;
-    flex-direction: column;
-    border-radius: 40px;
+    margin: 60px;
+    gap: 50px;
+}
+
+.intro {
+    width: 50%;
+}
+
+.leaderpicture {
+    width: 40%;
 }
 
 .section4 {
@@ -188,20 +201,15 @@ a.view-all-gear {
     /* 整个section4的margin */
 }
 
-.tittle4 {
+.tittle4 h1 {
     text-align: center;
 }
 
-.tittle4 h1 {
-    margin: 0;
-}
-
-.tittlebox p {
-    color: rgb(0, 0, 0);
-}
-
-.tittlebox {
-    width: 55%;
+.leaderimg {
+    background-image: url(../images/homesection4pc.jpg);
+    background-size: cover;
+    width: 400px;
+    aspect-ratio: 1/1;
 }
 
 /* footer */
