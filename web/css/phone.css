@@ -90,7 +90,7 @@
 .tablet {
     display: flex;
     justify-content: center;
-    gap: 70px;
+    gap: 60px;
     flex-wrap: wrap;
 }
 
@@ -101,8 +101,8 @@
 }
 
 .tablet-card {
-    width: 365px;
-    height: 610px;
+    width: 335px;
+    height: 580px;
     border-radius: 43px;
     text-align: center;
     position: relative;
