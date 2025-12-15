@@ -18,20 +18,16 @@
     display: flex;
     justify-content: center;
     gap: 50px;
-    flex-wrap: wrap;
-}
-
-.phone-card {
-    width: 245px;
-    height: 500px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 10px;
 }
 
 .phone-row {
     gap: 50px;
+    text-align: center;
+    display: flex;
+}
+
+.phone-card {
+    width: 240px;
 }
 
 /* === ROW 1 : IMAGE === */
@@ -148,122 +144,40 @@
     line-height: 1.4;
 }
 
-@media screen and (min-width:1279px) {
-
-    .phone,
-    .tablet {
-        gap: 50px;
-    }
-}
-
-@media screen and (max-width:1279px) {
-
-    .phone,
-    .tablet {
-        gap: 35px;
-    }
-
-    .tablet-card {
-        width: 300px;
-    }
-}
-
-@media screen and (max-width:1263px) {
-
-    .phone,
-    .tablet {
-        gap: 25px;
-    }
-
+@media screen and (max-width:1170px) {
     .phone-card {
-        width: 214px;
-    }
-
-    .tablet-card {
-        width: 290px;
+        width: 200px;
     }
 }
 
 @media screen and (max-width:1080px) {
 
     .phone {
-        gap: 30px;
+        width: 100%;
     }
 
     .phone-card {
-        flex: 0 0 calc(50% - 45px);
-        width: 300px;
-    }
-
-    .tablet-card {
-        flex: 0 0 100%;
-        width: 290px;
+        width: 100%;
     }
 }
 
-@media screen and (max-width:1058px) {
-    .tablet-card {
-        width: 270px;
-    }
-}
-
-@media screen and (max-width:998px) {
-    .tablet-card {
-        flex: 0 0 100%;
-        width: 260px;
-    }
-}
-
-@media screen and (max-width:968px) {
-
-    .tablet-card {
-        flex: 0 0 100%;
-        width: 240px;
-    }
-}
-
-@media screen and (max-width:908px) {
-
-    .tablet-card {
-        flex: 0 0 100%;
-        width: 380px;
-    }
-}
-
-@media screen and (max-width:758px) {
-
+@media screen and (max-width:830px) {
     .phone {
-        gap: 25px;
+        flex-direction: column;
     }
 
-    .phone-card {
-        flex: 0 0 calc(50% - 45px);
-        width: 280px;
+    .phone-row {
+        justify-content: center;
     }
 }
 
 @media screen and (max-width:720px) {
 
-    .phone-title {
-        margin: 0 0 50px 0;
+    .phone {
+        flex-direction: column;
     }
 
-    .phone-section {
-        margin: 50px 30px;
-    }
-
-    .phone-card {
-        flex: 0 0 100%;
-        width: 350px;
-    }
-
-    .tablet-section {
-        margin: 50px 30px;
-    }
-
-
-    .tablet-card {
-        flex: 0 0 100%;
-        width: 350px;
+    .phone-row {
+        flex-direction: column;
     }
 }
