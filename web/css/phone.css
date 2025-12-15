@@ -3,16 +3,17 @@
     background-image: url('../images/herophone.jpg');
 }
 
-/* phone section */
+/* Phone Section */
 .phone-section {
     margin: 100px 54px;
 }
 
 .phone-title {
     text-align: center;
-    margin: 0 0 100px 0;
+    margin-bottom: 100px;
 }
 
+/* Card Layout */
 .phone {
     display: flex;
     justify-content: center;
@@ -20,18 +21,51 @@
     flex-wrap: wrap;
 }
 
-.phone-cardborder {
-    position: relative;
-    border-radius: 46px;
-    padding: 5px;
-}
-
 .phone-card {
     width: 245px;
-    height: 520px;
-    border-radius: 43px;
+    height: 500px;
     text-align: center;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* === ROW 1 : IMAGE === */
+.phone-img {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-img img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* === ROW 2 : TITLE === */
+.phone-title-text {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-title-text h5 {
+    margin-bottom: 50px;
+}
+
+/* === ROW 3 : PRICE === */
+.phone-price {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-price p {
+    margin: 0;
+    line-height: 1.4;
 }
 
 .button {
@@ -72,6 +106,13 @@
     border-radius: 43px;
     text-align: center;
     position: relative;
+}
+
+@media screen and (max-width:1279px) {
+
+    .phone {
+        gap: 30px;
+    }
 }
 
 
