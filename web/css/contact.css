@@ -166,22 +166,7 @@
 .button {
     margin-top: 20px;
     margin-left: 100px;
-    width: 23%;
     cursor: pointer;
-}
-
-.button a {
-    display: block;
-    width: 100%;
-    padding: 30px 20px;
-    border-radius: 46px;
-    text-align: center;
-    font-size: 16px;
-    letter-spacing: 0.15em;
-    color: #fdfdfd;
-    box-sizing: border-box;
-    background: linear-gradient(to top, #CD0000 0%, #000000 100%);
-    text-decoration: none;
 }
 
 .modal p {
@@ -215,7 +200,6 @@
 .second-button {
     display: block;
     margin-top: 40px;
-    width: 20%;
     padding: 5px;
     border-radius: 46px;
     background: linear-gradient(120deg,
@@ -227,7 +211,7 @@
 
 .second-button a {
     display: block;
-    width: 100%;
+    width: 263px;
     padding: 30px 20px;
     border-radius: 46px;
     text-align: center;
@@ -275,17 +259,15 @@
     .fouth-section p {
         width: 50%;
     }
-}
 
-@media screen and (max-width:1019px) {
     .button a {
-        font-size: 10px;
-        padding: 25px 20px;
+        padding: 20px 10px;
+        font-size: 13px;
     }
 
     .second-button a {
-        font-size: 10px;
-        padding: 25px 20px;
+        padding: 20px 10px;
+        font-size: 13px;
     }
 }
 
@@ -296,7 +278,7 @@
 
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:720px) {
     .boxsection1 {
         height: 200px;
         border-radius: 20px;
@@ -335,12 +317,8 @@
         margin: 0 40px;
     }
 
-    .button a {
-        padding: 20px 20px;
-    }
-
     .second-button a {
-        padding: 20px 20px;
+        padding: 20px 10px;
     }
 
     .third-text {
@@ -352,23 +330,11 @@
     }
 
     .button {
-        width: 30%;
         margin-left: 50px;
     }
 
     .second-button {
         margin-top: 20px;
-    }
-
-    .second-button a {
-        font-size: 9px;
-    }
-
-}
-
-@media screen and (max-width:703px) {
-    .button a {
-        font-size: 9px;
     }
 
 }
@@ -402,16 +368,10 @@
         height: 94%;
     }
 
-    .second-button {
-        width: 27%;
-    }
 }
 
 
 @media screen and (max-width:510px) {
-    .button {
-        width: 37%;
-    }
 
     .name input {
         font-size: 10px;
@@ -482,20 +442,10 @@
 
     .button {
         margin-left: 10px;
-        width: 40%;
-    }
-
-    .button a {
-        padding: 15px 0;
     }
 
     .second-button {
         margin-top: 20px;
-        width: 30%;
-    }
-
-    .second-button a {
-        padding: 15px 0;
     }
 
     .fouth-section {
