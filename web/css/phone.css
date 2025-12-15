@@ -1,29 +1,6 @@
 /* hero section */
 .herosection {
-    position: relative;
-    width: 100%;
-}
-
-.herosection img {
-    width: 100%;
-    display: block;
-    object-fit: cover;
-    opacity: 0.5;
-}
-
-.herotitle {
-    position: absolute;
-    left: 54px;
-    bottom: 40px;
-    color: #ffffff;
-}
-
-.herotitle h1 {
-    bottom: 260px;
-}
-
-.herotitle h5 {
-    bottom: 240px;
+    background-image: url('../images/herophone.jpg');
 }
 
 /* phone section */
@@ -39,7 +16,7 @@
 .phone {
     display: flex;
     justify-content: center;
-    gap: 55px;
+    gap: 50px;
     flex-wrap: wrap;
 }
 
@@ -50,8 +27,8 @@
 }
 
 .phone-card {
-    width: 265px;
-    height: 600px;
+    width: 245px;
+    height: 520px;
     border-radius: 43px;
     text-align: center;
     position: relative;
