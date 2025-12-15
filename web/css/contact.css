@@ -169,20 +169,6 @@
     cursor: pointer;
 }
 
-.button a {
-    display: block;
-    width: 100%;
-    padding: 30px 20px;
-    border-radius: 46px;
-    text-align: center;
-    font-size: 16px;
-    letter-spacing: 0.15em;
-    color: #fdfdfd;
-    box-sizing: border-box;
-    background: linear-gradient(to top, #CD0000 0%, #000000 100%);
-    text-decoration: none;
-}
-
 .modal p {
     color: black;
     text-align: center;
@@ -272,6 +258,11 @@
 
     .fouth-section p {
         width: 50%;
+    }
+
+    .button a {
+        padding: 20px 10px;
+        font-size: 13px;
     }
 
     .second-button a {
@@ -451,10 +442,6 @@
 
     .button {
         margin-left: 10px;
-    }
-
-    .button a {
-        padding: 15px 0;
     }
 
     .second-button {
