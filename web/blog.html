@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog / RedlineTech Company</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/blog.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="images/RTLogo.png"></a>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+
+        <div class="menu" id="mobile-menu">
+            <a href="index.html">Home</a>
+            <div class="menu-item">
+                <a href="about.html">About ▾</a>
+                <div class="about have-submenu">
+                    <a href="#">About Team</a>
+                </div>
+            </div>
+            <a href="blog.html">Blog</a>
+            <div class="menu-item">
+                <a href="allproduct.html">Product ▾</a>
+                <div class="product have-submenu">
+                    <a href="#">Gaming Collection</a>
+                    <a href="#">Racing Collection</a>
+                    <a href="phone.html">Phones & Tablets</a>
+                </div>
+            </div>
+            <div class="menu-item">
+                <a href="support.html">Support ▾</a>
+                <div class="help have-submenu">
+                    <a href="#">Warranty & Replacement</a>
+                    <a href="#">Order & Shipping Support</a>
+                </div>
+            </div>
+            <a href="contact.html">Contact</a>
+        </div>
+    </header>
+
+
+    <!-- herocestion -->
+    <div class="herosection">
+        <div class="herotittle">
+            <h1>Redline Journal</h1>
+            <h5>Insights, setup ideas, and gear guides for players who live in the redline.</h5>
+
+        </div>
+    </div>
+
+    <div class="filter-bar">
+        <ul>
+            <li><a href="#" class="active">All</a></li>
+            <li>•</li>
+            <li><a href="#">Gear Guides</a></li>
+            <li>•</li>
+            <li><a href="#">Setup Ideas</a></li>
+            <li>•</li>
+            <li><a href="#">Tips & Tricks</a></li>
+            <li>•</li>
+            <li><a href="#">News</a></li>
+        </ul>
+    </div>
+
+    <!-- section1 -->
+    <div class="section1 featured-section">
+        <h2>Featured Article</h2>
+
+        <div class="gradient-card boxsection1">
+            <div class="gradient-card-inner">
+
+                <div class="upcontent">
+                    <span class="featured">Featured</span>
+
+                    <h5 class="category">Gear Guides</h5>
+                </div>
+
+                <div class="content">
+                    <div class="leftcontent">
+                        <img src="images/blogsection1pc.png" alt="Featured Gamer">
+                    </div>
+
+                    <div class="rightcontent">
+                        <h5>How to Choose the Right Mechanical Switch For Your Playstyle</h5>
+
+                        <p>Linear? Tactile? Clicky? We break down the feel, sound, and speed of each switch type so you
+                            can
+                            frag perfectly.</p>
+                        <a href="#" class="read-more">read article</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footercontentbox">
+            <div class="footerinfor">
+                <div class="location">
+                    <img src="images/locationicon.png" alt="icon" width="50px" height="50px">
+
+                    <h5>25 RTX Street Kuala Lumpur, Malaysia</h5>
+                </div>
+
+                <div class="phnumber">
+                    <img src="images/phoneicon.png" alt="icon" width="50px" height="50px">
+
+                    <h5>+60 12 345 6789</h5>
+                </div>
+
+                <div class="redlinegmail">
+                    <img src="images/gmailicon.png" alt="icon" width="50px" height="50px">
+
+                    <h5>redlinetech@gmail.com</h5>
+                </div>
+            </div>
+
+            <div class="aboutteam">
+                <div class="atcontent">
+                    <h5>About Team</h5>
+
+                    <p>A group of passionate innovators and tech experts, working together to create impactful solutions
+                        and
+                        deliver real value.</p>
+                </div>
+
+                <div class="socialmediaicon">
+                    <img src="images/githubicon.png" alt="icon" width="50px" height="50px">
+
+                    <img src="images/whatsappicon.png" alt="icon" width="50px" height="50px">
+
+                    <img src="images/facebookicon.png" alt="icon" width="50px" height="50px">
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="js/menu.js"></script>
+    <script>
+        // 确保移动端菜单按钮能正常工作
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (menuToggle && mobileMenu) {
+            menuToggle.addEventListener('click', () => {
+                mobileMenu.classList.toggle('active');
+            });
+        }
+    </script>
+</body>
+
+</html>

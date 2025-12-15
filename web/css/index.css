@@ -210,6 +210,33 @@ footer {
     top: 192px;
 }
 
+@media screen and (max-width:1232px) {
+
+    /* 四个box */
+    .fourbox {
+        gap: 50px;
+
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+    /* 四个box */
+    .fourbox {
+        gap: 20px;
+
+    }
+}
+
+@media screen and (max-width:1180px) {
+
+    /* box的调整 */
+    .boxsection1 {
+        width: 457px;
+        height: 603px;
+    }
+}
+
 
 /* 平板响应式 */
 @media screen and (max-width:1080px) {
@@ -239,11 +266,27 @@ footer {
 
 }
 
+@media screen and (max-width:1000px) {
+
+    /* hero section */
+    .herotittle1 {
+        bottom: 300px;
+
+    }
+}
+
 @media screen and (max-width:780px) {
 
     .herotittle1 {
-        position: relative;
-        bottom: 350px;
+        bottom: 300px;
+
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    .herotittle1 {
+        bottom: 200px;
 
     }
 }
