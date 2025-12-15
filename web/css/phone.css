@@ -27,18 +27,18 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    padding: 20px 10px;
 }
 
 /* === ROW 1 : IMAGE === */
 .phone-img {
-    margin-top: 25px;
-    margin-bottom: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .phone-img img {
+    margin-top: auto;
     max-height: 100%;
     max-width: 100%;
 }
@@ -69,6 +69,7 @@
 }
 
 .button {
+    margin-bottom: auto;
     width: 120px;
     padding: 3px;
 }
@@ -77,41 +78,83 @@
     padding: 15px 20px;
 }
 
-/* tablet section */
+/* Tablet Section */
 .tablet-section {
     margin: 100px 54px;
 }
 
 .tablet-title {
     text-align: center;
-    margin: 0 0 100px 0;
+    margin-bottom: 100px;
 }
 
+/* Card layout */
 .tablet {
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 50px;
     flex-wrap: wrap;
 }
 
-.tablet-cardborder {
-    position: relative;
-    border-radius: 46px;
-    padding: 5px;
-}
-
+/* Inner card */
 .tablet-card {
-    width: 335px;
-    height: 580px;
+    width: 345px;
+    height: 480px;
     border-radius: 43px;
     text-align: center;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 0;
 }
+
+/* ===== ROW 1 : IMAGE ===== */
+.tablet-img {
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tablet-img img {
+    max-height: 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+/* ===== ROW 2 : TITLE ===== */
+.tablet-title-text {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tablet-title-text h5 {
+    margin: 0;
+}
+
+/* ===== ROW 3 : PRICE ===== */
+.tablet-price {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tablet-price p {
+    margin: 0;
+    line-height: 1.4;
+}
+
 
 @media screen and (max-width:1279px) {
 
     .phone {
-        gap: 30px;
+        gap: 45px;
+    }
+
+    .tablet {
+        gap: 45px;
     }
 }
 
