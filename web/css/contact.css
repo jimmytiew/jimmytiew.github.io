@@ -322,6 +322,10 @@
         margin: 0 40px;
     }
 
+    .fouth-section {
+        min-height: 500px;
+    }
+
     .comment-form {
         padding: 70px 10px;
     }
