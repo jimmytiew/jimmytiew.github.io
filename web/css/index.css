@@ -58,6 +58,8 @@ a.view-all-gear {
     margin: 0px 54px;
     /* 整个section2的margin */
     border-radius: 46px;
+    overflow: hidden;
+    padding-bottom: 40px;
 
 }
 
@@ -109,14 +111,19 @@ a.view-all-gear {
     width: 291.04px;
     height: 337.07px;
     flex-shrink: 0;
+    display: block;
+    width: 291.04px;
+    height: auto;
+    flex-shrink: 0;
+    text-decoration: none;
+}
+
+.gradient-card-inner {
+    padding: 15px;
 }
 
 .boxsection2 h5 {
     text-align: center;
-}
-
-.section2button {
-    margin: 20px;
 }
 
 
