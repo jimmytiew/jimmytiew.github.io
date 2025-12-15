@@ -260,11 +260,6 @@
         width: 50%;
     }
 
-    .button a {
-        padding: 20px 10px;
-        font-size: 13px;
-    }
-
     .second-button a {
         padding: 20px 10px;
         font-size: 13px;
@@ -319,6 +314,8 @@
 
     .second-button a {
         padding: 20px 10px;
+        width: 200px;
+        font-size: 10px;
     }
 
     .third-text {
