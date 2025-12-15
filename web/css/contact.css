@@ -1,5 +1,5 @@
 .herosection {
-    background-image: url('../images/contact.png');
+    background-image: url('../images/contact.jpg');
 }
 
 .first-section {
@@ -104,7 +104,7 @@
 }
 
 .form-box {
-    background: linear-gradient(90deg, #000399, #FF0000);
+    background: var(--gradientstrokeforbox);
     box-shadow: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
     border-radius: 46px;
     margin: 5%;
@@ -112,8 +112,8 @@
 }
 
 .comment-form {
-    background-color: black;
-    color: white;
+    background-color: var(--colorblack);
+    color: var(--colorwhite);
     padding: 70px 20px;
     border-radius: 46px;
 }
@@ -142,7 +142,7 @@
 }
 
 .third-text label {
-    color: #ffffff;
+    color: var(--colorwhite);
     font-size: 24px;
 }
 
@@ -170,7 +170,7 @@
 }
 
 .modal p {
-    color: black;
+    color: var(--colorblack);
     text-align: center;
 }
 
@@ -179,12 +179,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../images/support\ image.png);
+    background-image: url(../images/supportpageh-herosection.jpg);
     background-size: cover;
     background-position: center;
     margin-top: 15%;
     min-height: 703px;
-    color: white;
+    color: var(--colorwhite);
 }
 
 .fouth-section h1 {
@@ -217,7 +217,7 @@
     text-align: center;
     font-size: 16px;
     letter-spacing: 0.15em;
-    color: #fdfdfd;
+    color: var(--colorwhite);
     box-sizing: border-box;
     background: linear-gradient(to top, #CD0000 0%, #000000 100%);
     text-decoration: none;
@@ -253,16 +253,11 @@
     }
 
     .name input {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .fouth-section p {
         width: 50%;
-    }
-
-    .button a {
-        padding: 20px 10px;
-        font-size: 13px;
     }
 
     .second-button a {
@@ -301,7 +296,6 @@
     }
 
     .name input {
-        font-size: 15px;
         padding: 5px 10px;
     }
 
@@ -319,10 +313,16 @@
 
     .second-button a {
         padding: 20px 10px;
+        width: 200px;
+        font-size: 10px;
     }
 
     .third-text {
         margin: 0 40px;
+    }
+
+    .fouth-section {
+        min-height: 500px;
     }
 
     .comment-form {

@@ -12,7 +12,7 @@ a.view-all-gear {
     padding: 10px 20px;
     border-radius: 100px;
     margin: 8px;
-    color: rgb(255, 255, 255);
+    color: var(--colorwhite);
     font-size: 24px;
 }
 
@@ -54,7 +54,7 @@ a.view-all-gear {
 
 /* section2 */
 .section2 {
-    background-color: #ffffff;
+    background-color: var(--colorwhite);
     margin: 0px 54px;
     /* 整个section2的margin */
     border-radius: 46px;
@@ -70,13 +70,13 @@ a.view-all-gear {
 }
 
 .tittle2 h5 {
-    color: #000000;
+    color: var(--colorblack);
     margin: 0;
     opacity: 70%;
 }
 
 .tittle2 h1 {
-    color: #000000;
+    color: var(--colorblack);
     margin: 0;
 }
 
@@ -210,7 +210,7 @@ footer {
     top: 192px;
 }
 
-@media screen and (max-width:1232px) {
+@media screen and (max-width:1250px) {
 
     /* 四个box */
     .fourbox {
@@ -219,7 +219,7 @@ footer {
     }
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1210px) {
 
     /* 四个box */
     .fourbox {
@@ -241,11 +241,12 @@ footer {
 /* 平板响应式 */
 @media screen and (max-width:1080px) {
 
-    /* section1box */
+    /* box的调整 */
     .boxsection1 {
-        width: 900px;
-        height: 703px;
+        width: 407px;
+        height: 603px;
     }
+
 
     /* section3 picture */
     .section3pc img {
@@ -268,6 +269,12 @@ footer {
 
 @media screen and (max-width:1000px) {
 
+    /* box的调整 */
+    .boxsection1 {
+        width: 357px;
+        height: 503px;
+    }
+
     /* hero section */
     .herotittle1 {
         bottom: 300px;
@@ -275,7 +282,25 @@ footer {
     }
 }
 
+
+
+@media screen and (max-width:900px) {
+
+    /* box的调整 */
+    .boxsection1 {
+        width: 307px;
+        height: 453px;
+    }
+}
+
 @media screen and (max-width:780px) {
+
+    /* box的调整 */
+    .boxsection1 {
+        width: 607px;
+        height: 403px;
+    }
+
 
     .herotittle1 {
         bottom: 300px;

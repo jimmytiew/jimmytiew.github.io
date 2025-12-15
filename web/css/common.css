@@ -764,7 +764,11 @@ footer {
     /* button */
     .button a {
         padding: 20px 10px;
-        font-size: 13px;
+        font-size: 10px;
+    }
+
+    .button {
+        width: 200px;
     }
 
 
@@ -834,5 +838,12 @@ footer {
 
     .herotittle h5 {
         margin: 0 30px;
+    }
+}
+
+@media screen and (max-width:425px) {
+
+    .button {
+        width: 170px;
     }
 }
