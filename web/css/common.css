@@ -16,6 +16,7 @@ body {
     --colorred: #BE0108;
     --colorpurple: #8F0256;
     --gradientstrokeforbox: linear-gradient(135deg, #0000ff, #800080, #ff0000);
+    --shawdowforbox: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
 }
 
 h1,
@@ -204,7 +205,7 @@ li {
     border-radius: 40px;
     padding: 5px;
     background: var(--gradientstrokeforbox);
-    box-shadow: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
+    box-shadow: var(--shawdowforbox);
 
 }
 
@@ -220,13 +221,6 @@ li {
     justify-content: center;
     box-sizing: border-box;
     padding: 10px;
-}
-
-.gradient-card-inner img {
-    max-width: 80%;
-    max-height: 70%;
-    object-fit: contain;
-    margin-bottom: 10px;
 }
 
 .gradient-card-inner h3 {
@@ -262,32 +256,6 @@ li {
     text-decoration: none;
 }
 
-
-
-.content {
-    display: flex;
-}
-
-.tittlebox {
-    margin: 95px 0 0 95px;
-}
-
-.tittlebox img {
-    display: none;
-    flex: 0 0 auto;
-    width: 100%;
-    background: var(--gradientstrokeforbox);
-    box-shadow: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
-    border-radius: 46px;
-    padding: 5px;
-    text-decoration: none;
-}
-
-.tittlebox h1 {
-    color: var(--colorblack);
-    margin: 0;
-}
-
 .pcborder {
     margin: 87px;
 }
@@ -314,7 +282,7 @@ footer {
     background-color: var(--colorred);
     padding: 20px 0px;
     margin-top: 10%;
-    box-shadow: 0px -10px 40px #be0108c4;
+    box-shadow: 0px -10px 40px var(--colorred);
 }
 
 .footercontentbox {

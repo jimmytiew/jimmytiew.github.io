@@ -52,6 +52,13 @@ a.view-all-gear {
     margin-top: 55px;
 }
 
+.fourboximg img {
+    max-width: 80%;
+    max-height: 70%;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
 /* section2 */
 .section2 {
     background-color: var(--colorwhite);
@@ -172,26 +179,26 @@ a.view-all-gear {
 /* section4 */
 .leaderintro {
     background-color: var(--colorwhite);
+    align-items: normal;
 }
 
 .leaderintro h1,
 p {
     color: var(--colorblack);
-    margin: 0;
+}
+
+.leaderintro h1 {
+    margin: 0px auto 20px;
 }
 
 .boxaboutintro {
     display: flex;
     margin: 60px;
-    gap: 50px;
+    gap: 80px;
 }
 
 .intro {
-    width: 50%;
-}
-
-.leaderpicture {
-    width: 40%;
+    width: 80%;
 }
 
 .section4 {
@@ -206,10 +213,16 @@ p {
 }
 
 .leaderimg {
-    background-image: url(../images/homesection4pc.jpg);
-    background-size: cover;
-    width: 400px;
-    aspect-ratio: 1/1;
+    width: 100%;
+    padding: 0;
+}
+
+.leaderimg img {
+    border-radius: 38px;
+}
+
+.sectionbutton4 {
+    margin: 0px auto 20px 60px;
 }
 
 /* footer */
@@ -299,6 +312,17 @@ footer {
         width: 307px;
         height: 453px;
     }
+
+    .boxaboutintro {
+        flex-direction: column;
+        gap: 30px;
+        margin: 30px;
+        align-items: center;
+    }
+
+    .sectionbutton4 {
+        margin: auto;
+    }
 }
 
 @media screen and (max-width:780px) {
@@ -336,10 +360,6 @@ footer {
 
     .pcborder {
         display: none;
-    }
-
-    .sectionbutton4 {
-        margin: 40px auto 0;
     }
 
     .tittlebox {
