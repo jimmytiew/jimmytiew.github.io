@@ -58,6 +58,8 @@ a.view-all-gear {
     margin: 0px 54px;
     /* 整个section2的margin */
     border-radius: 46px;
+    overflow: hidden;
+    padding-bottom: 40px;
 
 }
 
@@ -109,14 +111,19 @@ a.view-all-gear {
     width: 291.04px;
     height: 337.07px;
     flex-shrink: 0;
+    display: block;
+    width: 291.04px;
+    height: auto;
+    flex-shrink: 0;
+    text-decoration: none;
+}
+
+.gradient-card-inner {
+    padding: 15px;
 }
 
 .boxsection2 h5 {
     text-align: center;
-}
-
-.section2button {
-    margin: 20px;
 }
 
 
@@ -203,6 +210,33 @@ footer {
     top: 192px;
 }
 
+@media screen and (max-width:1232px) {
+
+    /* 四个box */
+    .fourbox {
+        gap: 50px;
+
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+    /* 四个box */
+    .fourbox {
+        gap: 20px;
+
+    }
+}
+
+@media screen and (max-width:1180px) {
+
+    /* box的调整 */
+    .boxsection1 {
+        width: 457px;
+        height: 603px;
+    }
+}
+
 
 /* 平板响应式 */
 @media screen and (max-width:1080px) {
@@ -232,11 +266,27 @@ footer {
 
 }
 
+@media screen and (max-width:1000px) {
+
+    /* hero section */
+    .herotittle1 {
+        bottom: 300px;
+
+    }
+}
+
 @media screen and (max-width:780px) {
 
     .herotittle1 {
-        position: relative;
-        bottom: 350px;
+        bottom: 300px;
+
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    .herotittle1 {
+        bottom: 200px;
 
     }
 }

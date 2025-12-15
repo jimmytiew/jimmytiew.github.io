@@ -1,0 +1,32 @@
+/* herosection */
+.herosection {
+    background-image: url('../images/blogherosectionpc.png');
+}
+
+/* section1 */
+.section1 h2 {
+    text-align: center;
+}
+
+.gradient-card-inner {
+    color: var(--colorblack)
+}
+
+.upcontent {
+    display: flex;
+    gap: 500px
+}
+
+.featured {
+    font-size: 40px;
+    color: var(--colorwhite);
+}
+
+.category {
+    margin: 0;
+    opacity: 30%;
+}
+
+.boxsection1 {
+    width: 100%;
+}
