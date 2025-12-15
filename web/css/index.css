@@ -306,6 +306,37 @@ footer {
         bottom: 300px;
 
     }
+
+    /* teambox */
+    .tittlebox {
+        margin: 15px;
+        text-align: center;
+    }
+
+    .tittlebox h1 {
+        font-size: 24px;
+    }
+
+    .pcborder {
+        margin: 55px;
+    }
+
+    .tittlebox img {
+        display: block;
+        margin: 20px auto;
+    }
+
+    .pcborder {
+        display: none;
+    }
+
+    .sectionbutton4 {
+        margin: 40px auto 0;
+    }
+
+    .tittlebox {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:700px) {
@@ -339,9 +370,7 @@ footer {
         width: 40%;
     }
 
-    .tittlebox {
-        width: 100%;
-    }
+
 
     footer {
         top: 252px;

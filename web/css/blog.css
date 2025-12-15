@@ -4,9 +4,7 @@
 }
 
 /* section1 */
-.section1 h2 {
-    text-align: center;
-}
+.section1 h2 {}
 
 .gradient-card-inner {
     color: var(--colorblack)

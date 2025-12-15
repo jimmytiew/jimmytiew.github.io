@@ -734,33 +734,6 @@ footer {
         margin: 0 30px;
     }
 
-    /* teambox */
-    .tittlebox {
-        margin: 15px;
-        text-align: center;
-    }
-
-    .tittlebox h1 {
-        font-size: 24px;
-    }
-
-    .pcborder {
-        margin: 55px;
-    }
-
-    .tittlebox img {
-        display: block;
-        margin: 20px auto;
-    }
-
-    .pcborder {
-        display: none;
-    }
-
-    .sectionbutton4 {
-        margin: 40px auto 0;
-    }
-
     /* button */
     .button a {
         padding: 20px 10px;
@@ -827,11 +800,6 @@ footer {
         height: 20px;
     }
 
-
-}
-
-@media screen and (max-width:720px) {
-
     .herotittle h1 {
         margin: 0 30px;
     }
@@ -840,6 +808,7 @@ footer {
         margin: 0 30px;
     }
 }
+
 
 @media screen and (max-width:425px) {
 
