@@ -100,7 +100,6 @@
     flex: 0 0 calc(33.33% - 50px);
     width: 345px;
     height: 480px;
-    border-radius: 43px;
     text-align: center;
     display: flex;
     flex-direction: column;
