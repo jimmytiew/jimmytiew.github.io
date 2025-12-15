@@ -93,9 +93,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 97%;
+    width: 96%;
     height: 97%;
-    border-radius: 20px;
+    border-radius: 40px;
     transform: rotateY(180deg);
 }
 
@@ -107,7 +107,7 @@
     background: linear-gradient(90deg, #000399, #FF0000);
     box-shadow: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
     border-radius: 46px;
-    margin: 54px;
+    margin: 5%;
     padding: 5px;
 }
 
@@ -164,32 +164,9 @@
 }
 
 .button {
-    display: block;
     margin-top: 20px;
     margin-left: 100px;
-    width: 20%;
-    padding: 5px;
     cursor: pointer;
-    border-radius: 46px;
-    background: linear-gradient(120deg,
-            #0024ff,
-            #ff0000,
-            #ff4b00,
-            #0024ff);
-}
-
-.button a {
-    display: block;
-    width: 100%;
-    padding: 30px 20px;
-    border-radius: 46px;
-    text-align: center;
-    font-size: 16px;
-    letter-spacing: 0.15em;
-    color: #fdfdfd;
-    box-sizing: border-box;
-    background: linear-gradient(to top, #CD0000 0%, #000000 100%);
-    text-decoration: none;
 }
 
 .modal p {
@@ -223,7 +200,6 @@
 .second-button {
     display: block;
     margin-top: 40px;
-    width: 20%;
     padding: 5px;
     border-radius: 46px;
     background: linear-gradient(120deg,
@@ -235,7 +211,7 @@
 
 .second-button a {
     display: block;
-    width: 100%;
+    width: 263px;
     padding: 30px 20px;
     border-radius: 46px;
     text-align: center;
@@ -245,6 +221,13 @@
     box-sizing: border-box;
     background: linear-gradient(to top, #CD0000 0%, #000000 100%);
     text-decoration: none;
+}
+
+@media screen and (max-width:1200px) {
+    .back h5 {
+        font-size: 16px;
+    }
+
 }
 
 @media screen and (max-width:1080px) {
@@ -266,62 +249,80 @@
     }
 
     .boxsection1 {
-        height: 300px;
+        height: 270px;
     }
 
     .name input {
-        font-size: 18px;
-    }
-
-    .form-box {
-        margin: 35px;
-    }
-
-    .button a {
-        font-size: 13px;
-    }
-
-    .second-button a {
-        font-size: 13px;
-    }
-
-    .back h5 {
         font-size: 18px;
     }
 
     .fouth-section p {
         width: 50%;
     }
+
+    .button a {
+        padding: 20px 10px;
+        font-size: 13px;
+    }
+
+    .second-button a {
+        padding: 20px 10px;
+        font-size: 13px;
+    }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:838px) {
+    .back h5 {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:720px) {
     .boxsection1 {
-        height: 230px;
+        height: 200px;
+        border-radius: 20px;
     }
 
     .gradient-card-inner {
-        width: 95%;
+        width: 94%;
         height: 96%;
+        border-radius: 20px;
     }
 
     .back {
         width: 95%;
         height: 96%;
+        border-radius: 20px;
     }
 
-    .back h5 {
-        font-size: 15px;
+    .comment-form h1 {
+        padding-left: 55px;
     }
 
     .name input {
         font-size: 15px;
-        padding: 5px;
+        padding: 5px 10px;
     }
 
     .third-text textarea {
         height: 150px;
         margin: 10px;
         font-size: 15px;
+        border-radius: 30px;
+        padding: 15px;
+    }
+
+    .name {
+        margin: 0 40px;
+    }
+
+    .second-button a {
+        padding: 20px 10px;
+    }
+
+    .third-text {
+        margin: 0 40px;
     }
 
     .comment-form {
@@ -329,35 +330,59 @@
     }
 
     .button {
-        margin-left: 80px;
-    }
-
-    .button a {
-        font-size: 9px;
+        margin-left: 50px;
     }
 
     .second-button {
         margin-top: 20px;
     }
 
-
-    .second-button a {
-        font-size: 9px;
-    }
-
-    .form-box {
-        margin: 25px;
-    }
 }
 
-@media screen and (max-width:560px) {
+@media screen and (max-width:660px) {
+    .boxsection1 {
+        height: 150px;
+    }
+
+    .name {
+        margin: 0 10px;
+    }
+
+    .third-text {
+        margin: 0 10px;
+    }
+
+    .button {
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (max-width:640px) {
     .back h5 {
         font-size: 8px;
     }
 
+    .back {
+        width: 93%;
+        height: 94%;
+    }
+
 }
 
-@media screen and (max-width:425px) {
+
+@media screen and (max-width:510px) {
+
+    .name input {
+        font-size: 10px;
+    }
+
+    .third-text textarea {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:500px) {
     .boxsection1 {
         height: 130px;
     }
@@ -366,19 +391,32 @@
         width: 92%;
         height: 93%;
     }
+}
 
-    .back {
-        width: 92%;
-        height: 93%;
+@media screen and (max-width:425px) {
+    .boxsection1 {
+        height: 100px;
+        border-radius: 20px;
     }
 
-    .form-box {
-        margin: 15px;
+    .gradient-card-inner {
+        width: 90%;
+        height: 93%;
+        border-radius: 15px;
+    }
+
+    .back {
+        width: 90%;
+        height: 92%;
     }
 
     .comment-form h1 {
         font-size: 20px;
         padding-left: 10px;
+    }
+
+    .back h5 {
+        font-size: 6px;
     }
 
     .name {
@@ -390,14 +428,12 @@
     }
 
     .name input {
-        font-size: 10px;
         padding: 3px 10px;
     }
 
     .third-text textarea {
         height: 100px;
         margin: 10px;
-        font-size: 10px;
     }
 
     .comment-form {
@@ -406,23 +442,10 @@
 
     .button {
         margin-left: 10px;
-        width: 40%;
-    }
-
-    .button a {
-        font-size: 9px;
-        padding: 15px 0;
     }
 
     .second-button {
         margin-top: 20px;
-        width: 30%;
-    }
-
-
-    .second-button a {
-        font-size: 9px;
-        padding: 15px 0;
     }
 
     .fouth-section {

@@ -201,7 +201,7 @@ li {
     position: relative;
     display: inline-block;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 5px;
     background: var(--gradientstrokeforbox);
     box-shadow: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
@@ -212,7 +212,7 @@ li {
     width: 100%;
     height: 100%;
     background: #4a403d;
-    border-radius: 40px;
+    border-radius: 38px;
 
     display: flex;
     flex-direction: column;
