@@ -22,6 +22,7 @@
 }
 
 .phone-card {
+    flex: 0 0 calc(25% - 50px);
     width: 245px;
     height: 500px;
     text-align: center;
@@ -38,7 +39,6 @@
 }
 
 .phone-img img {
-    margin-top: auto;
     max-height: 100%;
     max-width: 100%;
 }
@@ -92,12 +92,12 @@
 .tablet {
     display: flex;
     justify-content: center;
-    gap: 50px;
     flex-wrap: wrap;
 }
 
 /* Inner card */
 .tablet-card {
+    flex: 0 0 calc(33.33% - 50px);
     width: 345px;
     height: 480px;
     border-radius: 43px;
@@ -149,15 +149,85 @@
 
 @media screen and (max-width:1279px) {
 
-    .phone {
-        gap: 45px;
-    }
-
+    .phone,
     .tablet {
         gap: 45px;
     }
 }
 
+@media screen and (max-width:1263px) {
+
+    .phone,
+    .tablet {
+        gap: 25px;
+    }
+
+    .phone-card {
+        width: 214px;
+    }
+
+    .tablet-card {
+        width: 290px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+
+    .phone {
+        gap: 30px;
+    }
+
+    .phone-card {
+        flex: 0 0 calc(50% - 45px);
+        width: 300px;
+    }
+
+    .tablet-card {
+        flex: 0 0 100%;
+        width: 290px;
+    }
+}
+
+@media screen and (max-width:1058px) {
+    .tablet-card {
+        width: 270px;
+    }
+}
+
+@media screen and (max-width:998px) {
+    .tablet-card {
+        flex: 0 0 100%;
+        width: 260px;
+    }
+}
+
+@media screen and (max-width:968px) {
+
+    .tablet-card {
+        flex: 0 0 100%;
+        width: 240px;
+    }
+}
+
+@media screen and (max-width:908px) {
+
+    .tablet-card {
+        flex: 0 0 100%;
+        width: 380px;
+    }
+}
+
+@media screen and (max-width:758px) {
+
+    .phone {
+        gap: 25px;
+    }
+
+    .phone-card {
+        flex: 0 0 calc(50% - 45px);
+        width: 280px;
+    }
+}
 
 @media screen and (max-width:720px) {
 
@@ -174,21 +244,17 @@
     }
 
     .phone-card {
-        width: 370px;
-        height: 500px;
+        flex: 0 0 100%;
+        width: 350px;
     }
 
     .tablet-section {
         margin: 50px 30px;
     }
 
-    .tablet-title {
-        text-align: center;
-        margin: 0 0 50px 0;
-    }
 
     .tablet-card {
-        width: 370px;
-        height: 470px;
+        flex: 0 0 100%;
+        width: 350px;
     }
 }
