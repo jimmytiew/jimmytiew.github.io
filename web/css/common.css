@@ -528,6 +528,10 @@ footer {
         margin-top: 20px;
     }
 
+    /* herosection */
+    .herotittle {
+        margin: 180px 0 0 0;
+    }
 
     /* button */
     .button a {
@@ -719,7 +723,7 @@ footer {
 
     /* herosection */
     .herotittle {
-        margin: 70px 0 0 0;
+        margin: 80px 0 0 0;
     }
 
     .herotittle h1 {
