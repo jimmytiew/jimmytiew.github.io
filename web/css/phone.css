@@ -146,6 +146,13 @@
     line-height: 1.4;
 }
 
+@media screen and (min-width:1279px) {
+
+    .phone,
+    .tablet {
+        gap: 50px;
+    }
+}
 
 @media screen and (max-width:1279px) {
 
