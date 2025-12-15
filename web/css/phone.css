@@ -22,13 +22,16 @@
 }
 
 .phone-card {
-    flex: 0 0 calc(25% - 50px);
     width: 245px;
     height: 500px;
     text-align: center;
     display: flex;
     flex-direction: column;
     padding: 20px 10px;
+}
+
+.phone-row {
+    gap: 50px;
 }
 
 /* === ROW 1 : IMAGE === */
@@ -157,7 +160,11 @@
 
     .phone,
     .tablet {
-        gap: 45px;
+        gap: 35px;
+    }
+
+    .tablet-card {
+        width: 300px;
     }
 }
 

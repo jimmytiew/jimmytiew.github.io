@@ -253,7 +253,7 @@
     }
 
     .name input {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .fouth-section p {
@@ -296,7 +296,6 @@
     }
 
     .name input {
-        font-size: 15px;
         padding: 5px 10px;
     }
 
@@ -320,6 +319,10 @@
 
     .third-text {
         margin: 0 40px;
+    }
+
+    .fouth-section {
+        min-height: 500px;
     }
 
     .comment-form {
