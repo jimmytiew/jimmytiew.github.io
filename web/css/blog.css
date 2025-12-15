@@ -1,30 +1,91 @@
 /* herosection */
 .herosection {
     background-image: url('../images/blogherosectionpc.png');
+
+}
+
+/* Filter Bar*/
+.filter-bar {
+    text-align: center;
+    padding: 30px 0;
+
+    margin: 0 54px;
+}
+
+.filter-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.filter-bar h5,
+a {
+    opacity: 70%;
+    color: var(--colorwhite)
+}
+
+.filter-bar h5 {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.filter-bar a {
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
 /* section1 */
-.section1 h2 {}
+.section1 {
+    margin: 0 54px;
+}
+
+.section1 h1 {
+    text-align: center;
+}
 
 .gradient-card-inner {
-    color: var(--colorblack)
+    background-color: var(--colorblack)
 }
 
 .upcontent {
     display: flex;
-    gap: 500px
+    gap: 700px;
 }
 
 .featured {
     font-size: 40px;
     color: var(--colorwhite);
+    text-align: left;
 }
 
 .category {
     margin: 0;
     opacity: 30%;
+    text-align: right;
 }
 
 .boxsection1 {
     width: 100%;
 }
+
+.content img {
+    width: 55%;
+    margin: 20px;
+}
+
+.rightcontent h5 {
+    margin: 80px 0;
+}
+
+.rightcontent p {
+    margin: 150px 0;
+}
+
+.read-more {
+    text-decoration: none;
+    color: var(--colorred);
+    font-size: 20px;
+}
+
+/* section2 */
