@@ -105,7 +105,7 @@
 
 .form-box {
     background: var(--gradientstrokeforbox);
-    box-shadow: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
+    box-shadow: var(--shadowforbox);
     border-radius: 46px;
     margin: 5%;
     padding: 5px;

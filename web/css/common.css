@@ -16,7 +16,7 @@ body {
     --colorred: #BE0108;
     --colorpurple: #8F0256;
     --gradientstrokeforbox: linear-gradient(135deg, #0000ff, #800080, #ff0000);
-    --shawdowforbox: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
+    --shadowforbox: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
 }
 
 h1,
@@ -205,7 +205,7 @@ li {
     border-radius: 40px;
     padding: 5px;
     background: var(--gradientstrokeforbox);
-    box-shadow: var(--shawdowforbox);
+    box-shadow: var(--shadowforbox);
 
 }
 
