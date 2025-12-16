@@ -17,7 +17,6 @@ body {
     --colorpurple: #8F0256;
     --gradientstrokeforbox: linear-gradient(135deg, #0000ff, #800080, #ff0000);
     --shadowforbox: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
-    --colorfinish: #0004ff;
 }
 
 /* 标记做完的page */
@@ -112,10 +111,14 @@ li {
     z-index: 1001;
 }
 
+#finish {
+    color: yellow;
+}
+
 .menu1>a,
 .menu-item1>a {
     text-decoration: none;
-    color: var(--colorfinish);
+    color: var(--colorwhite);
     font-size: 16px;
     letter-spacing: 0.06em;
     display: inline-flex;
@@ -126,7 +129,7 @@ li {
 .menu1>a:hover,
 .menu-item1>a:hover {
 
-    color: var(--colorfinish);
+    color: var(--colorwhite);
     text-shadow: 0 0 6px rgba(255, 255, 255, 0.7);
 }
 
@@ -150,7 +153,7 @@ li {
     padding: 8px 18px;
     font-size: 16px;
     letter-spacing: 0.04em;
-    color: var(--colorfinish);
+    color: var(--colorwhite);
     text-decoration: none;
     white-space: nowrap;
 }
