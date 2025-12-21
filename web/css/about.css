@@ -110,7 +110,7 @@ p {
 .ourstrategy {
     display: flex;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 15%;
     flex-direction: row-reverse;
 }
 
@@ -142,4 +142,44 @@ p {
     margin-bottom: 0;
     line-height: 2.5;
     color: var(--colorwhite);
+}
+
+.ourbenifit {
+    display: flex;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.ourbenifit-image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.ourbenifit-image img {
+    padding-right: 20px;
+}
+
+.ourbenifit-test {
+    width: 55%;
+    padding-right: 50px;
+}
+
+.ourbenifit-test h5 {
+    margin: 0;
+}
+
+.ourbenifit-test h1 {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.ourbenifit-test p {
+    margin-bottom: 0;
+    line-height: 2.5;
+    color: var(--colorwhite);
+}
+
+li {
+    padding-top: 10px;
 }
