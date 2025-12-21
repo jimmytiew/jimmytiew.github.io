@@ -3,6 +3,7 @@
     position: relative;
     bottom: 400px;
     margin: 0px 0px 0px 54px;
+    width: 85%;
 }
 
 a.view-all-gear {
@@ -231,6 +232,7 @@ footer {
 
 
 /* 平板响应式 */
+
 @media screen and (max-width:1080px) {
 
     /* section3 picture */
@@ -246,7 +248,7 @@ footer {
 
     .herotittle1 {
         position: relative;
-        bottom: 400px;
+        bottom: 300px;
 
     }
 
@@ -278,6 +280,10 @@ footer {
 
     .boxsection1 {
         width: 80%;
+    }
+
+    .tittle1 {
+        margin-top: -10px;
     }
 }
 
@@ -313,6 +319,23 @@ footer {
 
     .tittlebox {
         width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:720px) {
+    .herotittle1 {
+        bottom: 200px;
+    }
+
+    a.view-all-gear {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .tittle1 {
+        margin-top: 50px;
     }
 }
 
@@ -355,9 +378,6 @@ footer {
         padding: 0;
     }
 
-    .tittle1 {
-        position: relative;
-        top: 30px;
-    }
+
 
 }
