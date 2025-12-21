@@ -17,19 +17,9 @@ body {
     --colorpurple: #8F0256;
     --gradientstrokeforbox: linear-gradient(135deg, #0000ff, #800080, #ff0000);
     --shadowforbox: 5px 0px 15px rgba(255, 0, 55, 0.5), -5px 0px 15px rgba(0, 20, 255, 0.5);
-    --colorfinish: yellow;
 }
 
-/* 标记做完的page */
-.menu-item a.finish {
-    color: var(--colorfinish);
-}
-
-.menu a.finish {
-    color: var(--colorfinish);
-}
-
-h1,
+.h1,
 h2,
 h3,
 h4,
@@ -115,7 +105,6 @@ li {
 
 .menu>a:hover,
 .menu-item>a:hover {
-
     color: var(--colorwhite);
     text-shadow: 0 0 6px rgba(255, 255, 255, 0.7);
 }
