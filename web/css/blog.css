@@ -36,11 +36,11 @@ a {
 }
 
 /* section1 */
-.section1 {
+.section-featured-article {
     margin: 0 54px;
 }
 
-.section1 h1 {
+.section-featured-article h1 {
     text-align: center;
 }
 
@@ -50,23 +50,34 @@ a {
 
 .upcontent {
     display: flex;
-    gap: 700px;
+
 }
 
 .featured {
     font-size: 40px;
     color: var(--colorwhite);
     text-align: left;
+    position: absolute;
+    top: 20px;
+    left: 40px;
 }
 
 .category {
     margin: 0;
     opacity: 30%;
-    text-align: right;
+    position: absolute;
+    top: 20px;
+    right: 40px;
 }
 
 .boxsection1 {
     width: 100%;
+    position: relative;
+}
+
+.content {
+    display: flex;
+    margin: 40px 0;
 }
 
 .content img {
@@ -89,3 +100,84 @@ a {
 }
 
 /* section2 */
+.tittle {
+    text-align: center;
+    margin: 100px 54px 20px 54px;
+}
+
+.tittle h5,
+.tittle h1 {
+    margin: 0;
+}
+
+.tittle h5 {
+    opacity: 70%;
+}
+
+.gradient-card {
+    position: relative;
+}
+
+.boxsection2 {
+    width: 100%;
+    margin: 20px 0;
+}
+
+h5.right {
+    margin: 0;
+    opacity: 30%;
+    position: absolute;
+    right: 40px;
+    top: 15px;
+}
+
+.gradient-card-inner {
+    align-items: unset;
+}
+
+.uptittle h5 {
+    margin: 20px;
+}
+
+.latest-articles-boxes {
+    margin: 0 54px;
+}
+
+.downcontent {
+    margin: 20px;
+}
+
+.downcontent p.date-latest {
+    font-family: "Audiowide", sans-serif;
+    position: absolute;
+    top: 55px;
+}
+
+.downcontent p {
+    margin: 20px 0 0 0;
+}
+
+/* section3 */
+.browse-section {
+    margin: 0 54px;
+}
+
+.boxsection3 {
+    width: 22.5%;
+}
+
+.text {
+    margin: 30px;
+    width: 80%
+}
+
+.text h5 {
+    margin: 0;
+}
+
+.boxgap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 100px 0;
+}
