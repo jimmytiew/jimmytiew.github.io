@@ -2,37 +2,107 @@
     background-image: url('../images/about\ image.jpg');
 }
 
-.first-section {
+.aboutredline {
     display: flex;
     align-items: center;
     margin-top: 10%;
 }
 
-.first-section-image {
+.aboutredline-image {
     width: 45%;
     display: flex;
     justify-content: center;
 }
 
-.first-section-image img {
+.aboutredline-image img {
     padding-right: 20px;
 }
 
-.first-section-test {
+.aboutredline-test {
     width: 55%;
     padding-right: 50px;
 }
 
-.first-section-test h5 {
+.aboutredline-test h5 {
     margin: 0;
 }
 
-.first-section-test h1 {
+.aboutredline-test h1 {
     margin-bottom: 0;
     margin-top: 20px;
 }
 
-.first-section-test p {
+.aboutredline-test p {
     margin-bottom: 0;
+    line-height: 2.5;
+    color: var(--colorwhite);
+}
+
+.memberintro {
+    background-color: var(--colorwhite);
+    align-items: normal;
+}
+
+.intro h1,
+p {
+    color: var(--colorblack);
+}
+
+.memberintro h1 {
+    margin: 0px auto 20px;
+}
+
+.boxaboutintro {
+    display: flex;
+    margin: 30px;
+    gap: 80px;
+}
+
+.intro {
+    width: 90%;
+}
+
+.ourmember {
+    margin: 150px 54px 0 54px;
+}
+
+.title h1 {
+    text-align: center;
+}
+
+.member {
+    width: 100%;
+    padding: 0;
+}
+
+.member img {
+    border-radius: 38px;
+}
+
+.second-button {
+    margin: 0px auto 20px 30px;
+}
+
+.ourproduct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/product.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10%;
+    min-height: 703px;
+    color: var(--colorwhite);
+}
+
+.ourproduct h1 {
+    margin: 0;
+}
+
+.ourproduct p {
+    width: 60%;
+    text-align: center;
+    color: var(--colorwhite);
     line-height: 2.5;
 }
