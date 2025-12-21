@@ -106,3 +106,40 @@ p {
     color: var(--colorwhite);
     line-height: 2.5;
 }
+
+.ourstrategy {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    flex-direction: row-reverse;
+}
+
+.ourstrategy-image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.ourstrategy-image img {
+    padding-right: 20px;
+}
+
+.ourstrategy-test {
+    width: 55%;
+    padding-left: 54px;
+}
+
+.ourstrategy-test h5 {
+    margin: 0;
+}
+
+.ourstrategy-test h1 {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.ourstrategy-test p {
+    margin-bottom: 0;
+    line-height: 2.5;
+    color: var(--colorwhite);
+}
