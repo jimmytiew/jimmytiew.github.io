@@ -113,6 +113,83 @@
     background-repeat: no-repeat;
 }
 
+/* What’s-Covered */
+.whtcsection {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 54px 140px 54px;
+    justify-content: center;
+}
+
+.whtctittle {
+    text-align: center;
+}
+
+.whtcinside-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.whtccontentbox {
+    background-color: var(--colorblack);
+    padding: 40px;
+}
+
+.whtgroup {
+    display: flex;
+
+}
+
+.whtcover {
+    text-align: center;
+}
+
+.whtcline {
+    width: 4px;
+    height: 290px;
+    background: var(--colorpurple);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+/* What’s-not-Covered */
+.whtccontentboxwhite {
+    background-color: var(--colorwhite);
+    padding: 40px;
+}
+
+.whtnotcover {
+    width: 45%;
+}
+
+.whtnotcover-intro h5,
+.whtnotcover h5 {
+    color: var(--colorblack);
+    margin: 0;
+}
+
+.whtnotcover-intro p,
+.whtnotcover p {
+    color: var(--colorblack);
+    margin: 10px;
+}
+
+.whtnotgroup {
+    display: flex;
+    gap: 40px;
+}
+
+.whtnotgroup-inside {
+    width: 30%;
+}
+
+.whtnotgroup-inside-second {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 70%;
+}
+
 @media screen and (max-width:720px) {
     .wcimagebox {
         display: none;
