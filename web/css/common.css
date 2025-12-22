@@ -228,6 +228,15 @@ li {
     text-align: center;
 }
 
+.gradient-card {
+    transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+        box-shadow 0.3s ease;
+}
+
+.gradient-card:hover {
+    transform: translateY(-8px);
+}
+
 /* button */
 .button {
     display: block;
@@ -253,6 +262,26 @@ li {
     box-sizing: border-box;
     background: linear-gradient(to top, #CD0000 0%, #000000 100%);
     text-decoration: none;
+}
+
+.button:hover a {
+    border-color: #ff0000;
+    animation: red-glow-breath 1.5s infinite ease-in-out;
+}
+
+@keyframes red-glow-breath {
+    0% {
+        box-shadow: 0 0 5px rgba(255, 0, 0, 0.2);
+    }
+
+    50% {
+        box-shadow: 0 0 30px rgba(255, 0, 0, 0.8),
+            0 0 30px rgba(255, 0, 0, 0.4);
+    }
+
+    100% {
+        box-shadow: 0 0 5px rgba(255, 0, 0, 0.2);
+    }
 }
 
 .pcborder {

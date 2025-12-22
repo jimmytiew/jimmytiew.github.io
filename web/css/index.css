@@ -229,6 +229,37 @@ footer {
     top: 192px;
 }
 
+/* 交互动画 */
+.gradient-card-inner img {
+    transition: transform 0.5s ease;
+}
+
+.gradient-card:hover .gradient-card-inner img {
+    transform: scale(1.1);
+}
+
+.section4 .gradient-card:hover {
+    transform: none !important;
+}
+
+.section4 .gradient-card:hover .gradient-card-inner img {
+    transform: none !important;
+}
+
+
+.section3pc img {
+    transition: filter 0.3s ease, transform 0.3s ease;
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+
+.section3pc img:hover {
+    filter: brightness(1.1);
+    transform: scale(1.02);
+    z-index: 10;
+}
+
+
 
 
 /* 平板响应式 */
