@@ -222,9 +222,20 @@
     margin: 100px 0 60px 0;
 }
 
+.card-short .controllerimg-box img {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 230px;
+}
+
+.card-short .controller-bottom {
+    padding-bottom: 30px;
+}
+
+
 /* card long */
 .controller-cardborder {
-    height: 400px;
+    height: 480px;
 }
 
 .controller-card.card-long {
@@ -232,7 +243,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 400px;
+    height: 480px;
 }
 
 /* 左边：大图 */
@@ -250,23 +261,29 @@
 
 /* 右边：文字区 */
 .card-long .controllerinfo-box {
-    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
 }
 
-.card-long .controller-bottom {
+.controller-bottom {
     margin-top: auto;
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.card-long .controllerprice {
+.card-long .controller-bottom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.controllerprice {
     margin: 0;
-    height: 0;
+    height: auto;
+    line-height: 1;
 }
 
 .controller-row1,
@@ -543,6 +560,60 @@
     .buyguidecard-title {
         margin-left: 25px;
     }
+
+    .controller {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .controller-row1,
+    .controller-row2,
+    .controller-row3 {
+        display: contents;
+    }
+
+    .controller-cardborder {
+        flex: 0 0 calc(50% - 25px);
+        max-width: calc(50% - 25px);
+    }
+
+    .controller-cardborder .card-long,
+    .controller-cardborder .card-short {
+        height: 400px;
+    }
+
+    .controller-card.card-long {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card-long .controllerimg-box,
+    .card-short .controllerimg-box {
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+
+    .card-long .controllerimg-box img,
+    .card-short .controllerimg-box img {
+        max-width: 250px;
+    }
+
+    .controllerinfo-box .card-long,
+    .controllerinfo-box .card-short {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .controller-bottom .card-long,
+    .controller-bottom .card-short {
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
 }
 
 @media screen and (max-width:720px) {
@@ -558,4 +629,44 @@
     .buyguidecard-title {
         margin-left: 25px;
     }
+
+    .controller {
+        gap: 30px;
+        /* 可选，缩小间距 */
+    }
+
+    .controller-cardborder {
+        flex: 0 0 100%;
+        max-width: 100%;
+        height: 400px;
+    }
+
+    .controller-card {
+        width: 450px;
+        margin: 0 auto;
+        height: 400px;
+    }
+
+    .controllertitle {
+        text-align: center;
+    }
+
+    .controllerinfo-box {
+        align-items: center;
+        text-align: center;
+    }
+
+    .controller-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .controllerprice {
+        height: auto;
+        margin: 0;
+        text-align: center;
+    }
+
 }
