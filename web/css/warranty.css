@@ -191,6 +191,18 @@
 }
 
 @media screen and (max-width:720px) {
+    .wc-section {
+        flex-direction: column;
+    }
+
+    .coverage {
+        width: 100%;
+    }
+
+    .coverage ul {
+        margin: 5px 11px;
+    }
+
     .wcimagebox {
         display: none;
     }
@@ -198,6 +210,26 @@
     .wcimagebox-second {
         display: none;
     }
+
+    /* What’s-not-Covered */
+    .whtnotcover {
+        width: 100%;
+    }
+
+    .whtnotgroup {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .whtnotgroup-inside {
+        width: 100%;
+    }
+
+    .whtnotgroup-inside-second {
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 
 @media screen and (min-width:720px) {
