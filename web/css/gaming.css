@@ -393,3 +393,8 @@
     text-align: center;
     margin: 100px 0 60px 0;
 }
+
+.buyguide-content li {
+    margin-bottom: 10px;
+    /* 每一行的间距 */
+}
