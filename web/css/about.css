@@ -304,4 +304,8 @@ li {
     .ourmember {
         margin: 100px 54px 0 54px;
     }
+
+    .aboutredline-test h1 {
+        width: 90%;
+    }
 }
