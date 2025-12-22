@@ -38,7 +38,6 @@
     margin-top: 30px;
 }
 
-
 .miceimg-box {
     height: 230px;
     display: flex;
@@ -165,6 +164,7 @@
 
 .keyboard-card img {
     margin-top: 30px;
+    max-width: 400px;
 }
 
 
@@ -308,8 +308,12 @@
     flex-wrap: wrap;
 }
 
+.headset-cardborder {
+    flex: 0 0 calc(50% - 60px);
+}
+
 .headset-card {
-    flex: 0 0 calc(50% - 25px);
+    width: 100%;
     height: 340px;
     padding: 0 20px;
     box-sizing: border-box;
@@ -319,7 +323,7 @@
 }
 
 .headsetimg-box {
-    flex: 0 0 240px;
+    flex: 0 0 180px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -406,10 +410,6 @@
     padding: 10px 15px;
 }
 
-.buyguide-title h5 {
-    text-align: left;
-}
-
 .buyguidecard-content li {
     margin-bottom: 20px;
     /* 每一行的间距 */
@@ -429,6 +429,17 @@
 }
 
 
+@media screen and (max-width:1197px) {
+
+    .headsetimg-box {
+        flex: 0 0 140px;
+    }
+
+    .headset-bottom {
+        gap: 15px;
+    }
+}
+
 @media screen and (max-width:1108px) {
     .mice-cardborder {
         flex: 0 0 calc(50% - 60px);
@@ -439,6 +450,42 @@
 
     .mice-cardborder {
         flex: 0 0 calc(50% - 60px);
+    }
+
+    .keyboard-card img {
+        max-width: 300px;
+    }
+
+    .keyboardbanner-title {
+        margin: 0 0 0 200px;
+        width: 75%;
+    }
+
+    .headset-cardborder {
+        flex: 0 0 100%;
+        max-width: 600px;
+    }
+
+    .headset-card {
+        width: 100%;
+        max-width: 700px;
+        flex-direction: column;
+        height: 450px;
+    }
+
+    .headsetinfo-box {
+        justify-content: flex-start;
+        gap: 12px;
+    }
+
+    .headset-bottom {
+        flex-direction: column;
+    }
+
+    .headsettitle,
+    .headsetprice h5,
+    .button {
+        margin: 0;
     }
 
     .buyguide-card {
