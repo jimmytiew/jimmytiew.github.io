@@ -117,7 +117,7 @@
     width: 100%;
     aspect-ratio: 1/0.4;
     box-sizing: border-box;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -204,7 +204,7 @@
     width: 100%;
     aspect-ratio: 1/0.4;
     box-sizing: border-box;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -280,7 +280,7 @@
     width: 100%;
     aspect-ratio: 1/0.4;
     box-sizing: border-box;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -352,4 +352,34 @@
 
 .headsetprice {
     line-height: 60px;
+}
+
+/* headset banner section */
+
+.headsetbanner {
+    background-image: url('../images/bannerheadset.jpg');
+}
+
+.headsetbanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    aspect-ratio: 1/0.4;
+    box-sizing: border-box;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.headsetbanner-title {
+    width: 75%;
+}
+
+.headsetbanner-title h2 {
+    margin: 0 54px;
+}
+
+.headsetbanner-title h5 {
+    margin: 0 54px;
 }
