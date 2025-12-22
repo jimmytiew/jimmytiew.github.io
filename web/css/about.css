@@ -183,3 +183,129 @@ p {
 li {
     padding-top: 10px;
 }
+
+.second-button:hover a {
+    border-color: #ff0000;
+    animation: red-glow-breath 1.5s infinite ease-in-out;
+}
+
+@media screen and (max-width:1080px) {
+    .aboutredline {
+        flex-direction: column;
+    }
+
+    .aboutredline-image {
+        order: 2;
+        margin-top: 5%;
+    }
+
+    .aboutredline-image img {
+        padding-right: 0;
+    }
+
+    .aboutredline-test h1 {
+        text-align: center;
+    }
+
+    .aboutredline-test {
+        order: 1;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .aboutredline-test p {
+        width: 90%;
+    }
+
+    .ourstrategy {
+        flex-direction: column;
+    }
+
+    .ourstrategy-image {
+        order: 2;
+        margin-top: 5%;
+    }
+
+    .ourstrategy-image img {
+        padding-right: 0;
+    }
+
+    .ourstrategy-test {
+        order: 1;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .ourstrategy-test p {
+        width: 90%;
+    }
+
+    .ourbenifit {
+        flex-direction: column;
+    }
+
+    .ourbenifit-image {
+        order: 2;
+        margin-top: 5%;
+    }
+
+    .ourbenifit-image img {
+        padding-right: 0;
+    }
+
+    .ourbenifit-test {
+        order: 1;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .aboutredline-test h1 {
+        width: 85%;
+    }
+
+    .boxaboutintro {
+        flex-direction: column;
+        gap: 30px;
+        margin: 30px;
+        align-items: center;
+    }
+
+    .second-button {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .ourproduct {
+        min-height: 500px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .ourproduct {
+        min-height: 300px;
+    }
+
+    .ourproduct p {
+        width: 80%;
+    }
+
+    .ourmember {
+        margin: 100px 54px 0 54px;
+    }
+
+    .aboutredline-test h1 {
+        width: 90%;
+    }
+}
