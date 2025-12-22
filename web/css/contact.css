@@ -223,6 +223,11 @@
     text-decoration: none;
 }
 
+.second-button:hover a {
+    border-color: #ff0000;
+    animation: red-glow-breath 1.5s infinite ease-in-out;
+}
+
 @media screen and (max-width:1200px) {
     .back h5 {
         font-size: 16px;
