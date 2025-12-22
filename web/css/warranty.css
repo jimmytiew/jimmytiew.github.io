@@ -2,3 +2,133 @@
 .herosection {
     background-image: url('../images/warrantypage-herosection.jpg');
 }
+
+/* Warranty-Coverage */
+.wcsection {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 54px 140px 54px;
+    justify-content: center;
+
+}
+
+.wctittle {
+    text-align: center;
+}
+
+.wc-section {
+    display: flex;
+    gap: 50px;
+    margin: 50px auto 0px auto;
+}
+
+.wcimagebox-mobile {
+    background-image: url(../images/pc-6816636_1280.jpg);
+    background-size: cover;
+    background-position: 20%;
+    border-radius: 46px;
+    width: 50%;
+    aspect-ratio: 1/1;
+    background-repeat: no-repeat;
+}
+
+.wcgroup {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.wcboxgradient {
+    width: 100%;
+}
+
+.wccontentbox {
+    background-color: var(--colorblack);
+    padding: 40px;
+}
+
+.wccontentboxwhite {
+    background-color: var(--colorwhite);
+    padding: 40px;
+    color: var(--colorblack);
+}
+
+.wccontentbox h4 {
+    margin: 0px 0px 20px 0px;
+    width: 100%;
+}
+
+.wccontentboxwhite h4 {
+    margin: 0px 0px 20px 0px;
+    width: 100%;
+    color: var(--colorblack);
+}
+
+.wccontentboxwhite p {
+    color: var(--colorblack);
+    width: 100%;
+}
+
+.coverage {
+    display: flex;
+    flex-direction: column;
+}
+
+.coverage p {
+    margin: 0px;
+}
+
+.coverage ul {
+    padding: 0px;
+}
+
+
+.wcimagebox {
+    background-image: url(../images/pc-6816636_1280.jpg);
+    background-size: cover;
+    background-position: 20%;
+    border-radius: 46px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-repeat: no-repeat;
+}
+
+.wcimagebox-second {
+    background-image: url(../images/ai-generated-9161446_1920.jpg);
+    background-size: cover;
+    background-position: 20%;
+    border-radius: 46px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-repeat: no-repeat;
+}
+
+.wcimagebox-second-mobile {
+    background-image: url(../images/ai-generated-9161446_1920.jpg);
+    background-size: cover;
+    background-position: 20%;
+    border-radius: 46px;
+    width: 50%;
+    aspect-ratio: 1/1;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:720px) {
+    .wcimagebox {
+        display: none;
+    }
+
+    .wcimagebox-second {
+        display: none;
+    }
+}
+
+@media screen and (min-width:720px) {
+    .wcimagebox-mobile {
+        display: none;
+    }
+
+    .wcimagebox-second-mobile {
+        display: none;
+    }
+}
