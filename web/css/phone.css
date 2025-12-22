@@ -168,11 +168,14 @@
 
     .tablet {
         flex-direction: column;
+        margin: auto;
+        max-width: 550px;
     }
 
-    .tablet {
-        margin: auto;
-        max-width: 290px;
+    .tablet-card {
+        text-align: center;
+        width: 100%;
+        max-width: 550px;
     }
 }
 
@@ -187,6 +190,5 @@
     .phone,
     .tablet {
         margin: auto;
-        max-width: 270px;
     }
 }
