@@ -383,3 +383,13 @@
 .headsetbanner-title h5 {
     margin: 0 54px;
 }
+
+/* buyguide section */
+.buyguide-section {
+    margin: 100px 54px;
+}
+
+.buyguide-title {
+    text-align: center;
+    margin: 100px 0 60px 0;
+}
