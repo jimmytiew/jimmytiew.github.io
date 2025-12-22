@@ -394,7 +394,23 @@
     margin: 100px 0 60px 0;
 }
 
-.buyguide-content li {
-    margin-bottom: 10px;
+.buyguide {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.buyguide-card {
+    width: 100%;
+    max-width: 350px;
+    height: 450px;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+.buyguidecard-content li {
+    margin-bottom: 20px;
     /* 每一行的间距 */
 }
