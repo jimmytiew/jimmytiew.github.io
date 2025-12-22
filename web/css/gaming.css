@@ -296,3 +296,13 @@
 .controllerbanner-title h5 {
     margin: 0 54px;
 }
+
+/* Headset section */
+.headset-section {
+    margin: 100px 54px;
+}
+
+.headset-title {
+    text-align: center;
+    margin: 100px 0 60px 0;
+}
