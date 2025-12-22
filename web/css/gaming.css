@@ -201,7 +201,6 @@
 
 .keyboardbanner-title {
     margin: 0 0 0 300px;
-    width: 75%;
 }
 
 .keyboardbanner-title h2 {
@@ -230,6 +229,10 @@
 
 .card-short .controller-bottom {
     padding-bottom: 30px;
+}
+
+.ctl {
+    margin: unset;
 }
 
 
@@ -464,7 +467,6 @@
 
 .buyguidecard-title {
     text-align: left;
-    width: 100%;
     margin-left: 20px;
 }
 
@@ -522,7 +524,6 @@
 
     .keyboardbanner-title {
         margin: 0 0 0 200px;
-        width: 75%;
     }
 
     .headset-cardborder {
@@ -579,14 +580,10 @@
         max-width: calc(50% - 25px);
     }
 
-    .controller-cardborder .card-long,
-    .controller-cardborder .card-short {
-        height: 400px;
-    }
-
     .controller-card.card-long {
         flex-direction: column;
         justify-content: center;
+        height: 100%;
     }
 
     .card-long .controllerimg-box,
@@ -669,4 +666,10 @@
         text-align: center;
     }
 
+}
+
+@media screen and (max-width:600px) {
+    .controller-card {
+        width: 300px;
+    }
 }
