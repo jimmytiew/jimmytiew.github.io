@@ -239,11 +239,11 @@ footer {
 }
 
 .section4 .gradient-card:hover {
-    transform: none !important;
+    transform: none;
 }
 
 .section4 .gradient-card:hover .gradient-card-inner img {
-    transform: none !important;
+    transform: none;
 }
 
 
