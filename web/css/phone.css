@@ -162,6 +162,10 @@
         flex-direction: column;
     }
 
+    .phone-card {
+        width: 280px;
+    }
+
     .phone-row {
         justify-content: center;
     }
@@ -185,6 +189,12 @@
     .phone-row,
     .tablet {
         flex-direction: column;
+        max-width: 500px;
+    }
+
+    .phone-card {
+        width: 100%;
+        max-width: 500px;
     }
 
     .phone,
