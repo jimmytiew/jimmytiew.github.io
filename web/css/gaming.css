@@ -93,12 +93,11 @@
     justify-content: center;
 }
 
-
+/* button */
 .button {
+    margin-bottom: auto;
     width: 120px;
     padding: 3px;
-    margin-top: auto;
-    margin-bottom: 20px;
 }
 
 .button a {
@@ -106,31 +105,33 @@
 }
 
 /* mice banner section */
-.micesection.banner {
-    margin-top: 100px;
-    position: relative;
+
+.micebanner {
+    background-image: url('../images/bannermice.jpg');
+}
+
+.micebanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
-    height: 401px;
-    background-size: 100% 100%;
+    aspect-ratio: 1/0.4;
+    box-sizing: border-box;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .micebanner-title {
-    position: absolute;
-    left: 54px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 60%;
-    color: white;
+    width: 75%;
 }
 
 .micebanner-title h2 {
-    margin: 0 0 20px 0;
+    margin: 0 54px;
 }
 
 .micebanner-title h5 {
-    margin: 0;
+    margin: 0 54px;
 }
 
 /* keyboard section */
@@ -186,30 +187,78 @@
     text-align: center;
 }
 
-/* keyboard banner section */
-.keyboardsection.banner {
-    margin-top: 100px;
-    position: relative;
+/* mice banner section */
+
+.keyboardbanner {
+    background-image: url('../images/bannerkeyboard.jpg');
+}
+
+.keyboardbanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
-    height: 401px;
-    background-size: 100% 100%;
+    aspect-ratio: 1/0.4;
+    box-sizing: border-box;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .keyboardbanner-title {
-    position: absolute;
-    right: 54px;
-    top: 45%;
-    transform: translateY(-50%);
-    width: 60%;
-    color: white;
+    margin: 0 0 0 300px;
+    width: 75%;
 }
 
 .keyboardbanner-title h2 {
-    margin: 0 0 20px 0;
+    margin: 0 54px;
 }
 
 .keyboardbanner-title h5 {
-    margin: 0;
+    margin: 0 54px;
+}
+
+/* controller section */
+.controller-section {
+    margin: 100px 54px;
+}
+
+.controller-title {
+    text-align: center;
+    margin: 100px 0 60px 0;
+}
+
+.controller-row1 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.controller-card {
+    display: flex;
+    align-items: center;
+    padding: 40px 50px;
+    gap: 50px;
+    height: 360px;
+}
+
+.controllerimg-box {
+    flex: 0 0 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.controllerimg-box img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.controllerinfo-box {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
