@@ -311,15 +311,17 @@
     display: flex;
     gap: 50px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .headset-card {
-    width: 100%;
+    flex: 0 0 calc(50% - 25px);
     padding: 0 30px;
     height: 330px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .headsetimg-box {
