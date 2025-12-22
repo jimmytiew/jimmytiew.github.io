@@ -407,10 +407,40 @@
     height: 450px;
     justify-content: flex-start;
     text-align: left;
-    padding: 10px 10px;
+    padding: 10px 15px;
 }
 
 .buyguidecard-content li {
     margin-bottom: 20px;
     /* 每一行的间距 */
+}
+
+.whitecard {
+    background-color: white;
+}
+
+.whitecard h5,
+.whitecard ul li {
+    color: black;
+}
+
+.blackcard {
+    background-color: black;
+}
+
+
+@media screen and (max-width:1080px) {
+
+
+    .buyguide-card {
+        min-width: 350px;
+        height: 360px;
+    }
+}
+
+@media screen and (max-width:720px) {
+
+    .buyguide-card {
+        height: 300px;
+    }
 }
