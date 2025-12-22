@@ -145,7 +145,6 @@
 
 .keyboard-cardborder {
     flex: 1 1 calc(50% - 60px);
-    position: relative;
     border-radius: 46px;
     padding: 5px;
 }
@@ -153,9 +152,7 @@
 .keyboard-card {
     width: 100%;
     height: 570px;
-    border-radius: 43px;
     text-align: center;
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -405,9 +402,16 @@
 .buyguide-card {
     width: 100%;
     max-width: 350px;
-    height: 450px;
-    justify-content: center;
+    height: 480px;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding: 10px 15px;
+}
+
+.buyguidecard-title {
+    text-align: left;
+    width: 100%;
+    margin-left: 20px;
 }
 
 .buyguidecard-content li {
@@ -452,7 +456,13 @@
         flex: 0 0 calc(50% - 60px);
     }
 
+    .keyboard-card {
+        width: 100%;
+        height: 520px;
+    }
+
     .keyboard-card img {
+        margin-top: 10px;
         max-width: 300px;
     }
 
@@ -492,6 +502,10 @@
         min-width: 350px;
         height: 360px;
     }
+
+    .buyguidecard-title {
+        margin-left: 25px;
+    }
 }
 
 @media screen and (max-width:720px) {
@@ -502,5 +516,9 @@
 
     .buyguide-card {
         height: 300px;
+    }
+
+    .buyguidecard-title {
+        margin-left: 25px;
     }
 }
