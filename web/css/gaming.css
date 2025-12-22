@@ -222,40 +222,77 @@
     margin: 100px 0 60px 0;
 }
 
-.controller-row1 {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
+/* card long */
+.controller-cardborder {
+    height: 400px;
 }
 
-.controller-card {
+.controller-card.card-long {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+}
+
+/* 左边：大图 */
+.card-long .controllerimg-box {
+    flex: 0 0 50%;
     display: flex;
     align-items: center;
-    padding: 40px 50px;
-    gap: 50px;
-    height: 360px;
-}
-
-.controllerimg-box {
-    flex: 0 0 300px;
-    display: flex;
-    align-items: center;
     justify-content: center;
 }
 
-.controllerimg-box img {
+.card-long .controllerimg-box img {
     width: 100%;
-    max-width: 300px;
-    height: auto;
+    max-width: 420px;
 }
 
-.controllerinfo-box {
+/* 右边：文字区 */
+.card-long .controllerinfo-box {
     flex: 1;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
+
+.card-long .controller-bottom {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-long .controllerprice {
+    margin: 0;
+    height: 0;
+}
+
+.controller-row1,
+.controller-row2,
+.controller-row3 {
+    margin-left: 54px;
+    margin-right: 54px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.controller-row1 .controller-cardborder:first-child,
+.controller-row2 .controller-cardborder:last-child,
+.controller-row3 .controller-cardborder:first-child {
+    flex: 0 0 60%;
+}
+
+.controller-row1 .controller-cardborder:last-child,
+.controller-row2 .controller-cardborder:first-child,
+.controller-row3 .controller-cardborder:last-child {
+    flex: 0 0 40%;
+}
+
+
 
 /* controller banner section */
 
