@@ -306,3 +306,48 @@
     text-align: center;
     margin: 100px 0 60px 0;
 }
+
+.headset {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.headset-card {
+    width: 100%;
+    padding: 0 30px;
+    height: 330px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headsetimg-box {
+    flex: 0 0 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headsetimg-box img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.headsetinfo-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headset-bottom {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.headsetprice {
+    line-height: 60px;
+}
