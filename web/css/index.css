@@ -180,12 +180,12 @@ a.view-all-gear {
     align-items: normal;
 }
 
-.leaderintro h1,
+.leaderintro h2,
 p {
     color: var(--colorblack);
 }
 
-.leaderintro h1 {
+.leaderintro h2 {
     margin: 0px auto 20px;
 }
 
