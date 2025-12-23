@@ -48,6 +48,10 @@ p {
     color: var(--colorblack);
 }
 
+.intro p {
+    line-height: 2;
+}
+
 .memberintro h1 {
     margin: 0px auto 20px;
 }
