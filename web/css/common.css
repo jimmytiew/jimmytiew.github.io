@@ -177,9 +177,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
     aspect-ratio: 1/0.4;
-    box-sizing: border-box;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
