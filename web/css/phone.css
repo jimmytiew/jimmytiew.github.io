@@ -1,3 +1,8 @@
+.gradient-card-inner {
+    align-items: unset;
+    justify-content: unset;
+}
+
 /* hero section */
 .herosection {
     background-image: url('../images/herophone.jpg');
@@ -27,15 +32,12 @@
 }
 
 .phone-card {
-    width: 240px;
+    width: 100%;
+    max-width: 240px;
+    padding: 15px 15px;
 }
 
 /* === ROW 1 : IMAGE === */
-.phone-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .phone-img img {
     max-height: 100%;
@@ -44,20 +46,13 @@
 
 /* === ROW 2 : TITLE === */
 .phone-title-text {
-    height: 70px;
-    display: flex;
+    min-height: 150px;
     align-items: center;
     justify-content: center;
 }
 
-.phone-title-text h5 {
-    margin-bottom: 50px;
-}
-
 /* === ROW 3 : PRICE === */
 .phone-price {
-    height: 60px;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -67,6 +62,7 @@
     line-height: 1.4;
 }
 
+/* === button === */
 .button {
     margin-bottom: auto;
     width: 120px;
@@ -154,6 +150,14 @@
     .tablet,
     .tablet-card {
         width: 100%;
+    }
+
+    .phone-card {
+        max-width: 275px;
+    }
+
+    .phone-title-text {
+        min-height: unset;
     }
 }
 
