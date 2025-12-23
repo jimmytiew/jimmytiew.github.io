@@ -212,6 +212,10 @@
     gap: 40px;
 }
 
+.rp-boxgradient {
+    width: 50%;
+}
+
 .rp-contentbox {
     background-color: var(--colorwhite);
     padding: 40px;
@@ -230,20 +234,17 @@
     align-items: normal;
 }
 
+/*  Warranty-Claim-Process */
+.wcptittle {
+    text-align: center;
+}
+
 @media screen and (max-width:1080px) {
+
+    /* Replacement-Policy */
     .rp-introbox {
         flex-wrap: wrap;
         justify-content: center;
-    }
-
-    .rp-contentbox {
-        width: 450px;
-        height: 450px;
-    }
-
-    .rp-contentbox-black {
-        width: 450px;
-        height: 450px;
     }
 }
 
@@ -295,6 +296,17 @@
     .whtnotgroup-inside-second {
         flex-direction: column;
         align-items: center;
+    }
+
+    /* Replacement-Policy */
+    .rp-contentbox {
+        width: 100%;
+        height: 100%;
+    }
+
+    .rp-contentbox-black {
+        width: 100%;
+        height: 100%;
     }
 
 }
