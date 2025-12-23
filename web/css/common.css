@@ -308,6 +308,7 @@ footer {
     padding: 80px 0px;
     margin-top: 10%;
     position: relative;
+    box-shadow: 0px -10px 40px var(--colorred);
 }
 
 footer a {
