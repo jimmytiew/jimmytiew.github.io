@@ -629,7 +629,6 @@
 
     .controller {
         gap: 30px;
-        /* 可选，缩小间距 */
     }
 
     .controller-cardborder {
