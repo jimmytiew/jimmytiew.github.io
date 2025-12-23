@@ -1,3 +1,8 @@
+/* body */
+p {
+    margin: 0px;
+}
+
 /* herosection */
 .herosection {
     background-image: url('../images/warrantypage-herosection.jpg');
@@ -16,10 +21,15 @@
     text-align: center;
 }
 
+.boxofwcsection {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 .wc-section {
     display: flex;
     gap: 50px;
-    margin: 50px auto 0px auto;
 }
 
 .wcimagebox-mobile {
@@ -79,7 +89,7 @@
 }
 
 .coverage ul {
-    padding: 0px;
+    padding: 0px 20px;
 }
 
 
@@ -153,7 +163,7 @@
     height: 1px;
     background: var(--colorpurple);
     border-radius: 20px;
-    margin: 5px 0px;
+    margin: 10px 0px;
 }
 
 .whtcline {
