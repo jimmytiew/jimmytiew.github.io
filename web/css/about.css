@@ -197,6 +197,7 @@ li {
     .aboutredline-image {
         order: 2;
         margin-top: 5%;
+        width: 50%;
     }
 
     .aboutredline-image img {
@@ -227,6 +228,7 @@ li {
     .ourstrategy-image {
         order: 2;
         margin-top: 5%;
+        width: 50%;
     }
 
     .ourstrategy-image img {
@@ -253,6 +255,7 @@ li {
     .ourbenifit-image {
         order: 2;
         margin-top: 5%;
+        width: 50%;
     }
 
     .ourbenifit-image img {
@@ -292,13 +295,15 @@ li {
     }
 }
 
+@media screen and (max-width:500px) {
+    .ourproduct p {
+        width: 80%;
+    }
+}
+
 @media screen and (max-width:425px) {
     .ourproduct {
         min-height: 300px;
-    }
-
-    .ourproduct p {
-        width: 80%;
     }
 
     .ourmember {
