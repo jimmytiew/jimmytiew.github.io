@@ -1,3 +1,8 @@
+/* body */
+p {
+    margin: 0px;
+}
+
 /* herosection */
 .herosection {
     background-image: url('../images/supportpageh-herosection.jpg');
@@ -96,12 +101,14 @@
 }
 
 .pscontentbox h4 {
-    margin: 0px 0px 5px 0px;
+    width: 90%;
+    margin: 0px 0px 20px 0px;
     text-align: center;
 }
 
 .pscontentboxwhite h4 {
-    margin: 0px 0px 5px 0px;
+    width: 90%;
+    margin: 0px 0px 20px 0px;
     text-align: center;
     color: var(--colorblack);
 }
@@ -114,10 +121,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.issue p {
-    margin: 0px;
 }
 
 .issueline {
@@ -275,6 +278,16 @@
 
     .psgroup {
         justify-content: center;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .pscontentbox h4 {
+        width: 90%;
+    }
+
+    .pscontentboxwhite h4 {
+        width: 90%;
     }
 }
 
