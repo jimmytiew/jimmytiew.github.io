@@ -648,7 +648,12 @@
         flex: 0 0 100%;
     }
 
+    .keyboard-cardborder {
+        max-width: 380px;
+    }
+
     .keyboard-card {
+        max-width: 380px;
         height: 400px;
     }
 
@@ -706,6 +711,7 @@
     .headset-cardborder,
     .headset-card {
         max-width: 380px;
+        height: 420px;
     }
 
 }
