@@ -203,3 +203,88 @@ h5.right {
     opacity: 50%;
     margin: 50px 0 0 0;
 }
+
+@media screen and (max-width:1110px) {
+    .boxsection3 {
+        width: 44.5%;
+    }
+
+    .boxgap {
+        gap: 50px;
+    }
+}
+
+/* 平板响应式变化 */
+@media screen and (max-width:1080px) {
+    .filter-bar h5 {
+        font-size: 16px;
+    }
+
+    .featured {
+        font-size: 30px;
+    }
+
+    .rightcontent h5 {
+        margin: 20px 0;
+    }
+
+    .rightcontent p {
+        margin: 30px 0;
+    }
+
+    .content img {
+        width: 90%;
+    }
+
+    .content {
+        display: block;
+        margin: 40px 0 0 0;
+    }
+
+    .rightcontent {
+        width: 90%;
+        margin: 20px;
+    }
+
+    .read-more {
+        font-size: 16px;
+    }
+
+
+}
+
+@media screen and (max-width:800px) {
+    .filter-bar h5 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .boxsection3 {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .boxgap {
+        gap: unset;
+    }
+}
+
+/* 手机响应式变化 */
+@media screen and (max-width:720px) {
+
+    .featured {
+        font-size: 20px;
+    }
+
+    h5.left {
+        width: 50%;
+    }
+
+    h5.right {
+        right: 10px;
+
+    }
+
+
+}
