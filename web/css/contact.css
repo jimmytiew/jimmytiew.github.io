@@ -400,6 +400,10 @@
         width: 92%;
         height: 93%;
     }
+
+    .fouth-section p {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width:425px) {
@@ -459,10 +463,6 @@
 
     .fouth-section {
         min-height: 300px;
-    }
-
-    .fouth-section p {
-        width: 80%;
     }
 
 }

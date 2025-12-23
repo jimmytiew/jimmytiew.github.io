@@ -126,7 +126,7 @@ h5.right {
     margin: 0;
     opacity: 30%;
     position: absolute;
-    right: 40px;
+    right: 20px;
     top: 15px;
 }
 
@@ -153,7 +153,7 @@ h5.right {
 }
 
 .downcontent p {
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
 }
 
 /* section3 */
@@ -184,7 +184,7 @@ h5.right {
 /* section4 */
 .emailbox {
     text-align: center;
-    margin: 100px 0;
+    margin: 100px 54px;
 }
 
 .emailbox input {
@@ -250,7 +250,9 @@ h5.right {
         font-size: 16px;
     }
 
-
+    .downcontent p {
+        margin: 0;
+    }
 }
 
 @media screen and (max-width:800px) {
@@ -278,7 +280,7 @@ h5.right {
     }
 
     h5.left {
-        width: 50%;
+        width: 70%;
     }
 
     h5.right {
@@ -286,5 +288,24 @@ h5.right {
 
     }
 
+    .boxgap {
+        margin: 50px 0;
+    }
 
+    .emailbox {
+        margin: 50px 54px;
+    }
+
+    .emailbox input {
+        height: 30px;
+        font-size: 16px;
+
+    }
+}
+
+@media screen and (max-width:520px) {
+
+    .downcontent p {
+        margin: 10px 0 0 0;
+    }
 }
