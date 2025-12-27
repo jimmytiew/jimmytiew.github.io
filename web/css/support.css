@@ -15,21 +15,20 @@ p {
 }
 
 .searchbar {
-    display: flex;
-    justify-content: space-around;
-    gap: 10px;
+    position: relative;
     border-radius: 20px;
     background-color: var(--colorblack);
-    padding: 10px;
-    width: 25%;
+    width: 20%;
 }
 
 .sfhbar {
     color: var(--colorwhite);
     font-size: 16px;
-    background-color: unset;
+    background-color: var(--colorblack);
+    padding: 10px;
+    border-radius: 20px;
     border: unset;
-    text-align: center;
+    width: 100%;
 }
 
 .searchbar p {
@@ -37,7 +36,9 @@ p {
 }
 
 .searchbar img {
-    margin: auto 5px;
+    position: absolute;
+    right: 10px;
+    top: 30%;
 }
 
 .line {
@@ -253,12 +254,16 @@ p {
     }
 
     .searchbar {
-        justify-content: space-between;
         width: 30%;
     }
 
     .sfhbar {
         font-size: 10px;
+    }
+
+    .searchbar img {
+        top: 25%;
+        right: 5px;
     }
 
     .line {
@@ -305,6 +310,7 @@ p {
 
     .sfhbar {
         font-size: 10px;
+        width: 100%;
     }
 
     .line {
