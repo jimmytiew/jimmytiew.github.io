@@ -1,3 +1,40 @@
 .herosection {
     background-image: url('../images/team image.jpg');
 }
+
+.ourteam {
+    display: flex;
+    align-items: center;
+    margin-top: 15%;
+    flex-direction: row-reverse;
+}
+
+.ourteam-image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.ourteam-image img {
+    padding-right: 20px;
+}
+
+.ourteam-test {
+    width: 55%;
+    padding-left: 54px;
+}
+
+.ourteam-test h5 {
+    margin: 0;
+}
+
+.ourteam-test h1 {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.ourteam-test p {
+    margin-bottom: 0;
+    line-height: 2.5;
+    color: var(--colorwhite);
+}
