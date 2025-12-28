@@ -1,0 +1,9 @@
+.gradient-card-inner {
+    align-items: unset;
+    justify-content: unset;
+}
+
+/* hero section */
+.herosection {
+    background-image: url('../images/heroracing.jpg');
+}
