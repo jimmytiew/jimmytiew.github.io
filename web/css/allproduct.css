@@ -2,3 +2,112 @@
 .herosection {
     background-image: url('../images/allproducthesectionpc1.jpg');
 }
+
+/* categery section */
+.category-section {
+    margin: 0 54px 0 54px;
+}
+
+.tittle {
+    text-align: center;
+    margin: 100px 54px 20px 54px;
+}
+
+.tittle h5,
+.tittle h1 {
+    margin: 0;
+}
+
+.threebox {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 100px 0 0 0;
+}
+
+.gradient-card-inner {
+    background-color: var(--colorblack);
+    padding: 20px;
+}
+
+.threebox img {
+    width: 100%;
+}
+
+.threebox h5 {
+    text-align: center;
+    margin-bottom: 0;
+    min-width: 50px;
+}
+
+/* allsection */
+.allsection {
+    margin: 0 54px;
+
+}
+
+.smallbox {
+    width: 25%;
+}
+
+.bigbox {
+    width: 40%;
+}
+
+.ninebox {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 100px 0 0 0;
+    flex-wrap: wrap;
+}
+
+.ninebox img {
+    width: 100%;
+}
+
+.ninebox h5 {
+    text-align: center;
+    margin-bottom: 0;
+    min-width: 50px;
+}
+
+.section2button {
+    margin: 50px auto;
+}
+
+/* not sure section */
+.helpsection {
+    margin: 0 54px;
+}
+
+.threequationbox {
+    margin: 100px 0 0 0;
+}
+
+.quationbox {
+    background-color: var(--colorblack);
+    padding: 20px;
+    border-radius: 40px;
+    margin-top: 25px;
+}
+
+
+.quationbox h5 {
+    margin: 0;
+}
+
+.quationbox p {
+    opacity: 50%;
+    margin: 20px 0 0 0;
+    max-width: 550px;
+}
+
+.helpsection h4 {
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.section3button {
+    margin: 50px auto;
+}
