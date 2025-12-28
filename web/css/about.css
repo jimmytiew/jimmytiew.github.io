@@ -43,7 +43,7 @@
     align-items: normal;
 }
 
-.intro h1,
+.intro h2,
 p {
     color: var(--colorblack);
 }
