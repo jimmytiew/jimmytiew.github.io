@@ -41,10 +41,15 @@ a {
 
 .section-featured-article h1 {
     text-align: center;
+    margin: 0;
 }
 
 .gradient-card-inner {
     background-color: var(--colorblack)
+}
+
+.allcontent {
+    padding: 20px;
 }
 
 .upcontent {
@@ -57,7 +62,7 @@ a {
     color: var(--colorwhite);
     text-align: left;
     position: absolute;
-    top: 20px;
+    top: 40px;
     left: 40px;
 }
 
@@ -65,7 +70,7 @@ a {
     margin: 0;
     opacity: 30%;
     position: absolute;
-    top: 20px;
+    top: 40px;
     right: 40px;
 }
 
@@ -76,7 +81,7 @@ a {
 
 .content {
     display: flex;
-    margin: 40px 0;
+    margin: 40px 0 0 0;
 }
 
 .content img {
@@ -113,8 +118,9 @@ a {
     opacity: 70%;
 }
 
-.gradient-card {
+.featured-section .gradient-card {
     position: relative;
+    margin-top: 100px;
 }
 
 .boxsection2 {
@@ -139,7 +145,7 @@ h5.right {
 }
 
 .latest-articles-boxes {
-    margin: 0 54px;
+    margin: 100px 54px 0;
 }
 
 .downcontent {
