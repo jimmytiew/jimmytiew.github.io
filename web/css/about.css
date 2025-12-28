@@ -193,6 +193,36 @@ li {
     animation: red-glow-breath 1.5s infinite ease-in-out;
 }
 
+.scrollsection {
+    margin: 55px 0;
+    padding: 0 20px;
+}
+
+.scrollcontainer {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 40px;
+    padding: 20px 10px;
+    width: 100%;
+    max-width: 100vw;
+    box-sizing: border-box;
+    cursor: grab;
+    scrollbar-width: none;
+}
+
+.box {
+    min-width: 100%;
+}
+
+.scrollcontainer::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollcontainer.active {
+    cursor: grabbing;
+}
+
 @media screen and (max-width:1080px) {
     .aboutredline {
         flex-direction: column;
@@ -316,5 +346,18 @@ li {
 
     .aboutredline-test h1 {
         width: 90%;
+    }
+
+    .scrollsection {
+        margin: 0;
+        padding: 0;
+    }
+
+    .scrollcontainer {
+        padding: 0;
+    }
+
+    .intro p {
+        line-height: 1.5;
     }
 }
