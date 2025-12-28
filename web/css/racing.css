@@ -24,7 +24,10 @@
 }
 
 .racingset {
+    display: flex;
+    flex-direction: column;
     gap: 50px;
+    justify-content: center;
 }
 
 .racingset-card {
@@ -33,6 +36,7 @@
     padding: 20px 20px;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .racingsetimg-box {
