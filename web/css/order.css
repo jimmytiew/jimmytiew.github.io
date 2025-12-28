@@ -1,0 +1,17 @@
+/* hero-section */
+.herosection {
+    background-image: url('../images/order-herosection.jpg');
+}
+
+/* order-process */
+.opsection {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 54px 140px 54px;
+    justify-content: center;
+
+}
+
+.optittle {
+    text-align: center;
+}

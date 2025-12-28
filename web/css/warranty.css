@@ -249,6 +249,33 @@ p {
     text-align: center;
 }
 
+.wcp-group {
+    display: flex;
+}
+
+/* -stepbox- */
+.step {
+    display: flex;
+    flex-direction: column;
+}
+
+.wcp-tittlecontentbox {
+    background-color: var(--colorblack);
+    padding: 20px;
+}
+
+.wcp-tittlecontentbox h5 {
+    margin: unset;
+}
+
+.wcp-contentbox {
+    background-color: var(--colorblack);
+    padding: 40px;
+}
+
+/* -stepbox-end- */
+
+/* screen-size */
 @media screen and (max-width:1080px) {
 
     /* Replacement-Policy */
