@@ -71,7 +71,7 @@
 
 /* button */
 .button {
-    margin-bottom: auto;
+    margin: 0;
     width: 120px;
     padding: 3px;
 }
@@ -128,7 +128,8 @@
 }
 
 .keyboard-cardborder {
-    flex: 1 1 calc(50% - 60px);
+    flex: 1;
+    min-width: 400px;
     border-radius: 46px;
     padding: 5px;
 }
@@ -160,6 +161,7 @@
 
 .keyboard-price h5 {
     margin: 0;
+    margin-bottom: 15px;
 }
 
 /* keyboard banner section */
@@ -219,7 +221,7 @@
 
 /* card long */
 .controller-cardborder {
-    height: 480px;
+    min-height: 480px;
 }
 
 .controller-card.card-long {
@@ -227,7 +229,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 480px;
+    min-height: 480px;
 }
 
 /* 左边：大图 */
@@ -572,36 +574,34 @@
     .controller {
         display: flex;
         flex-wrap: wrap;
-        gap: 50px;
+        gap: 20px;
         justify-content: center;
     }
 
     .controller-row1,
     .controller-row2,
     .controller-row3 {
-        display: contents;
-    }
-
-    .controller-cardborder {
-        flex: 0 0 calc(50% - 25px);
-        max-width: calc(50% - 25px);
+        display: flex;
+        flex-direction: column;
     }
 
     .controller-card.card-long {
         flex-direction: column;
         justify-content: center;
-        min-height: 100%;
     }
 
     .card-long .controllerimg-box,
     .card-short .controllerimg-box {
-        margin-bottom: 20px;
+        min-height: 200px;
         justify-content: center;
     }
 
-    .card-long .controllerimg-box img,
+    .card-long .controllerimg-box img {
+        width: 65%;
+    }
+
     .card-short .controllerimg-box img {
-        max-width: 250px;
+        width: 100%;
     }
 
     .controllerinfo-box .card-long,
@@ -613,10 +613,19 @@
 
     .controller-bottom .card-long,
     .controller-bottom .card-short {
-        margin-top: 10px;
-        justify-content: center;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
         align-items: center;
-        gap: 20px;
+    }
+
+    .controller-row1 .controller-cardborder:first-child,
+    .controller-row2 .controller-cardborder:last-child,
+    .controller-row3 .controller-cardborder:first-child,
+    .controller-row1 .controller-cardborder:last-child,
+    .controller-row2 .controller-cardborder:first-child,
+    .controller-row3 .controller-cardborder:last-child {
+        flex: 1 1 100%;
     }
 }
 
@@ -718,6 +727,15 @@
     .headset-card {
         max-width: 380px;
         height: 420px;
+    }
+
+    .controller-row1 .controller-cardborder:first-child,
+    .controller-row2 .controller-cardborder:last-child,
+    .controller-row3 .controller-cardborder:first-child,
+    .controller-row1 .controller-cardborder:last-child,
+    .controller-row2 .controller-cardborder:first-child,
+    .controller-row3 .controller-cardborder:last-child {
+        flex: 0 0 100%;
     }
 
 }
