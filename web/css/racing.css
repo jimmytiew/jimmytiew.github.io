@@ -5,6 +5,7 @@
 
 /* === button === */
 .button {
+    margin: auto;
     width: 120px;
     padding: 3px;
 }
@@ -31,6 +32,8 @@
 }
 
 .racingset-card {
+    display: flex;
+    gap: 60px;
     width: 100%;
     min-height: 400px;
     padding: 20px 20px;
@@ -40,10 +43,21 @@
 }
 
 .racingsetimg-box {
-    flex: 0 0 400px;
+    flex: 0 0 450px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.racingset-content ul {
+    margin: 0;
+}
+
+.racingsetinfo-box {
+    flex: 1;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
 }
 
 .racingsetimg-box img {
@@ -54,5 +68,7 @@
 .racingset-bottom {
     display: flex;
     align-items: center;
-    gap: 60px;
+    width: 100%;
+    gap: 150px;
+    margin-top: 20px;
 }
