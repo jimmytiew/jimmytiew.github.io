@@ -71,7 +71,6 @@
 
 /* button */
 .button {
-    margin-top: 20px;
     margin-bottom: auto;
     width: 120px;
     padding: 3px;
@@ -136,34 +135,31 @@
 
 .keyboard-card {
     width: 100%;
-    height: 570px;
+    min-height: 550px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-sizing: border-box;
 }
 
 .keyboard-card img {
-    margin-top: 30px;
-    max-width: 400px;
+    width: 100%;
 }
 
-
 .keyboardimg-box {
-    height: 280px;
+    min-height: 240px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.keyboardimg-box img {
-    max-height: 100%;
-    text-align: center;
+.keyboardinfo-title {
+    margin: 0;
+    min-height: 100px;
 }
 
-.keyboardinfo-box {
-    height: 160px;
+.keyboard-price h5 {
+    margin: 0;
 }
 
 /* keyboard banner section */
@@ -497,6 +493,26 @@
         flex: 0 0 calc(50% - 60px);
     }
 
+    .mice-card {
+        min-height: 500px;
+    }
+
+    .miceimg-box {
+        min-height: 200px;
+    }
+
+    .miceimg-box img {
+        width: 180px;
+    }
+
+    .micetitle {
+        min-height: 150px;
+    }
+
+    .miceprice {
+        margin-bottom: 20px;
+    }
+
     .keyboard-card {
         width: 100%;
         min-height: 520px;
@@ -507,12 +523,12 @@
         max-width: 300px;
     }
 
-    .keyboardbanner-title {
-        margin: 0 0 0 200px;
+    .keyboard-price h5 {
+        margin-bottom: 20px;
     }
 
-    .keyboardinfo-box {
-        min-height: 130px;
+    .keyboardbanner-title {
+        margin: 0 0 0 200px;
     }
 
     .headset-cardborder {
@@ -629,25 +645,30 @@
         gap: 30px;
     }
 
+    .keyboard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .mice-cardborder {
         flex: 0 0 100%;
     }
 
-    .keyboard-cardborder {
-        max-width: 380px;
-    }
-
     .keyboard-card {
-        max-width: 380px;
-        height: 400px;
+        min-height: 350px;
     }
 
-    .keyboardinfo-box {
-        height: 100px;
+    .keyboardinfo-title {
+        min-height: 80px;
+    }
+
+    .keyboard-price h5 {
+        margin-bottom: 15px;
     }
 
     .buyguide-card {
-        height: 300px;
+        min-height: 300px;
     }
 
     .buyguidecard-title {
