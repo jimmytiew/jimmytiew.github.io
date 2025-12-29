@@ -103,7 +103,6 @@
 .wheel-card {
     display: flex;
     gap: 20px;
-    width: 100%;
     min-height: 320px;
     flex-direction: row;
     align-items: center;
@@ -112,7 +111,7 @@
 
 .wheelimg-box {
     max-width: 150px;
-    min-width: 70px;
+    min-width: 100px;
     display: flex;
 }
 
@@ -121,7 +120,6 @@
 }
 
 .wheelinfo-box {
-    flex: 1;
     max-width: 300px;
     display: flex;
     flex-direction: column;
@@ -156,10 +154,6 @@
     gap: 30px;
 }
 
-.wheel-info-points {
-    max-width: 450px;
-}
-
 .wheel-info-points ul {
     margin: 0;
     line-height: 1.8;
@@ -180,12 +174,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.wheel-left:first-child,
-.wheel-left:last-child,
-.wheel-cardborder-large {
-    flex: 0 0 50%;
 }
 
 /* handbrake Section */
@@ -228,8 +216,7 @@
 }
 
 .shifter-top .shifter-cardborder {
-    flex: 1;
-    max-width: calc(50% - 25px);
+    width: 100%;
 }
 
 .shifter-card {
@@ -384,10 +371,6 @@
         align-items: center;
     }
 
-    .shifter-top .shifter-cardborder {
-        max-width: 700px;
-    }
-
     .shifter-card {
         gap: 20px;
         min-height: 150px;
@@ -437,7 +420,7 @@
 
 }
 
-@media screen and (max-width:872px) {
+@media screen and (max-width:930px) {
     .wheel {
         display: flex;
         flex-direction: column;

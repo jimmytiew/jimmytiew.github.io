@@ -249,14 +249,42 @@
         width: 90%;
     }
 
-    .scrollcontainer {
-        gap: 50px;
-    }
-
     .icon img {
         width: 80%;
     }
 
+    .contact {
+        margin: 15% 100px 0 54px;
+        min-height: 600px;
+    }
+
+    .contact-card {
+        bottom: 700px;
+    }
+}
+
+@media screen and (max-width:825px) {
+    .contact-card {
+        width: 40%;
+        left: 55%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .contact-card {
+        width: 40%;
+        left: 50%;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .contact {
+        min-height: 450px;
+    }
+
+    .contact-card {
+        bottom: 550px;
+    }
 }
 
 @media screen and (max-width:700px) {
@@ -281,6 +309,20 @@
 
     .scrollsection {
         margin: 35px 0;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .icon-phone img {
+        width: 30px;
+    }
+
+    .contact-card {
+        width: 45%;
+    }
+
+    .contact {
+        margin: 25% 30px 0 30px;
     }
 }
 
@@ -310,5 +352,9 @@
 
     .scrollsection {
         margin: 15px 0;
+    }
+
+    .contact-text {
+        width: 60%;
     }
 }

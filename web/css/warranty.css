@@ -232,7 +232,6 @@ p {
 
 .rp-contentbox {
     background-color: var(--colorwhite);
-    padding: 40px;
     align-items: normal;
     justify-content: unset;
 }
@@ -245,18 +244,25 @@ p {
 
 .rp-contentbox-black {
     background-color: var(--colorblack);
-    padding: 40px;
     align-items: normal;
     justify-content: unset;
 }
 
 /*  Warranty-Claim-Process */
+.wcp-section {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 54px 140px 54px;
+    justify-content: center;
+}
+
 .wcptittle {
     text-align: center;
 }
 
 .wcp-group {
     display: flex;
+    gap: 50px;
 }
 
 /* -stepbox- */
@@ -284,10 +290,23 @@ p {
 
 .wcp-contentbox {
     background-color: var(--colorblack);
-    padding: 40px;
 }
 
+.wcp-contentboxwhite {
+    color: var(--colorblack);
+    background-color: var(--colorwhite);
+}
 
+.wcp-contentboxwhite h5,
+.wcp-contentboxwhite p,
+.wcp-contentboxwhite li {
+    color: var(--colorblack);
+}
+
+.wcp-contentbox ul,
+.wcp-contentboxwhite ul {
+    padding: unset;
+}
 
 /* -stepbox-end- */
 
