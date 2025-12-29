@@ -25,61 +25,41 @@
 }
 
 .mice-card {
-    width: 100%;
-    height: 550px;
+    min-height: 500px;
     text-align: center;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    box-sizing: border-box;
-}
-
-.mice-card img {
-    margin-top: 30px;
 }
 
 .miceimg-box {
-    height: 230px;
+    min-height: 250px;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
 }
 
 .miceimg-box img {
-    max-height: 100%;
+    width: 100%;
 }
 
-
-.micetitle-box {
-    height: 80px;
+.micetitle {
+    margin: 0;
+    min-height: 120px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
 }
 
 .miceinfo-box {
-    height: 140px;
+    min-height: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-
-.micetitle {
-    min-height: 60px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-
-
 .miceprice-box,
 .miceinfo-box .miceprice {
-    height: 40px;
+    min-height: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
