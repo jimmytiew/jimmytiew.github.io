@@ -215,7 +215,7 @@ h5.right {
     text-align: center;
 }
 
-@media screen and (max-width:1110px) {
+@media screen and (max-width:1150px) {
     .boxsection3 {
         width: 44.5%;
     }
