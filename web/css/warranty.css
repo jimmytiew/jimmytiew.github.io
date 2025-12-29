@@ -1,6 +1,6 @@
 /* body */
 p {
-    margin: 0px;
+    margin: unset;
 }
 
 /* herosection */
@@ -46,6 +46,7 @@ p {
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
+    width: 50%;
 }
 
 .wcboxgradient {
@@ -54,12 +55,10 @@ p {
 
 .wccontentbox {
     background-color: var(--colorblack);
-    padding: 40px;
 }
 
 .wccontentboxwhite {
     background-color: var(--colorwhite);
-    padding: 40px;
     color: var(--colorblack);
 }
 
@@ -82,14 +81,12 @@ p {
 .coverage {
     display: flex;
     flex-direction: column;
-}
-
-.coverage p {
-    margin: 0px;
+    width: 100%;
 }
 
 .coverage ul {
     padding: 0px 20px;
+    margin: unset;
 }
 
 
@@ -98,7 +95,7 @@ p {
     background-size: cover;
     background-position: 20%;
     border-radius: 46px;
-    width: 100%;
+    width: 50%;
     aspect-ratio: 1/1;
     background-repeat: no-repeat;
 }
@@ -108,7 +105,7 @@ p {
     background-size: cover;
     background-position: 20%;
     border-radius: 46px;
-    width: 100%;
+    width: 50%;
     aspect-ratio: 1/1;
     background-repeat: no-repeat;
 }

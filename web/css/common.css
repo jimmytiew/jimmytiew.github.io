@@ -621,6 +621,7 @@ footer a:hover {
     .menu-toggle {
         display: block;
         color: var(--colorwhite);
+
     }
 
     .navbar {
@@ -644,10 +645,15 @@ footer a:hover {
         padding-top: 5rem;
         text-align: center;
         z-index: 1000;
+        overflow-y: auto;
+        transition: transform 0.3s ease-in-out;
+        transform: translateX(100%);
+        display: flex;
     }
 
     .menu.active {
         display: flex;
+        transform: translateY(0);
     }
 
     .menu .menu-item>a {
