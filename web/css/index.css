@@ -199,6 +199,10 @@ p {
     width: 90%;
 }
 
+.intro p {
+    line-height: 2.5;
+}
+
 .section4 {
     position: relative;
     top: 262px;
@@ -409,6 +413,11 @@ footer {
         padding: 0;
     }
 
+}
 
+@media screen and (max-width:425px) {
 
+    .intro p {
+        line-height: 1.5;
+    }
 }

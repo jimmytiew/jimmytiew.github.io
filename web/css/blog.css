@@ -210,6 +210,11 @@ h5.right {
     margin: 50px 0 0 0;
 }
 
+.modal p {
+    color: var(--colorblack);
+    text-align: center;
+}
+
 @media screen and (max-width:1110px) {
     .boxsection3 {
         width: 44.5%;
