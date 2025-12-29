@@ -128,12 +128,9 @@ a {
     margin: 20px 0;
 }
 
-h5.right {
+.right {
     margin: 0;
     opacity: 30%;
-    position: absolute;
-    right: 20px;
-    top: 15px;
 }
 
 .gradient-card-inner {
@@ -141,7 +138,12 @@ h5.right {
 }
 
 .uptittle h5 {
-    margin: 20px;
+    margin: 20px 20px 0 20px;
+}
+
+.uptittle {
+    display: flex;
+    justify-content: space-between;
 }
 
 .latest-articles-boxes {
@@ -152,10 +154,9 @@ h5.right {
     margin: 20px;
 }
 
-.downcontent p.date-latest {
+p.date-latest {
     font-family: "Audiowide", sans-serif;
-    position: absolute;
-    top: 55px;
+    margin: 0 20px 0 20px;
 }
 
 .downcontent p {
@@ -215,7 +216,7 @@ h5.right {
     text-align: center;
 }
 
-@media screen and (max-width:1150px) {
+@media screen and (max-width:1110px) {
     .boxsection3 {
         width: 44.5%;
     }
@@ -290,11 +291,11 @@ h5.right {
         font-size: 20px;
     }
 
-    h5.left {
+    .left {
         width: 70%;
     }
 
-    h5.right {
+    .right {
         right: 10px;
 
     }

@@ -57,7 +57,8 @@
 }
 
 .racingsetimg-box {
-    flex: 0 0 450px;
+    max-width: 450px;
+    min-width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +69,6 @@
 }
 
 .racingsetinfo-box {
-    flex: 1;
     max-width: 600px;
     display: flex;
     flex-direction: column;
@@ -91,7 +91,6 @@
     display: flex;
     gap: 50px;
     justify-content: center;
-    align-items: center;
 }
 
 .wheel-left {
@@ -112,7 +111,8 @@
 }
 
 .wheelimg-box {
-    flex: 0 0 150px;
+    max-width: 150px;
+    min-width: 70px;
     display: flex;
 }
 
@@ -134,11 +134,16 @@
     width: 100%;
 }
 
+.wheel-cardborder3 {
+    display: none;
+}
+
 .wheel-card-large {
     display: flex;
     flex-direction: column;
     padding: 40px;
-    min-height: 750px;
+    min-height: 760px;
+    gap: 85px;
 }
 
 .wheel-title-large {
@@ -148,12 +153,10 @@
 .wheel-main-content {
     display: flex;
     align-items: center;
-    flex: 1;
     gap: 30px;
 }
 
 .wheel-info-points {
-    flex: 1;
     max-width: 450px;
 }
 
@@ -163,7 +166,8 @@
 }
 
 .wheelimg-box-large {
-    flex: 1;
+    max-width: 250px;
+    min-width: 70px;
     display: flex;
 }
 
@@ -343,4 +347,214 @@
 
 .platform-compatibilitycard-content li {
     line-height: 2;
+}
+
+@media screen and (max-width:1080px) {
+
+    .wheel-card-large {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        min-height: 600px;
+        gap: 50px;
+    }
+
+    .setupinspiration {
+        gap: 40px;
+    }
+
+    .platform-compatibility {
+        gap: 40px;
+    }
+
+    .shifter {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .shiftername {
+        text-align: center;
+        min-height: 40px;
+    }
+
+    .shifter-top {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .shifter-top .shifter-cardborder {
+        max-width: 700px;
+    }
+
+    .shifter-card {
+        gap: 20px;
+        min-height: 150px;
+        flex-direction: column;
+    }
+
+    .shifter-top .shifterimg-box img {
+        width: 100%;
+    }
+
+    .shifter-top .shifter-bottom {
+        flex-direction: column;
+    }
+
+    .shifterimg-box-large,
+    .shifter-top .shifterimg-box {
+        max-width: 120px;
+        min-width: 100px;
+    }
+
+    .shifter-card-large {
+        flex-direction: column;
+        gap: 20px;
+        min-height: 300px;
+    }
+
+    .shiftername-large {
+        text-align: center;
+    }
+
+    .shifter-bottom-large {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:892px) {
+
+    /* handbrake Section */
+    .handbrake {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .handbraketitle {
+        min-height: 30px;
+    }
+
+}
+
+@media screen and (max-width:872px) {
+    .wheel {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .wheelname {
+        text-align: center;
+    }
+
+    .wheel-left {
+        gap: 30px;
+    }
+
+    .wheel-cardborder,
+    .wheel-cardborder3 {
+        max-width: 1000px;
+    }
+
+    .wheel-cardborder3 {
+        display: block;
+        gap: 30px;
+    }
+
+    .wheel-cardborder-large,
+    .wheel-card-large {
+        display: none;
+    }
+
+    .wheel-card {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .wheel-bottom {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .wheel-left:first-child,
+    .wheel-left:last-child,
+    .wheel-cardborder-large {
+        flex: 1 1 100%;
+    }
+}
+
+
+@media screen and (max-width:720px) {
+
+    .racingset-title,
+    .wheel-title,
+    .handbrake-title,
+    .setupinspiration-title,
+    .platform-compatibility-title,
+    .shifter-title {
+        margin-bottom: 50px;
+    }
+
+    .racingset-section,
+    .wheel-section,
+    .handbrake-section,
+    .setupinspiration-section,
+    .platform-compatibility-section,
+    .shifter-section {
+        margin: 50px 30px;
+    }
+
+    .racingset {
+        gap: 30px;
+    }
+
+    .racingset-card {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .racingsetimg-box {
+        max-width: 300px;
+    }
+
+    .racingset-content ul {
+        margin: 0;
+    }
+
+    .racingsetimg-box img {
+        width: 80%;
+    }
+
+    .racingset-bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shifter-card {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .shifter-top {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .setupinspiration {
+        gap: 30px;
+    }
+
+    .platform-compatibility {
+        gap: 30px;
+    }
+
+    .platform-compatibility-cardborder {
+        flex: 1 1 100%;
+    }
 }
