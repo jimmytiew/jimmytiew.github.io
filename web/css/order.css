@@ -1,17 +1,277 @@
+/* body */
+p {
+    margin: unset;
+}
+
+ul {
+    padding: 0px 20px;
+    margin: unset;
+}
+
 /* hero-section */
 .herosection {
     background-image: url('../images/order-herosection.jpg');
 }
 
-/* order-process */
-.opsection {
+/* all-section */
+.section {
     display: flex;
     flex-direction: column;
     margin: 70px 54px 140px 54px;
     justify-content: center;
+}
+
+.all-section-tittle {
+    text-align: center;
+}
+
+/* order-process */
+
+.op-group-all {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.op-group {
+    display: flex;
+    gap: 50px;
+}
+
+.op-box {
+    width: 40%;
+}
+
+.op-contentbox {
+    background-color: var(--colorblack);
+    justify-self: unset;
+    align-items: unset;
+}
+
+.op-contentbox h4,
+.op-contentbox p,
+.op-contentbox li {
+    margin: 5px 0px;
+}
+
+.op-contentbox-white {
+    background-color: var(--colorwhite);
+    justify-self: unset;
+    align-items: unset;
+}
+
+.op-contentbox-white h4,
+.op-contentbox-white p,
+.op-contentbox-white li {
+    color: var(--colorblack);
+    margin: 5px 0px;
+}
+
+.op-imagebox-one {
+    background-image: url(../images/opimageone.jpg);
+    background-size: cover;
+    background-position: 20%;
+    border-radius: 46px;
+    width: 60%;
+    aspect-ratio: 1/0.3;
+    background-repeat: no-repeat;
+}
+
+.op-imagebox-two {
+    background-image: url(../images/opimagetwo.jpg);
+    background-size: cover;
+    background-position: 20%;
+    border-radius: 46px;
+    width: 60%;
+    aspect-ratio: 1/0.3;
+    background-repeat: no-repeat;
+}
+
+.op-imagebox-two-mobile {
+    background-image: url(../images/opimagetwo.jpg);
+    background-size: cover;
+    background-position: 20%;
+    border-radius: 46px;
+    width: 100%;
+    aspect-ratio: 1/0.5;
+    background-repeat: no-repeat;
+}
+
+.op-imagebox-three {
+    background-image: url(../images/opimagethree.jpg);
+    background-size: cover;
+    background-position: 20%;
+    border-radius: 46px;
+    width: 60%;
+    aspect-ratio: 1/0.3;
+    background-repeat: no-repeat;
+}
+
+/* Shipping Information */
+.si-group-all {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.si-group {
+    display: flex;
+}
+
+.si-box {
+    width: 50%;
+}
+
+.si-group-two {
+    display: flex;
+    justify-content: right;
+}
+
+.align-left {
+    display: flex;
+    gap: 50px;
+    width: 70%;
+}
+
+.align-right {
+    display: flex;
+    gap: 50px;
+    width: 70%;
+}
+
+.si-boxgradient,
+.si-boxgradient-white {
+    height: 100%;
+}
+
+.si-contentbox {
+    background-color: var(--colorblack);
+    justify-self: unset;
+    align-items: unset;
+}
+
+.si-contentbox h4,
+.si-contentbox p,
+.si-contentbox li {
+    margin: 5px 0px;
+}
+
+.si-contentbox-white {
+    background-color: var(--colorwhite);
+    justify-self: unset;
+    align-items: unset;
+}
+
+.si-contentbox-white h4,
+.si-contentbox-white p,
+.si-contentbox-white li {
+    color: var(--colorblack);
+    margin: 5px 0px;
+}
+
+.note {
+    margin: 50px 0px 0px 0px;
+}
+
+/* section-4 */
+.s-four-boxgradient {
+    width: calc(100%/3);
+}
+
+.s-four-contentbox {
+    background-color: var(--colorblack);
+    justify-self: unset;
+    align-items: unset;
+}
+
+.s-four-group {
+    display: flex;
+    gap: 50px;
+}
+
+/* Packaging & Handling */
+.ph-contentbox {
+    background-color: var(--colorblack);
+    flex-direction: unset;
+    align-items: unset;
+    gap: 80px;
+}
+
+@media screen and (max-width:1080px) {
+
+    /* order-process */
+    .op-box {
+        width: 50%;
+    }
+
+    .op-imagebox-one,
+    .op-imagebox-two,
+    .op-imagebox-three {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    /* section-4 */
+    .s-four-boxgradient {
+        width: 100%;
+    }
+
+    .s-four-group {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:720px) {
+
+    /* order-process */
+    .op-group {
+        flex-direction: column;
+    }
+
+    .op-box {
+        width: 100%;
+    }
+
+    .op-imagebox-one,
+    .op-imagebox-three {
+        width: 100%;
+        aspect-ratio: 1/0.5;
+    }
+
+    .op-imagebox-two {
+        display: none;
+    }
+
+    /* Shipping Information */
+    .si-box {
+        width: 100%;
+    }
+
+    .align-left {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .align-right {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /* Packaging & Handling */
+    .ph-contentbox {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
 
 }
 
-.optittle {
-    text-align: center;
+@media screen and (min-width:720px) {
+
+    /* order-process */
+    .op-imagebox-two-mobile {
+        display: none;
+    }
 }
