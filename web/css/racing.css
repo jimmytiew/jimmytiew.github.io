@@ -228,8 +228,7 @@
 }
 
 .shifter-top .shifter-cardborder {
-    flex: 1;
-    max-width: calc(50% - 25px);
+    width: 100%;
 }
 
 .shifter-card {
@@ -382,10 +381,6 @@
         display: flex;
         gap: 30px;
         align-items: center;
-    }
-
-    .shifter-top .shifter-cardborder {
-        max-width: 700px;
     }
 
     .shifter-card {
