@@ -213,6 +213,13 @@ p {
 }
 
 /* Replacement-Policy */
+.rp-section {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 54px 140px 54px;
+    justify-content: center;
+}
+
 .rptittle {
     text-align: center;
 }
@@ -261,6 +268,10 @@ p {
     flex-direction: column;
 }
 
+.wcp-tittleboxgradient:hover {
+    transform: none;
+}
+
 .wcp-tittlecontentbox {
     background-color: var(--colorblack);
     padding: 20px;
@@ -270,10 +281,16 @@ p {
     margin: unset;
 }
 
+.wcp-boxgradient:hover {
+    transform: none;
+}
+
 .wcp-contentbox {
     background-color: var(--colorblack);
     padding: 40px;
 }
+
+
 
 /* -stepbox-end- */
 
