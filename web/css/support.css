@@ -91,13 +91,11 @@ p {
 .pscontentbox {
     background-color: var(--colorblack);
     align-items: center;
-    padding: 40px;
 }
 
 .pscontentboxwhite {
     background-color: var(--colorwhite);
     align-items: center;
-    padding: 40px;
     color: var(--colorblack);
 }
 
