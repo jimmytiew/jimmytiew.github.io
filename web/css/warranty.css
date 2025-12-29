@@ -249,12 +249,20 @@ p {
 }
 
 /*  Warranty-Claim-Process */
+.wcp-section {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 54px 140px 54px;
+    justify-content: center;
+}
+
 .wcptittle {
     text-align: center;
 }
 
 .wcp-group {
     display: flex;
+    gap: 50px;
 }
 
 /* -stepbox- */
@@ -284,7 +292,21 @@ p {
     background-color: var(--colorblack);
 }
 
+.wcp-contentboxwhite {
+    color: var(--colorblack);
+    background-color: var(--colorwhite);
+}
 
+.wcp-contentboxwhite h5,
+.wcp-contentboxwhite p,
+.wcp-contentboxwhite li {
+    color: var(--colorblack);
+}
+
+.wcp-contentbox ul,
+.wcp-contentboxwhite ul {
+    padding: unset;
+}
 
 /* -stepbox-end- */
 
