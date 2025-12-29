@@ -27,7 +27,6 @@
 
 .gradient-card-inner {
     background-color: var(--colorblack);
-    padding: 20px;
 }
 
 .threebox img {
@@ -87,7 +86,7 @@
 
 .quationbox {
     background-color: var(--colorblack);
-    padding: 20px;
+    padding: 40px;
     border-radius: 40px;
     margin-top: 25px;
 }
@@ -110,4 +109,22 @@
 
 .section3button {
     margin: 50px auto;
+}
+
+@media screen and (max-width:1080px) {}
+
+@media screen and (max-width:820px) {
+    .threebox {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .threebox {
+        flex-wrap: wrap;
+    }
+
+    a.gradient-card {
+        width: 80%;
+    }
 }
