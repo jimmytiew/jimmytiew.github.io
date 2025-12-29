@@ -80,9 +80,9 @@
 
 .racingset-bottom {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
-    gap: 150px;
     margin-top: 20px;
 }
 
