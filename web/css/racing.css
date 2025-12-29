@@ -16,14 +16,20 @@
 
 /* Title */
 .racingset-title,
-.wheel-title {
+.wheel-title,
+.handbrake-title {
     text-align: center;
     margin-bottom: 100px;
 }
 
+.gradient-card-inner {
+    padding: 40px;
+}
+
 /* racingset Section */
 .racingset-section,
-.wheel-section {
+.wheel-section,
+.handbrake-section {
     margin: 100px 54px;
 }
 
@@ -39,7 +45,6 @@
     gap: 60px;
     width: 100%;
     min-height: 400px;
-    padding: 20px 20px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -95,7 +100,6 @@
     gap: 20px;
     width: 100%;
     min-height: 320px;
-    padding: 20px 20px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -128,7 +132,7 @@
     display: flex;
     flex-direction: column;
     padding: 40px;
-    min-height: 700px;
+    min-height: 750px;
 }
 
 .wheel-title-large {
@@ -171,4 +175,29 @@
 .wheel-left:last-child,
 .wheel-cardborder-large {
     flex: 0 0 50%;
+}
+
+/* handbrake Section */
+.handbrake {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.handbrake-cardborder {
+    flex: 0 0 calc(33.333% - 50px);
+}
+
+.handbrake-card {
+    padding: 40px;
+    text-align: center;
+}
+
+.handbrakeimg-box img {
+    width: 100%;
+}
+
+.handbraketitle {
+    min-height: 70px;
 }
