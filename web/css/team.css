@@ -99,7 +99,7 @@
 
 .scrollsection {
     margin: 55px 0;
-    padding: 0 20px;
+    padding: 0 0 0 20px;
 }
 
 .scrollcontainer {
@@ -209,4 +209,37 @@
 
 .contactcard-box h5 {
     margin: 0;
+}
+
+@media screen and (max-width:1080px) {
+    .ourteam {
+        flex-direction: column;
+    }
+
+    .ourteam-image {
+        order: 2;
+        margin-top: 5%;
+        width: 50%;
+    }
+
+    .ourteam-image img {
+        padding-right: 0;
+    }
+
+    .ourteam-test {
+        order: 1;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .ourteam-test p {
+        width: 90%;
+    }
+
+    .scrollcontainer {
+        gap: 50px;
+    }
 }
