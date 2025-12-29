@@ -14,14 +14,16 @@
     padding: 15px 20px;
 }
 
+/* Title */
+.racingset-title,
+.wheel-title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
 /* racingset Section */
 .racingset-section {
     margin: 100px 54px;
-}
-
-.racingset-title {
-    text-align: center;
-    margin-bottom: 100px;
 }
 
 .racingset {
