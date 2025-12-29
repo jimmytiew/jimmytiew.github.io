@@ -5,7 +5,7 @@
 
 /* === button === */
 .button {
-    margin: auto;
+    margin: 0;
     width: 120px;
     padding: 3px;
 }
@@ -19,7 +19,8 @@
 .wheel-title,
 .handbrake-title,
 .setupinspiration-title,
-.platform-compatibility-title {
+.platform-compatibility-title,
+.shifter-title {
     text-align: center;
     margin-bottom: 100px;
 }
@@ -33,7 +34,8 @@
 .wheel-section,
 .handbrake-section,
 .setupinspiration-section,
-.platform-compatibility-section {
+.platform-compatibility-section,
+.shifter-section {
     margin: 100px 54px;
 }
 
@@ -127,9 +129,9 @@
 
 .wheel-bottom {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
-    gap: 30px;
 }
 
 .wheel-card-large {
@@ -170,9 +172,10 @@
 }
 
 .wheel-bottom-large {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    gap: 150px;
+    align-items: center;
 }
 
 .wheel-left:first-child,
@@ -204,6 +207,83 @@
 
 .handbraketitle {
     min-height: 70px;
+}
+
+/* shifter Section */
+.shifter {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}
+
+.shifter-top {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.shifter-top .shifter-cardborder {
+    flex: 1;
+    max-width: calc(50% - 25px);
+}
+
+.shifter-card {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    min-height: 300px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.shifter-top .shifterimg-box {
+    max-width: 140px;
+    min-width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shifter-top .shifterimg-box img {
+    width: 100%;
+}
+
+.shifter-top .shifter-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.shifter-card-large {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    min-height: 400px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.shifterimg-box-large {
+    max-width: 230px;
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shifterimg-box-large img {
+    width: 100%;
+}
+
+.shifter-bottom-large {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 /* Setup Inspiration Section */
