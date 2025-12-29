@@ -16,13 +16,20 @@
 
 /* Title */
 .racingset-title,
-.wheel-title {
+.wheel-title,
+.handbrake-title {
     text-align: center;
     margin-bottom: 100px;
 }
 
+.gradient-card-inner {
+    padding: 40px;
+}
+
 /* racingset Section */
-.racingset-section {
+.racingset-section,
+.wheel-section,
+.handbrake-section {
     margin: 100px 54px;
 }
 
@@ -38,7 +45,6 @@
     gap: 60px;
     width: 100%;
     min-height: 400px;
-    padding: 20px 20px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -63,8 +69,7 @@
 }
 
 .racingsetimg-box img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 80%;
 }
 
 .racingset-bottom {
@@ -73,4 +78,126 @@
     width: 100%;
     gap: 150px;
     margin-top: 20px;
+}
+
+/* wheel Section */
+.wheel {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.wheel-left {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}
+
+.wheel-card {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    min-height: 320px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.wheelimg-box {
+    flex: 0 0 150px;
+    display: flex;
+}
+
+.wheelimg-box img {
+    width: 100%;
+}
+
+.wheelinfo-box {
+    flex: 1;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wheel-bottom {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.wheel-card-large {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    min-height: 750px;
+}
+
+.wheel-title-large {
+    text-align: center;
+}
+
+.wheel-main-content {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 30px;
+}
+
+.wheel-info-points {
+    flex: 1;
+    max-width: 450px;
+}
+
+.wheel-info-points ul {
+    margin: 0;
+    line-height: 1.8;
+}
+
+.wheelimg-box-large {
+    flex: 1;
+    display: flex;
+}
+
+.wheelimg-box-large img {
+    max-width: 100%;
+}
+
+.wheel-bottom-large {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.wheel-left:first-child,
+.wheel-left:last-child,
+.wheel-cardborder-large {
+    flex: 0 0 50%;
+}
+
+/* handbrake Section */
+.handbrake {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.handbrake-cardborder {
+    flex: 0 0 calc(33.333% - 50px);
+}
+
+.handbrake-card {
+    padding: 40px;
+    text-align: center;
+}
+
+.handbrakeimg-box img {
+    width: 100%;
+}
+
+.handbraketitle {
+    min-height: 70px;
 }

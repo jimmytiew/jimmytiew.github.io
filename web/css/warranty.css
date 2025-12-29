@@ -230,6 +230,7 @@ p {
     background-color: var(--colorwhite);
     padding: 40px;
     align-items: normal;
+    justify-content: unset;
 }
 
 .rp-contentbox h4,
@@ -242,6 +243,7 @@ p {
     background-color: var(--colorblack);
     padding: 40px;
     align-items: normal;
+    justify-content: unset;
 }
 
 /*  Warranty-Claim-Process */
