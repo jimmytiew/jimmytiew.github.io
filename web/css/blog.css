@@ -128,7 +128,7 @@ a {
     margin: 20px 0;
 }
 
-.right h5 {
+.right {
     margin: 0;
     opacity: 30%;
 }
@@ -291,11 +291,11 @@ p.date-latest {
         font-size: 20px;
     }
 
-    h5.left {
+    .left {
         width: 70%;
     }
 
-    h5.right {
+    .right {
         right: 10px;
 
     }
