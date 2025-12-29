@@ -3,6 +3,11 @@ p {
     margin: unset;
 }
 
+ul {
+    padding: 0px 20px;
+    margin: unset;
+}
+
 /* herosection */
 .herosection {
     background-image: url('../images/warrantypage-herosection.jpg');
@@ -83,12 +88,6 @@ p {
     flex-direction: column;
     width: 100%;
 }
-
-.coverage ul {
-    padding: 0px 20px;
-    margin: unset;
-}
-
 
 .wcimagebox {
     background-image: url(../images/pc-6816636_1280.jpg);
@@ -188,7 +187,7 @@ p {
 }
 
 .whtnotcover-intro p,
-.whtnotcover p {
+.whtnotcover li {
     color: var(--colorblack);
     margin: 10px;
 }
@@ -227,7 +226,7 @@ p {
 }
 
 .rp-boxgradient {
-    width: 50%;
+    width: 100%;
 }
 
 .rp-contentbox {
@@ -260,15 +259,29 @@ p {
     text-align: center;
 }
 
-.wcp-group {
+/* scroll */
+.scrollcontainer {
     display: flex;
+    overflow-x: auto;
     gap: 50px;
+}
+
+.scrollcontainer::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollcontainer.active {
+    cursor: grabbing;
 }
 
 /* -stepbox- */
 .step {
     display: flex;
     flex-direction: column;
+}
+
+.step h5 {
+    width: 300px;
 }
 
 .wcp-tittleboxgradient:hover {
@@ -282,6 +295,11 @@ p {
 
 .wcp-tittlecontentbox h5 {
     margin: unset;
+    text-align: center;
+}
+
+.wcp-boxgradient {
+    height: 100%;
 }
 
 .wcp-boxgradient:hover {
@@ -290,11 +308,14 @@ p {
 
 .wcp-contentbox {
     background-color: var(--colorblack);
+    justify-content: unset;
+    align-items: unset;
 }
 
 .wcp-contentboxwhite {
-    color: var(--colorblack);
     background-color: var(--colorwhite);
+    justify-content: unset;
+    align-items: unset;
 }
 
 .wcp-contentboxwhite h5,
@@ -303,42 +324,31 @@ p {
     color: var(--colorblack);
 }
 
-.wcp-contentbox ul,
-.wcp-contentboxwhite ul {
-    padding: unset;
-}
-
-/* scroll */
-.scrollcontainer {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    gap: 30px;
-    padding: 20px 10px;
-    width: 100%;
-    max-width: 100vw;
-    box-sizing: border-box;
-    cursor: grab;
-    scrollbar-width: none;
-}
-
-.scrollcontainer::-webkit-scrollbar {
-    display: none;
-}
-
-.scrollcontainer.active {
-    cursor: grabbing;
-}
-
 /* -stepbox-end- */
 
 /* screen-size */
-@media screen and (max-width:1080px) {
+@media screen and (max-width:1120px) {
 
     /* Replacement-Policy */
     .rp-introbox {
         flex-wrap: wrap;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width:1080px) {
+
+    /* what-cover */
+
+    .whtcline {
+        display: flex;
+        width: 4px;
+        height: 250px;
+    }
+
+    /*  Warranty-Claim-Process */
+    .step h5 {
+        width: 100%;
     }
 }
 
@@ -353,6 +363,10 @@ p {
         width: 100%;
     }
 
+    .wcgroup {
+        width: 100%;
+    }
+
     .wc-section {
         flex-direction: column;
     }
@@ -361,16 +375,24 @@ p {
         width: 100%;
     }
 
-    .coverage ul {
-        margin: 5px 11px;
-    }
-
     .wcimagebox {
         display: none;
     }
 
     .wcimagebox-second {
         display: none;
+    }
+
+    /* what-cover */
+    .whtgroup {
+        flex-direction: column;
+    }
+
+    .whtcline {
+        display: flex;
+        width: 100%;
+        height: 4px;
+        margin: 20px 0px;
     }
 
     /* What’s-not-Covered */
@@ -401,6 +423,11 @@ p {
     .rp-contentbox-black {
         width: 100%;
         height: 100%;
+    }
+
+    /*  Warranty-Claim-Process */
+    .step h5 {
+        width: 100%;
     }
 
 }
