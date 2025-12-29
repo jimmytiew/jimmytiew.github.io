@@ -349,63 +349,95 @@
     line-height: 2;
 }
 
+@media screen and (max-width:1080px) {
 
-@media screen and (max-width:720px) {
-
-    .racingset-title,
-    .wheel-title,
-    .handbrake-title,
-    .setupinspiration-title,
-    .platform-compatibility-title,
-    .shifter-title {
-        margin-bottom: 50px;
+    .wheel-card-large {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        min-height: 600px;
+        gap: 50px;
     }
 
-    .racingset-section,
-    .wheel-section,
-    .handbrake-section,
-    .setupinspiration-section,
-    .platform-compatibility-section,
-    .shifter-section {
-        margin: 50px 30px;
+    .setupinspiration {
+        gap: 40px;
     }
 
-    /* racingset Section */
-    .racingset-section,
-    .wheel-section,
-    .handbrake-section,
-    .setupinspiration-section,
-    .platform-compatibility-section,
-    .shifter-section {
-        margin: 100px 54px;
+    .platform-compatibility {
+        gap: 40px;
     }
 
-    .racingset {
+    .shifter {
+        display: flex;
+        flex-direction: column;
         gap: 30px;
     }
 
-    .racingset-card {
+    .shiftername {
+        text-align: center;
+        min-height: 40px;
+    }
+
+    .shifter-top {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .shifter-top .shifter-cardborder {
+        max-width: 700px;
+    }
+
+    .shifter-card {
+        gap: 20px;
+        min-height: 150px;
+        flex-direction: column;
+    }
+
+    .shifter-top .shifterimg-box img {
+        width: 100%;
+    }
+
+    .shifter-top .shifter-bottom {
+        flex-direction: column;
+    }
+
+    .shifterimg-box-large,
+    .shifter-top .shifterimg-box {
+        max-width: 120px;
+        min-width: 100px;
+    }
+
+    .shifter-card-large {
         flex-direction: column;
         gap: 20px;
+        min-height: 300px;
     }
 
-    .racingsetimg-box {
-        max-width: 300px;
+    .shiftername-large {
+        text-align: center;
     }
 
-    .racingset-content ul {
-        margin: 0;
+    .shifter-bottom-large {
+        flex-direction: column;
     }
+}
 
-    .racingsetimg-box img {
-        width: 80%;
-    }
+@media screen and (max-width:892px) {
 
-    .racingset-bottom {
-        display: flex;
+    /* handbrake Section */
+    .handbrake {
+        gap: 30px;
         flex-direction: column;
     }
 
+    .handbraketitle {
+        min-height: 30px;
+    }
+
+}
+
+@media screen and (max-width:872px) {
     .wheel {
         display: flex;
         flex-direction: column;
@@ -452,67 +484,66 @@
     .wheel-cardborder-large {
         flex: 1 1 100%;
     }
+}
 
-    /* handbrake Section */
-    .handbrake {
+
+@media screen and (max-width:720px) {
+
+    .racingset-title,
+    .wheel-title,
+    .handbrake-title,
+    .setupinspiration-title,
+    .platform-compatibility-title,
+    .shifter-title {
+        margin-bottom: 50px;
+    }
+
+    .racingset-section,
+    .wheel-section,
+    .handbrake-section,
+    .setupinspiration-section,
+    .platform-compatibility-section,
+    .shifter-section {
+        margin: 50px 30px;
+    }
+
+    .racingset {
         gap: 30px;
+    }
+
+    .racingset-card {
         flex-direction: column;
+        gap: 20px;
     }
 
-    .handbraketitle {
-        min-height: 30px;
+    .racingsetimg-box {
+        max-width: 300px;
     }
 
-    .shifter {
+    .racingset-content ul {
+        margin: 0;
+    }
+
+    .racingsetimg-box img {
+        width: 80%;
+    }
+
+    .racingset-bottom {
         display: flex;
         flex-direction: column;
-        gap: 30px;
-        justify-content: center;
+    }
+
+    .shifter-card {
+        width: 100%;
+        flex-direction: column;
     }
 
     .shifter-top {
         display: flex;
         flex-direction: column;
         gap: 30px;
+        align-items: center;
         justify-content: center;
-    }
-
-    .shifter-top .shifter-cardborder {
-        max-width: 100%;
-    }
-
-    .shifter-card {
-        gap: 20px;
-        min-height: 150px;
-        flex-direction: column;
-    }
-
-    .shifter-top .shifterimg-box img {
-        width: 100%;
-    }
-
-    .shifter-top .shifter-bottom {
-        flex-direction: column;
-    }
-
-    .shifterimg-box-large,
-    .shifter-top .shifterimg-box {
-        max-width: 120px;
-        min-width: 100px;
-    }
-
-    .shifter-card-large {
-        flex-direction: column;
-        gap: 20px;
-        min-height: 300px;
-    }
-
-    .shiftername-large {
-        text-align: center;
-    }
-
-    .shifter-bottom-large {
-        flex-direction: column;
     }
 
     .setupinspiration {
