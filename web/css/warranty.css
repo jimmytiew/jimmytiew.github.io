@@ -232,7 +232,6 @@ p {
 
 .rp-contentbox {
     background-color: var(--colorwhite);
-    padding: 40px;
     align-items: normal;
     justify-content: unset;
 }
@@ -245,7 +244,6 @@ p {
 
 .rp-contentbox-black {
     background-color: var(--colorblack);
-    padding: 40px;
     align-items: normal;
     justify-content: unset;
 }
@@ -284,7 +282,6 @@ p {
 
 .wcp-contentbox {
     background-color: var(--colorblack);
-    padding: 40px;
 }
 
 
