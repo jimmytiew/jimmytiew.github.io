@@ -123,14 +123,13 @@ a.view-all-gear {
     text-decoration: none;
 }
 
-.gradient-card-inner {
-    padding: 15px;
-}
-
 .boxsection2 h5 {
     text-align: center;
 }
 
+.gradient-card-inner h5 {
+    margin: 20px 0 0 0;
+}
 
 /* section3 */
 .section3 {
@@ -191,7 +190,6 @@ p {
 
 .boxaboutintro {
     display: flex;
-    margin: 30px;
     gap: 80px;
 }
 
@@ -224,7 +222,7 @@ p {
 }
 
 .sectionbutton4 {
-    margin: 0px auto 20px 30px;
+    margin: 0;
 }
 
 /* footer */

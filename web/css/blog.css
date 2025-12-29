@@ -8,7 +8,6 @@
 .filter-bar {
     text-align: center;
     padding: 30px 0;
-
     margin: 0 54px;
 }
 
@@ -49,7 +48,7 @@ a {
 }
 
 .allcontent {
-    padding: 20px;
+    padding: 20px 0 0 0;
 }
 
 .upcontent {
@@ -86,11 +85,11 @@ a {
 
 .content img {
     width: 55%;
-    margin: 20px;
+    margin: 0 20px 0 0;
 }
 
 .rightcontent h5 {
-    margin: 80px 0;
+    margin: 40px 0;
 }
 
 .rightcontent p {
@@ -138,7 +137,7 @@ a {
 }
 
 .uptittle h5 {
-    margin: 20px 20px 0 20px;
+    margin: 0;
 }
 
 .uptittle {
@@ -151,12 +150,12 @@ a {
 }
 
 .downcontent {
-    margin: 20px;
+    margin: 40px 0 0 0;
 }
 
 p.date-latest {
     font-family: "Audiowide", sans-serif;
-    margin: 0 20px 0 20px;
+    margin: 0;
 }
 
 .downcontent p {
@@ -173,8 +172,8 @@ p.date-latest {
 }
 
 .text {
-    margin: 30px;
-    width: 80%
+    margin: 0;
+    width: 100%
 }
 
 .text h5 {
@@ -245,7 +244,7 @@ p.date-latest {
     }
 
     .content img {
-        width: 90%;
+        width: 100%;
     }
 
     .content {
@@ -254,8 +253,8 @@ p.date-latest {
     }
 
     .rightcontent {
-        width: 90%;
-        margin: 20px;
+        width: 100%;
+        margin: 0;
     }
 
     .read-more {
@@ -265,6 +264,8 @@ p.date-latest {
     .downcontent p {
         margin: 0;
     }
+
+
 }
 
 @media screen and (max-width:800px) {
