@@ -18,7 +18,8 @@
 .racingset-title,
 .wheel-title,
 .handbrake-title,
-.setupinspiration-title {
+.setupinspiration-title,
+.platform-compatibility-title {
     text-align: center;
     margin-bottom: 100px;
 }
@@ -31,7 +32,8 @@
 .racingset-section,
 .wheel-section,
 .handbrake-section,
-.setupinspiration-section {
+.setupinspiration-section,
+.platform-compatibility-section {
     margin: 100px 54px;
 }
 
@@ -231,4 +233,34 @@
 
 .setupinspirationcard-title h5 {
     margin: 0 0;
+}
+
+.setupinspirationcard-content li {
+    line-height: 2;
+}
+
+/* Brand & Platform Compatibility Section */
+.platform-compatibility {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.platform-compatibility-cardborder {
+    flex: 1 1 calc(50% - 60px);
+}
+
+.platform-compatibility-card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.platform-compatibilitycard-title h5 {
+    margin: 0;
+}
+
+.platform-compatibilitycard-content li {
+    line-height: 2;
 }
