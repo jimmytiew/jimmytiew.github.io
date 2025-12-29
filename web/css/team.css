@@ -135,3 +135,48 @@
 .card:hover {
     transform: translateY(-8px);
 }
+
+.contact {
+    background-image: url('../images/phone\ image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 626px;
+    margin: 15% 130px 0 54px;
+    border-radius: 46px;
+}
+
+.contact-text {
+    width: 50%;
+    padding: 10% 0 10% 5%;
+}
+
+.contact-text h1 {
+    margin: 20px 0;
+}
+
+.contact-text p {
+    width: 85%;
+    line-height: 2.5;
+}
+
+.contact-logo {
+    display: flex;
+    align-items: center;
+}
+
+.contact-logo img {
+    width: 100px;
+    padding-right: 10px;
+}
+
+.contact-logo h5 {
+    width: 10%;
+    margin: 0;
+    padding-left: 20px;
+    border-left: solid white 1px;
+}
+
+.button {
+    margin: 0;
+}
