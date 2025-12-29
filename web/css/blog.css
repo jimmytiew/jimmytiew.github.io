@@ -128,12 +128,9 @@ a {
     margin: 20px 0;
 }
 
-h5.right {
+.right h5 {
     margin: 0;
     opacity: 30%;
-
-    right: 20px;
-    top: 15px;
 }
 
 .gradient-card-inner {
