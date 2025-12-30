@@ -261,7 +261,28 @@ footer {
     z-index: 10;
 }
 
+.animation {
+    animation: reveal 5s both;
+    animation-timeline: view();
+    animation-range: entry 50% cover 80%;
+}
 
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        filter: blur(20px);
+        transform: translateY(80px);
+    }
+
+    30% {
+        filter: blur(0px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 
 /* 平板响应式 */

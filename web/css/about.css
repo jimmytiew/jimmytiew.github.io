@@ -58,7 +58,7 @@ p {
 
 .boxaboutintro {
     display: flex;
-    margin: 30px;
+    margin: 0;
     gap: 80px;
 }
 
@@ -84,7 +84,7 @@ p {
 }
 
 .second-button {
-    margin: 0px auto 20px 30px;
+    margin: 0px auto 0 0;
 }
 
 .ourproduct {
