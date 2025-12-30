@@ -321,6 +321,12 @@
     }
 }
 
+@media screen and (max-width:520px) {
+    .scrollcontainer {
+        gap: 20px;
+    }
+}
+
 @media screen and (max-width:500px) {
     .icon-phone img {
         width: 30px;
