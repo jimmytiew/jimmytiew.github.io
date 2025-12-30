@@ -134,12 +134,11 @@ ul {
 .whtcinside-section {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 50px;
 }
 
 .whtccontentbox {
     background-color: var(--colorblack);
-    padding: 40px;
 }
 
 .whtgroup {
@@ -173,11 +172,10 @@ ul {
 /* What’s-not-Covered */
 .whtccontentboxwhite {
     background-color: var(--colorwhite);
-    padding: 40px;
 }
 
 .whtnotcover {
-    width: 45%;
+    width: calc(100%/3);
 }
 
 .whtnotcover-intro h5,
@@ -194,18 +192,21 @@ ul {
 
 .whtnotgroup {
     display: flex;
-    gap: 40px;
+    gap: 50px;
 }
 
 .whtnotgroup-inside {
-    width: 30%;
+    display: flex;
+    justify-content: center;
+    width: 50%;
 }
 
 .whtnotgroup-inside-second {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
-    width: 70%;
+    gap: 50px;
+    width: 100%;
+    justify-content: center;
 }
 
 /* Replacement-Policy */
@@ -235,6 +236,10 @@ ul {
     justify-content: unset;
 }
 
+.rp-contentbox h4 {
+    margin: unset;
+}
+
 .rp-contentbox h4,
 .rp-contentbox p,
 .rp-contentbox li {
@@ -245,6 +250,10 @@ ul {
     background-color: var(--colorblack);
     align-items: normal;
     justify-content: unset;
+}
+
+.rp-contentbox-black h4 {
+    margin: unset;
 }
 
 /*  Warranty-Claim-Process */
@@ -397,6 +406,9 @@ ul {
 
     /* What’s-not-Covered */
     .whtnotcover {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
     }
 
