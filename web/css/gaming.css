@@ -193,98 +193,76 @@
     margin: 100px 0 60px 0;
 }
 
+/* controller card short */
+.controller-card.card-short {
+    display: flex;
+    align-items: center;
+}
+
+.card-short .controllerimg-box {
+    max-width: 240px;
+}
+
 .card-short .controllerimg-box img {
-    margin-top: 10px;
     width: 100%;
-    max-width: 230px;
 }
 
-.card-short .controller-bottom {
-    padding-bottom: 30px;
+.card-short .controllerinfo-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.ctl {
-    margin: unset;
+.controllertitle {
+    align-items: center;
 }
 
+.controller-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 /* card long */
-.controller-cardborder {
-    min-height: 480px;
-}
-
 .controller-card.card-long {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    min-height: 480px;
 }
 
 /* 左边：大图 */
 .card-long .controllerimg-box {
-    flex: 0 0 50%;
+    max-width: 240px;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .card-long .controllerimg-box img {
     width: 100%;
-    max-width: 420px;
 }
 
 /* 右边：文字区 */
 .card-long .controllerinfo-box {
+    text-align: center;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-.controller-bottom {
-    margin-top: auto;
-    display: flex;
-    align-items: center;
-    gap: 20px;
 }
 
 .card-long .controller-bottom {
     display: flex;
     align-items: center;
-    gap: 20px;
 }
 
 .controllerprice {
     margin: 0;
-    height: auto;
-    line-height: 1;
 }
 
 .controller-row1,
 .controller-row2,
 .controller-row3 {
-    margin-left: 54px;
-    margin-right: 54px;
+    margin: 54px;
     display: flex;
     gap: 50px;
-    justify-content: center;
-    margin-bottom: 50px;
 }
-
-.controller-row1 .controller-cardborder:first-child,
-.controller-row2 .controller-cardborder:last-child,
-.controller-row3 .controller-cardborder:first-child {
-    flex: 0 0 60%;
-}
-
-.controller-row1 .controller-cardborder:last-child,
-.controller-row2 .controller-cardborder:first-child,
-.controller-row3 .controller-cardborder:last-child {
-    flex: 0 0 40%;
-}
-
-
 
 /* controller banner section */
 
@@ -528,61 +506,59 @@
         flex: 0 0 calc(50% - 25px);
     }
 
-    .controller {
+    .controller-cardborder {
+        flex: 0 0 calc(50% - 25px);
+    }
+
+    .controller-card.card-short {
         display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        justify-content: center;
-    }
-
-    .controller-row1,
-    .controller-row2,
-    .controller-row3 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .controller-card.card-long {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .card-long .controllerimg-box,
-    .card-short .controllerimg-box {
-        min-height: 200px;
-        justify-content: center;
-    }
-
-    .card-long .controllerimg-box img {
-        width: 65%;
-    }
-
-    .card-short .controllerimg-box img {
-        width: 100%;
-    }
-
-    .controllerinfo-box .card-long,
-    .controllerinfo-box .card-short {
         align-items: center;
-        text-align: center;
-        width: 100%;
     }
 
-    .controller-bottom .card-long,
+    .controllertitle {
+        min-height: 80px;
+    }
+
+    .controllerinfo-box {
+        text-align: center;
+    }
+
+    .card-short .controllerimg-box {
+        min-width: 200px;
+    }
+
     .controller-bottom .card-short {
         width: 100%;
         display: flex;
         justify-content: space-between;
+    }
+
+    /* card long */
+    .controller-card.card-long {
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
 
-    .controller-row1 .controller-cardborder:first-child,
-    .controller-row2 .controller-cardborder:last-child,
-    .controller-row3 .controller-cardborder:first-child,
-    .controller-row1 .controller-cardborder:last-child,
-    .controller-row2 .controller-cardborder:first-child,
-    .controller-row3 .controller-cardborder:last-child {
-        flex: 1 1 100%;
+    /* 左边：大图 */
+    .card-long .controllerimg-box {
+        max-width: 240px;
+        display: flex;
+    }
+
+    /* 右边：文字区 */
+    .card-long .controllerinfo-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-long .controller-bottom {
+        display: flex;
+        align-items: center;
+    }
+
+    .controllerprice {
+        margin: 0;
     }
 }
 
@@ -649,60 +625,49 @@
         margin-bottom: 15px;
     }
 
-    .controller {
-        gap: 30px;
-    }
-
-    .controller-cardborder {
-        flex: 0 0 100%;
-        max-width: 100%;
-        height: 400px;
-    }
-
-    .controller-card {
-        width: 450px;
-        margin: 0 auto;
-        height: 400px;
-    }
-
-    .controllertitle {
-        text-align: center;
-    }
-
-    .controllerinfo-box {
-        align-items: center;
-        text-align: center;
-    }
-
-    .controller-bottom {
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 12px;
-    }
-
-    .controllerprice {
-        height: auto;
-        margin: 0;
-        text-align: center;
-    }
-
-    .controller-row1 .controller-cardborder:first-child,
-    .controller-row2 .controller-cardborder:last-child,
-    .controller-row3 .controller-cardborder:first-child,
-    .controller-row1 .controller-cardborder:last-child,
-    .controller-row2 .controller-cardborder:first-child,
-    .controller-row3 .controller-cardborder:last-child {
-        flex: 0 0 100%;
-    }
-
     .headsettitle {
         min-height: 60px;
     }
 
     .buyguide-cardborder {
         flex: 0 0 100%;
+    }
+
+    .controller-row1,
+    .controller-row2,
+    .controller-row3 {
+        margin: 54px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .controller-cardborder {
+        flex: 100%;
+    }
+
+    .controller-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-long .controller-bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .card-short .controller-bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .controllertitle {
+        min-height: 50px;
     }
 
 }
