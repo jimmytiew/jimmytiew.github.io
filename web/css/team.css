@@ -384,6 +384,10 @@
     }
 
     .contact-card {
-        bottom: 520px;
+        bottom: 480px;
+    }
+
+    .contact {
+        min-height: 400px;
     }
 }
