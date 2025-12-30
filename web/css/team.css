@@ -341,6 +341,12 @@
     }
 }
 
+@media screen and (max-width:450px) {
+    .card {
+        padding: 2px;
+    }
+}
+
 @media screen and (max-width:425px) {
     .card-box {
         flex-direction: column;
