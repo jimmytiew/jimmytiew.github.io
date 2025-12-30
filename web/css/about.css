@@ -347,6 +347,10 @@ li {
     .second-button {
         margin: 20px auto 0;
     }
+
+    .nav-button {
+        top: -400px;
+    }
 }
 
 @media screen and (max-width:720px) {
