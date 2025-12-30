@@ -88,12 +88,12 @@
     width: 100%;
     aspect-ratio: 1/0.4;
     box-sizing: border-box;
-    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .micebanner-title {
+    line-height: 2;
     width: 75%;
 }
 
@@ -123,15 +123,10 @@
 }
 
 .keyboard-cardborder {
-    flex: 1;
-    min-width: 400px;
-    border-radius: 46px;
-    padding: 5px;
+    flex: 0 0 calc(50% - 40px)
 }
 
 .keyboard-card {
-    width: 100%;
-    min-height: 550px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -151,7 +146,7 @@
 
 .keyboardinfo-title {
     margin: 0;
-    min-height: 100px;
+    min-height: 120px;
 }
 
 .keyboard-price h5 {
@@ -172,7 +167,6 @@
     width: 100%;
     aspect-ratio: 1/0.4;
     box-sizing: border-box;
-    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -305,7 +299,6 @@
     width: 100%;
     aspect-ratio: 1/0.4;
     box-sizing: border-box;
-    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -385,7 +378,6 @@
     width: 100%;
     aspect-ratio: 1/0.4;
     box-sizing: border-box;
-    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -482,16 +474,6 @@
 
     .miceinfo-title {
         min-height: 100px;
-    }
-
-    .keyboard-card {
-        width: 100%;
-        min-height: 520px;
-    }
-
-    .keyboard-card img {
-        margin-top: 10px;
-        max-width: 300px;
     }
 
     .keyboard-price h5 {
@@ -629,10 +611,17 @@
         gap: 30px;
     }
 
+    .micebanner-title,
+    .keyboardbanner-title,
+    .controllerbanner-title,
+    .headsetbanner-title {
+        line-height: 1.5;
+        width: 90%;
+    }
+
     .keyboard {
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
 
     .miceimg-box {
@@ -647,12 +636,13 @@
         flex: 0 0 100%;
     }
 
-    .keyboard-card {
-        min-height: 350px;
+    .keyboardimg-box {
+        min-height: 140px;
     }
 
     .keyboardinfo-title {
-        min-height: 80px;
+        margin: 0;
+        min-height: 60px;
     }
 
     .keyboard-price h5 {

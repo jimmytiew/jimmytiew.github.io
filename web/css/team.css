@@ -341,6 +341,12 @@
     }
 }
 
+@media screen and (max-width:450px) {
+    .card {
+        padding: 2px;
+    }
+}
+
 @media screen and (max-width:425px) {
     .card-box {
         flex-direction: column;
@@ -371,5 +377,17 @@
 
     .contact-text {
         width: 60%;
+    }
+
+    .contactcard-box {
+        padding: 20px;
+    }
+
+    .contact-card {
+        bottom: 480px;
+    }
+
+    .contact {
+        min-height: 400px;
     }
 }
