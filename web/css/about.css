@@ -197,34 +197,45 @@ li {
     animation: red-glow-breath 1.5s infinite ease-in-out;
 }
 
-.scrollsection {
-    margin: 55px 0;
-    padding: 0 20px;
+.carousel-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
 }
 
-.scrollcontainer {
+.carousel-track {
     display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    gap: 40px;
-    padding: 20px 10px;
-    width: 100%;
-    max-width: 100vw;
-    box-sizing: border-box;
-    cursor: grab;
-    scrollbar-width: none;
+    gap: 10px;
+    transition: transform 0.4s ease;
 }
 
 .box {
     min-width: 100%;
+    flex: 0 0 calc(100% / 3.5);
 }
 
-.scrollcontainer::-webkit-scrollbar {
-    display: none;
+.carousel {
+    overflow: hidden;
 }
 
-.scrollcontainer.active {
-    cursor: grabbing;
+.nav-button {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav {
+    transform: translateY(-50%);
+    font-size: 4rem;
+    color: var(--colorwhite);
+    background: linear-gradient(to top, #CD0000 0%, #000000 100%);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0 20px;
+    margin-left: -20px;
+    margin-right: -20px;
 }
 
 @media screen and (max-width:1080px) {
@@ -371,5 +382,9 @@ li {
 
     .intro p {
         line-height: 1.5;
+    }
+
+    .nav {
+        font-size: 3rem;
     }
 }
