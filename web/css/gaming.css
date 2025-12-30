@@ -345,42 +345,31 @@
 }
 
 .headset-card {
-    width: 100%;
-    height: 340px;
-    padding: 0 20px;
-    box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .headsetimg-box {
-    flex: 0 0 180px;
+    max-width: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .headsetimg-box img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
 }
 
 .headsetinfo-box {
-    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .headset-bottom {
     display: flex;
     align-items: center;
-    gap: 25px;
-}
-
-.headsetprice {
-    line-height: 60px;
+    gap: 15px;
 }
 
 /* headset banner section */
@@ -431,16 +420,11 @@
 }
 
 .buyguide-cardborder {
-    flex: 0 0 calc(33.333% - 80px);
+    flex: 0 0 calc(33.333% - 30px);
 }
 
 .buyguide-card {
-    width: 100%;
-    max-width: 350px;
-    height: 480px;
     justify-content: flex-start;
-    align-items: flex-start;
-    padding: 10px 15px;
 }
 
 .buyguidecard-title {
@@ -449,8 +433,7 @@
 }
 
 .buyguidecard-content li {
-    margin-bottom: 20px;
-    /* 每一行的间距 */
+    margin-bottom: 15px;
 }
 
 .whitecard {
@@ -467,20 +450,19 @@
 }
 
 
-@media screen and (max-width:1197px) {
-
-    .headsetimg-box {
-        flex: 0 0 140px;
-    }
-
-    .headset-bottom {
-        gap: 15px;
+@media screen and (max-width:1174px) {
+    .headset-card {
+        min-height: 400px;
     }
 }
 
 @media screen and (max-width:1108px) {
     .mice-cardborder {
         flex: 0 0 calc(50% - 60px);
+    }
+
+    .headset-card {
+        min-height: 430px;
     }
 }
 
@@ -522,40 +504,46 @@
 
     .headset-cardborder {
         flex: 0 0 100%;
-        max-width: 600px;
+        max-width: 750px;
     }
 
     .headset-card {
-        width: 100%;
-        max-width: 700px;
         flex-direction: column;
-        height: 450px;
+        min-height: 0px;
+        gap: 20px;
+    }
+
+    .headsetimg-box {
+        max-width: unset;
     }
 
     .headsetinfo-box {
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         text-align: center;
-        gap: 12px;
+    }
+
+    .headsettitle {
+        min-height: 80px;
     }
 
     .headset-bottom {
         flex-direction: column;
+        gap: 10px;
+    }
+
+    .headsetprice h5 {
+        margin: 0;
     }
 
     .headsettitle,
-    .headsetprice h5,
+    .headsetprice,
     .button {
         margin: 0;
     }
 
-    .buyguide-card {
-        min-width: 350px;
-        min-height: 360px;
-    }
-
-    .buyguidecard-title {
-        margin-left: 25px;
+    .buyguide-cardborder {
+        flex: 0 0 calc(50% - 25px);
     }
 
     .controller {
@@ -623,7 +611,7 @@
     .controller-section,
     .headset-section,
     .buyguide-section {
-        margin: 60px 30px;
+        margin: 30px 30px;
     }
 
     .mice-title,
@@ -631,7 +619,7 @@
     .controller-title,
     .headset-title,
     .buyguide-title {
-        margin: 0 0 60px 0;
+        margin: 0 0 30px 0;
     }
 
     .mice,
@@ -669,14 +657,6 @@
 
     .keyboard-price h5 {
         margin-bottom: 15px;
-    }
-
-    .buyguide-card {
-        min-height: 300px;
-    }
-
-    .buyguidecard-title {
-        margin-left: 25px;
     }
 
     .controller {
@@ -718,18 +698,20 @@
         text-align: center;
     }
 
-    .headset-cardborder,
-    .headset-card {
-        max-width: 380px;
-        height: 420px;
-    }
-
     .controller-row1 .controller-cardborder:first-child,
     .controller-row2 .controller-cardborder:last-child,
     .controller-row3 .controller-cardborder:first-child,
     .controller-row1 .controller-cardborder:last-child,
     .controller-row2 .controller-cardborder:first-child,
     .controller-row3 .controller-cardborder:last-child {
+        flex: 0 0 100%;
+    }
+
+    .headsettitle {
+        min-height: 60px;
+    }
+
+    .buyguide-cardborder {
         flex: 0 0 100%;
     }
 
