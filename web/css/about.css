@@ -66,6 +66,10 @@ p {
     width: 90%;
 }
 
+.intro h2 {
+    margin: 0 auto 20px;
+}
+
 .ourmember {
     margin: 150px 54px 0 54px;
 }
