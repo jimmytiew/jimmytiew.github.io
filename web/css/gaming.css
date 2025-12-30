@@ -88,12 +88,12 @@
     width: 100%;
     aspect-ratio: 1/0.4;
     box-sizing: border-box;
-    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .micebanner-title {
+    line-height: 2;
     width: 75%;
 }
 
@@ -167,7 +167,6 @@
     width: 100%;
     aspect-ratio: 1/0.4;
     box-sizing: border-box;
-    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -300,7 +299,6 @@
     width: 100%;
     aspect-ratio: 1/0.4;
     box-sizing: border-box;
-    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -380,7 +378,6 @@
     width: 100%;
     aspect-ratio: 1/0.4;
     box-sizing: border-box;
-    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -612,6 +609,14 @@
     .controller,
     .headset {
         gap: 30px;
+    }
+
+    .micebanner-title,
+    .keyboardbanner-title,
+    .controllerbanner-title,
+    .headsetbanner-title {
+        line-height: 1.5;
+        width: 90%;
     }
 
     .keyboard {
