@@ -204,7 +204,7 @@ p {
 }
 
 .snhboxtittle h4 {
-    margin: 30px;
+    margin: unset;
 }
 
 /* faq-section */
@@ -353,8 +353,8 @@ p {
         margin: 18px auto 0px auto;
     }
 
-    .psgroup {
-        gap: 10px;
+    .boxgradient {
+        width: 100%;
     }
 
     /* still-need-help */
