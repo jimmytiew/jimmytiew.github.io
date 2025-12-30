@@ -311,6 +311,11 @@ li {
         width: 100%;
         padding-right: 0;
     }
+
+    .scrollcontainer {
+        flex-direction: column;
+        overflow-x: visible;
+    }
 }
 
 @media screen and (max-width:900px) {
