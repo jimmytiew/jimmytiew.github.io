@@ -372,4 +372,12 @@
     .contact-text {
         width: 60%;
     }
+
+    .contactcard-box {
+        padding: 20px;
+    }
+
+    .contact-card {
+        bottom: 520px;
+    }
 }
