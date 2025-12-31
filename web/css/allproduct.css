@@ -111,11 +111,21 @@
     margin: 50px auto;
 }
 
-@media screen and (max-width:1080px) {}
+@media screen and (max-width:1080px) {
+    .ninebox {
 
-@media screen and (max-width:820px) {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:840px) {
     .threebox {
-        gap: 30px;
+        gap: 20px;
+    }
+
+    .ninebox {
+
+        gap: 10px;
     }
 }
 
