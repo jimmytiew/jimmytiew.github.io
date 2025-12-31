@@ -264,6 +264,7 @@
 .controller-row3 {
     margin: 54px;
     display: flex;
+    justify-content: center;
     gap: 50px;
 }
 
@@ -563,6 +564,8 @@
     .controllerprice {
         margin: 0;
     }
+
+
 }
 
 @media screen and (max-width:720px) {
@@ -628,6 +631,10 @@
         margin-bottom: 15px;
     }
 
+    .keyboardbanner-title {
+        margin: 0 0 0 0;
+    }
+
     .headsettitle {
         min-height: 60px;
     }
@@ -642,6 +649,7 @@
         margin: 54px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         gap: 50px;
     }
 
@@ -682,6 +690,7 @@
         min-height: 50px;
     }
 
+
 }
 
 @media screen and (max-width:600px) {
@@ -708,10 +717,7 @@
         height: 180px;
     }
 
-    .controller-card,
-    .controller-cardborder {
-        max-width: 330px;
-    }
+
 
     .mice-section,
     .keyboard-section,
@@ -747,5 +753,11 @@
     .keyboardbanner-title h2,
     .keyboardbanner-title h5 {
         margin: 0 30px;
+    }
+
+    .controller-row1,
+    .controller-row2,
+    .controller-row3 {
+        margin: 0px;
     }
 }
