@@ -348,17 +348,12 @@ footer a:hover {
 }
 
 .atcontent h5 {
-    font-size: 1.5rem;
-    font-weight: 900;
     margin-top: 0;
     margin-bottom: 20px;
     color: var(--colorblack);
 }
 
 .atcontent p {
-    font-size: 1.1rem;
-    font-weight: 700;
-    line-height: 1.4;
     color: var(--colorblack);
 }
 
@@ -375,8 +370,6 @@ footer a:hover {
 
 .footerinfor h5 {
     color: var(--colorblack);
-    font-size: 1.2rem;
-    font-weight: 800;
     margin: 0;
 }
 
@@ -585,32 +578,32 @@ footer a:hover {
 @media screen and (max-width:720px) {
 
     h1 {
-        font-size: 24px;
+        font-size: 26px;
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     h3 {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     h4 {
-        font-size: 13px;
+        font-size: 16px;
     }
 
     h5 {
-        font-size: 12px;
+        font-size: 14px;
     }
 
 
     p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     li {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     /* Header */
