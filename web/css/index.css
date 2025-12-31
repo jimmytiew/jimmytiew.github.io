@@ -166,11 +166,11 @@ a.view-all-gear {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 22px;
+    gap: 50px;
 }
 
 .sponsorlogo img {
-    width: 15%;
+    width: calc(100%/6);
 }
 
 /* section4 */
