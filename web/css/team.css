@@ -5,7 +5,7 @@
 .ourteam {
     display: flex;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 10%;
     flex-direction: row-reverse;
 }
 
@@ -238,11 +238,12 @@
     .ourteam-image {
         order: 2;
         margin-top: 5%;
-        width: 50%;
+        width: 60%;
     }
 
     .ourteam-image img {
         padding-right: 0;
+        width: 90%;
     }
 
     .ourteam-test {

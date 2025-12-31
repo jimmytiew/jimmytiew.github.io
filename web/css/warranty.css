@@ -236,6 +236,10 @@ ul {
     justify-content: unset;
 }
 
+.rp-contentbox h4 {
+    margin: unset;
+}
+
 .rp-contentbox h4,
 .rp-contentbox p,
 .rp-contentbox li {
@@ -246,6 +250,10 @@ ul {
     background-color: var(--colorblack);
     align-items: normal;
     justify-content: unset;
+}
+
+.rp-contentbox-black h4 {
+    margin: unset;
 }
 
 /*  Warranty-Claim-Process */
