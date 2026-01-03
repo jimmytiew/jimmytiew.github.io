@@ -273,6 +273,7 @@ ul {
     display: flex;
     overflow-x: auto;
     gap: 50px;
+    padding: 20px 0px;
 }
 
 .scrollcontainer::-webkit-scrollbar {
@@ -284,10 +285,6 @@ ul {
 }
 
 /* -stepbox- */
-.step {
-    display: flex;
-    flex-direction: column;
-}
 
 .step h5 {
     width: 300px;
@@ -297,9 +294,14 @@ ul {
     transform: none;
 }
 
+.wcp-tittleboxgradient {
+    border-radius: 36px;
+}
+
 .wcp-tittlecontentbox {
     background-color: var(--colorblack);
     padding: 20px;
+    border-radius: 34px;
 }
 
 .wcp-tittlecontentbox h5 {
@@ -307,29 +309,41 @@ ul {
     text-align: center;
 }
 
-.wcp-boxgradient {
-    height: 100%;
-}
-
 .wcp-boxgradient:hover {
     transform: none;
+}
+
+.wcp-boxgradient {
+    height: 100%;
 }
 
 .wcp-contentbox {
     background-color: var(--colorblack);
     justify-content: unset;
     align-items: unset;
+    padding: unset;
 }
 
 .wcp-contentboxwhite {
     background-color: var(--colorwhite);
     justify-content: unset;
     align-items: unset;
+    padding: unset;
 }
 
-.wcp-contentboxwhite h5,
-.wcp-contentboxwhite p,
-.wcp-contentboxwhite li {
+.wcp-contentwhite,
+.wcp-content {
+    padding: 40px;
+}
+
+.wcp-contentwhite h5,
+.wcp-content h5 {
+    margin: 0px 0px 24px 0px;
+}
+
+.wcp-contentwhite h5,
+.wcp-contentwhite p,
+.wcp-contentwhite li {
     color: var(--colorblack);
 }
 
@@ -356,9 +370,7 @@ ul {
     }
 
     /*  Warranty-Claim-Process */
-    .step h5 {
-        width: 100%;
-    }
+
 }
 
 @media screen and (max-width:720px) {
@@ -437,11 +449,6 @@ ul {
         height: 100%;
     }
 
-    /*  Warranty-Claim-Process */
-    .step h5 {
-        width: 100%;
-    }
-
 }
 
 @media screen and (min-width:720px) {
@@ -452,4 +459,19 @@ ul {
     .wcimagebox-second-mobile {
         display: none;
     }
+}
+
+@media screen and (max-width:500px) {
+
+    /*  Warranty-Claim-Process */
+
+    /* scroll */
+    .scrollcontainer {
+        flex-direction: column;
+    }
+
+    .scrollcontainer.active {
+        display: none;
+    }
+
 }
