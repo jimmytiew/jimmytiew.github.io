@@ -325,6 +325,12 @@ p.date-latest {
     }
 }
 
+@media screen and (max-width:510px) {
+    .emailbox input {
+        font-size: 10px;
+    }
+}
+
 @media screen and (max-width:520px) {
 
     .downcontent p {
