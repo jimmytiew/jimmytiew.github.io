@@ -198,14 +198,14 @@ ul {
 .whtnotgroup-inside {
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 40%;
 }
 
 .whtnotgroup-inside-second {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
-    width: 100%;
+    width: 60%;
     justify-content: center;
 }
 
@@ -373,6 +373,37 @@ ul {
 
 }
 
+@media screen and (max-width:900px) {
+
+    /* What’s-not-Covered */
+    .whtnotcover {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .whtnotgroup {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .whtnotgroup-inside {
+        width: 100%;
+    }
+
+    .whtnotgroup-inside-second {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .whtnotgroup-inside-second ul {
+        width: 70%;
+    }
+
+}
+
 @media screen and (max-width:720px) {
 
     /* Warranty-Coverage */
@@ -414,28 +445,6 @@ ul {
         width: 100%;
         height: 4px;
         margin: 20px 0px;
-    }
-
-    /* What’s-not-Covered */
-    .whtnotcover {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    .whtnotgroup {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .whtnotgroup-inside {
-        width: 100%;
-    }
-
-    .whtnotgroup-inside-second {
-        flex-direction: column;
-        align-items: center;
     }
 
     /* Replacement-Policy */
