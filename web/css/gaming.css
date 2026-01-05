@@ -641,6 +641,7 @@
         display: flex;
         flex-direction: column;
         gap: 30px;
+
     }
 
     .controller-cardborder {
@@ -650,12 +651,9 @@
     .controller-row1,
     .controller-row2,
     .controller-row3 {
+        margin: 0;
         display: flex;
         flex-direction: column;
-        gap: 30px;
-    }
-
-    .controller-card {
         gap: 30px;
     }
 
@@ -738,8 +736,6 @@
     .keyboardimg-box {
         height: 180px;
     }
-
-
 
     .mice-section,
     .keyboard-section,
