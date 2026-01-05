@@ -531,12 +531,6 @@
         min-width: 200px;
     }
 
-    .controller-bottom .card-short {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-
     /* card long */
     .controller-card.card-long {
         display: flex;
@@ -643,54 +637,82 @@
         flex: 0 0 100%;
     }
 
-    .controller-row1,
-    .controller-row2,
-    .controller-row3 {
-        margin: 54px;
+    .controller {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        gap: 50px;
+        gap: 30px;
     }
 
     .controller-cardborder {
-        flex: 100%;
+        flex: 0 0 100%;
+    }
+
+    .controller-row1,
+    .controller-row2,
+    .controller-row3 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
     }
 
     .controller-card {
+        gap: 30px;
+    }
+
+    .controller-card.card-short {
+        display: flex;
+        align-items: center;
+    }
+
+    .controllertitle {
+        min-height: 80px;
+    }
+
+    .controllerinfo-box {
+        text-align: center;
+    }
+
+    .card-short .controllerimg-box {
+        min-width: 150px;
+    }
+
+    .controller-bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* card long */
+    .controller-card.card-long {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    /* 左边：大图 */
+    .card-long .controllerimg-box {
+        max-width: 180px;
+        display: flex;
+    }
+
+    /* 右边：文字区 */
+    .card-long .controllerinfo-box {
+        display: flex;
+        flex-direction: column;
     }
 
     .card-long .controller-bottom {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 20px;
         align-items: center;
     }
 
-    .card-short .controller-bottom {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        align-items: center;
+    .controllerprice {
+        margin: 0;
     }
-
-    .card-long .controllerimg-box {
-        max-width: 150px;
-    }
-
-    .card-short .controllerimg-box img {
-        width: 70%;
-    }
-
-
-    .controllertitle {
-        min-height: 50px;
-    }
-
-
 }
 
 @media screen and (max-width:600px) {
