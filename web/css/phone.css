@@ -167,8 +167,10 @@
     }
 
     .phone-title-text,
-    .tablet-title-text {
-        min-height: 100px;
+    .phone-price,
+    .tablet-title-text,
+    .tablet-price {
+        min-height: unset;
     }
 }
 
@@ -179,12 +181,7 @@
         min-width: 270px;
     }
 
-    .phone-title-text,
-    .phone-price,
-    .tablet-title-text,
-    .tablet-price {
-        min-height: unset;
-    }
+
 
     .tablet {
         flex-direction: column;
