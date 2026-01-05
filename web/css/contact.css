@@ -408,8 +408,8 @@
 
 @media screen and (max-width:425px) {
     .boxsection1 {
-        height: 100px;
         border-radius: 20px;
+        height: 280px;
     }
 
     .gradient-card-inner {
@@ -419,8 +419,8 @@
     }
 
     .back {
-        width: 90%;
-        height: 92%;
+        width: 96%;
+        height: 96%;
     }
 
     .comment-form h1 {
@@ -429,7 +429,7 @@
     }
 
     .back h5 {
-        font-size: 6px;
+        font-size: 16px;
     }
 
     .name {
@@ -465,4 +465,16 @@
         min-height: 300px;
     }
 
+    .threebox-container {
+        flex-direction: column;
+    }
+
+    .second-section {
+        width: 93%;
+    }
+
+    .gradient-card-inner {
+        width: 96%;
+        height: 96%;
+    }
 }
